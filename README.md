@@ -15,10 +15,11 @@ Las unidades didácticas se irán añadiendo conforme se vaya avanzando en el te
 #### [Bloque 1. Introducción al lenguaje de programación Java](Introduccion/README.md)
 - 1.1. Introducción a Java
 - 1.2. El IDE
-- 1.3. Estructuras de control
-- 1.4. Estructuras de datos estáticas
+- 1.3. Tipos de datos y variables
+- 1.4. Arrrays
 - 1.5. Cadenas de caracteres
 - 1.6. Operadores
+- 1.7. Sentencias de control
 
 #### Bloque 2. Programación orientada a objetos
 - 2.1. Introducción
