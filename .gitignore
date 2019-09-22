@@ -1,5 +1,6 @@
 RFP/ 
 README-notes.md
-ProgramacionOO
 *.class
+out/
+*.iml
 *.kotlin_module
