@@ -3,7 +3,7 @@ package com.politecnico;
 import java.util.Scanner;
 
 public class ManejandoArrays {
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         int diaDeLaSemanaConsultado;
         int tramoHorarioConsultado;
         Scanner lectorTeclado = new Scanner(System.in);
@@ -26,5 +26,5 @@ public class ManejandoArrays {
 
         System.out.println("Los " + horario[diaDeLaSemanaConsultado-1][0] + " a " + nombreTramoHorario[tramoHorarioConsultado-1] +
                            " tienes clase de " + horario[diaDeLaSemanaConsultado-1][tramoHorarioConsultado]);
-    }
+    }*/
 }

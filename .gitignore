@@ -4,3 +4,4 @@ README-notes.md
 out/
 *.iml
 *.kotlin_module
+.idea/
