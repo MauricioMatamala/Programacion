@@ -77,9 +77,7 @@ Alteran el flujo de ejecución según el estado del programa.
 
 **Actividad 2.** Instala IntelliJ Community en tu equipo.
 
-
 **Actividad 3.** Crea un ejercicio que muestre por pantalla el siguiente menú:
-
 ```
 ¿Qué unidad desea utilizar?
 1. mm
@@ -106,11 +104,11 @@ Finalmente, se muestra un mensaje al usuario con el resultado, indicando clarame
 
     El cateto del triángulo tiene una longitudo de 33.5 mm
 
-
-
 **Actividad 4.** Reescribe el ejercicio 3 utilizando Switch.
 
-**Actividad 5.** Los comerciales Isabel Castillo y Vicente Calzado han realizado las siguientes ventas (en unidades) durante esta semana:
+**Actividad 5.** Reescribe el ejercicio 3 utilizando una estructura iterativa, de forma que el programa se ejecute iterativamente hasta que el usuario elija una opción de fin.
+
+**Actividad 6.** Los comerciales Isabel Castillo y Vicente Calzado han realizado las siguientes ventas (en unidades) durante esta semana:
 
 Isabel: 7, 7, 10, 6, 4
 Vicente: 4, 7, 5, 4, 5
@@ -123,7 +121,7 @@ Los empleados que vendieron 7 items fueron:
     - Vicente
 ```
 
-**Actividad 6.** Modifica el código del ejercicio anterior para poder obtener la siguiente información:
+**Actividad 7.** Modifica el código del ejercicio anterior para poder obtener la siguiente información:
 
 1. Obtener el promedio de ventas de cada uno.
 2. Averiguar quién ha conseguido el mayor número de ventas en un día.
@@ -142,7 +140,7 @@ Isabel es la vendedora de la semana con 10 items en un día.
 
 Finalmente, esta información debe publicarse por pantalla.
 
-**Actividad 7.** Imprimir una pirámide de dígitos como la siguiente:
+**Actividad 8.** Imprimir una pirámide de dígitos como la siguiente:
 ```
             1
            121
@@ -155,7 +153,7 @@ Finalmente, esta información debe publicarse por pantalla.
     12345678987654321
 ```
 
-**Actividad 8.** Escribe un programa que lea un entero postivo N y muestre por pantalla una tabla como la siguiente, con el factorial de cada número entre 1 y N.
+**Actividad 9.** Escribe un programa que lea un entero postivo N y muestre por pantalla una tabla como la siguiente, con el factorial de cada número entre 1 y N.
 ```
 -------------------------------------------
         I       1   2   3   4   .....   N
@@ -163,6 +161,7 @@ Finalmente, esta información debe publicarse por pantalla.
 Factorial(I)    1   2   6   24  .....   N*
 -------------------------------------------
 ```
+
 
 
 
