@@ -21,7 +21,7 @@ Las unidades didácticas se irán añadiendo conforme se vaya avanzando en el te
 - 1.6. Operadores
 - 1.7. Sentencias de control
 
-#### Bloque 2. Programación orientada a objetos
+#### [Bloque 2. Programación orientada a objetos](ProgramacionOO/README.md)
 - 2.1. Introducción
 - 2.2. Clases y objetos
 - 2.3. Herencia y polimorfismo
