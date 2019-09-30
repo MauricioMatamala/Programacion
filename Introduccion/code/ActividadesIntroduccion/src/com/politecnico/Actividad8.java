@@ -16,17 +16,17 @@ public class Actividad8 {
         piramide = new String[mayorNumeroEnPiramide][2 * mayorNumeroEnPiramide - 1];
         celdaCentralColumnaPiramide = (2 * mayorNumeroEnPiramide) / 2 - 1;
 
-        for (int i = 0; i < piramide.length; i++) {
-            for (int j = 0; j < piramide[i].length; j++) {
-                piramide[i][j] = " ";
+        for (int fila = 0; fila < piramide.length; fila++) {
+            for (int columna = 0; columna < piramide[fila].length; columna++) {
+                piramide[fila][columna] = " ";
             }
         }
 
         for (int fila = 0; fila < mayorNumeroEnPiramide; fila++) {
             piramide[fila][celdaCentralColumnaPiramide] = Integer.toString(fila+1);
-            for (int digitoEnFila = 1; digitoEnFila < (fila + 1); digitoEnFila++) {
-                piramide[fila][celdaCentralColumnaPiramide - digitoEnFila] = Integer.toString(fila + 1 - digitoEnFila);
-                piramide[fila][celdaCentralColumnaPiramide + digitoEnFila] = Integer.toString(fila + 1 - digitoEnFila);
+            for (int incremento = 1; incremento < (fila + 1); incremento++) {
+                piramide[fila][celdaCentralColumnaPiramide - incremento] = Integer.toString(fila + 1 - incremento);
+                piramide[fila][celdaCentralColumnaPiramide + incremento] = Integer.toString(fila + 1 - incremento);
             }
         }
 
