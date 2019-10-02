@@ -1,0 +1,24 @@
+- Hay un robot que se mueve por un tablero.
+- En el tablero hay obstáculos
+- El robot se puede mover hacia arriba, abajo, izquierda y derecha, una sola posición.
+- El robot no se puede salir del teclado. Si llega a un borde, no puede avanzar hacia afuera.
+- El robot habla, dice su nombre y también puede decir su posición.
+
+- ROBOT
+    - NOMBRE DEL ROBOT
+    - COORDENADAS
+    - INFORMACIÓN DEL ROBOT
+- MOVIENTO
+    - DIRECCION
+        - HACIA_ARRIBA
+        - HACIA_ABAJO
+        - HACIA_DERECHA
+        - HACIA_IZQUIERDA
+- TABLERO
+    - LÍMITE DEL TABLERO
+    - COORDENADAS
+- OBSTÁCULO
+    - COORDENADAS
+- COORDENADAS
+
+
