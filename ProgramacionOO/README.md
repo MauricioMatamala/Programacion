@@ -274,37 +274,8 @@ Escribe un programa que utilizando la clase *Pila* tome una secuencia de número
 - un método llamado *longitud* que devuelve el número de elementos actual.
 
 Escribe un programa que utilizando la clase *Pila* tome una secuencia de números y los devuelva en orden inverso.
-
-**Actividad 5.** Escribe una clase llamada *Libro* que cumple las siguientes especificaciones:
-- Incluye un nombre de autor.
-- Incluye un título de libro.
-- Incluye una fecha de finalización.
-- Incluye un constructor parametrizado.
-- Inlcuye métodos para insertar y consultar esta información.
-
-Después crea un clase interna llamada *Publicacion* que cumple las siguientes especificaciones:
-- Incluye un nombre de editorial.
-- Incluye un ISBN.
-- Inlcuye un número de edición.
-- Inlcuye una descripción de ubicación.
-- Incluye un constructor parametrizado.
-- Incluye métodos para insertar y consultar esta información.
-
-Crea una clase Biblioteca que permita almacenar infomación sobre los libros de una biblioteca. Para ello, mostrará un menú como el siguiente:
-
-    1. Insertar un nuevo libro
-    2. Mostrar un listado de libros disponibles, mostrando el código del ejemplar, título y la edición.
-    3. Consultar los datos de un libro
-    4. Eliminar un libro
-    5. Finalizar programa
-
-El programa sólamente termina cuando se elige la opción 5. En el resto de opciones, el programa realiza la acción pedida, y vuelve a mostrar el menú.
-
-Algunos requisitos del programa son:
- - Al insertar un nuevo libro, el programa irá pidiendo los datos del mismo. Es importante que no existan dos libros con el mismo título ni el mismo ISBN.
- - Para borrar un libro es necesario disponer de su ISBN.
  
- **Actividad 6.** Revisa el ejercicio LIFO_CONST. Deseas una estructura de datos que además de todas esas operaciones, tenga dos operaciones adicionales:
+ **Actividad 5.** Revisa el ejercicio LIFO_CONST. Deseas una estructura de datos que además de todas esas operaciones, tenga dos operaciones adicionales:
 
  - insertarElementoEnPosicion, que acepta dos enteros, uno indicando el valor a insertar y el otro la posicón donde se insertará. El método insertará el elemento en la posición pedida, desplazando el resto de elementos de la parte superior de la pila. El método devuelve valor booleano, que será *true* si se insertó correctamente, o *false* si no hay espacio para insertar el elemento.
 
@@ -312,7 +283,7 @@ Algunos requisitos del programa son:
     - DE_MENOR_A_MAYOR
     - DE_MAYOR_A_MENOR
 
-**Actividad 7.** Durante el desarrollo de una aplicación de gestión de personal, surge la necesidad de cubrir esta historia: "*Calcular la nómina de cada trabajador, dependiendo de su tipo*".
+**Actividad 6.** Durante el desarrollo de una aplicación de gestión de personal, surge la necesidad de cubrir esta historia: "*Calcular la nómina de cada trabajador, dependiendo de su tipo*".
 
 Los empleados pueden ser de tres tipos:
 
@@ -322,6 +293,6 @@ Los empleados pueden ser de tres tipos:
 
 Deberás simular una base de datos de empleados mediante un *array* que aloje los tres tipos de empleados. El objetivo del ejercicio, es recorrer el *array* de trabajadores y generando un informe, que indique los datos básicos de cada trabajador (nombre, apellidos), así como los datos asociados a su tipo (horas trabajadas, ventas, etc) y la cantidad a percibir en función del tipo de trabajador que sea.
 
-**Actividad 8.** Modifica el código del ejercicio anterior, para que la clase Empleado tenga métodos abstractos (¡Ojo! con algún sentido práctico).
+**Actividad 7.** Modifica el código del ejercicio anterior, para que la clase Empleado tenga métodos abstractos (¡Ojo! con algún sentido práctico).
 
-**Actividad 9.** Vuelve a modificar el ejercicio anterior, para que las clases tengan implementado el método *toString*. Basa el informe de las nóminas en este método.
+**Actividad 8.** Vuelve a modificar el ejercicio anterior, para que las clases tengan implementado el método *toString*. Basa el informe de las nóminas en este método.

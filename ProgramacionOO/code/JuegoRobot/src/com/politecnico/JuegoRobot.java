@@ -16,6 +16,13 @@ public class JuegoRobot {
                             robot.getCoordenadas().getY());
     }
 
+    /*  AÑADIR EL SIGUIENTE MÉTODO
+
+        public static void moverRobotEnTablero( int tipoDeMovimiento, Tablero tablero, String nombreRobot){
+
+     */
+
+
     public static void main(String[] args) {
         Coordenadas punto = new Coordenadas(0,0);
         mostrarInfoPunto(punto);

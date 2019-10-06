@@ -23,4 +23,10 @@ public class Movimiento {
         return punto;
     }
 
+    /* AÑADIR EL SIGUIENTE MÉTODO
+
+        public void deshacerMovimiento(Coordenadas coordenadas, int tipoDeMovimiento) {}
+
+     */
+
 }
