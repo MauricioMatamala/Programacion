@@ -20,12 +20,9 @@ public class Coordenadas {
                                diferenciaY);
     }
 
-
     public boolean equals(Coordenadas punto){
         return (punto.getX() == x) && (punto.getY() == y);
     }
-
-
 
     public String toString(){
         return "(" +

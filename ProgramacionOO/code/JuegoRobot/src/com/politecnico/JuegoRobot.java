@@ -2,48 +2,20 @@ package com.politecnico;
 
 public class JuegoRobot {
 
-    public static void mostrarInfoPunto(Coordenadas punto){
-        System.out.println("Las coordenadas son (" +
-                punto.getX() + "," +
-                punto.getY() + ")");
-    }
+    /*  AÑADIR LOS SIGUIENTES MÉTODOS
 
-    public static void mostrarInfoRobot(Robot robot){
-        System.out.println( robot.getNombre() +
-                            "---> (" +
-                            robot.getCoordenadas().getX() +
-                            "," +
-                            robot.getCoordenadas().getY());
-    }
+        public static void inicializarJuego()
 
-    /*  AÑADIR EL SIGUIENTE MÉTODO
+        public static void crearRobotsParaElJuego()
 
-        public static void moverRobotEnTablero( int tipoDeMovimiento, Tablero tablero, String nombreRobot){
+        public static void moverRobotEnTablero( int tipoDeMovimiento, Tablero tablero, String nombreRobot)
+
+        public static void iniciarJuego()
 
      */
 
 
     public static void main(String[] args) {
-        Coordenadas punto = new Coordenadas(2,5);
-        System.out.println(punto);
-        /*mostrarInfoPunto(punto);
-        Movimiento movimiento = new Movimiento();
-        punto = movimiento.mover(punto,Movimiento.HACIA_ARRIBA);
-        mostrarInfoPunto(punto);
-
-        //-------------------------
-        Robot robot1 = new Robot("C3PO",new Coordenadas(0,0));
-        mostrarInfoRobot(robot1);
-        //-------------------------
-
-        Coordenadas punto1 = new Coordenadas(4,5);
-        Coordenadas punto2 = new Coordenadas(0,0);
-
-        Coordenadas punto3 = punto1.compararCon(punto2);
-        System.out.println("Punto3 = (" + punto3.getX() +
-                                      "," +
-                                        punto3.getY()+")");*/
-        System.out.println((int) (Math.random() * 4));
 
     }
 }

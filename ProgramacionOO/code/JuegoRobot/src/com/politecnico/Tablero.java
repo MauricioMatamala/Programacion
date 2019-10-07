@@ -36,6 +36,10 @@ public class Tablero {
         public boolean estaRobotEnObjetivo(String nombreRobot){}
 
         public Robot getRobot(String nombreRobot){}
+
+        public int getNumeroActualDeRobots()
+
+        public Robot getRobot(int n)
     */
 
 
