@@ -1,26 +1,31 @@
 package com.politecnico;
 
 public class Tablero {
+    public final static int MAX_ROBOTS = 100;
     private Coordenadas esquinaSuperiorDerecha;
-    /*
-
-        AÑADIR CÓDIGO PARA:
-         - MANTENER UNA LISTA DE ROBOTS.
-         - ALMACENAR LA POSICIÓN DE LA CASILLA OBJETIVO
-
-     */
+    private Robot[] listaRobots;
+    private Coordenadas casillaObjetivo;
 
     public Tablero(int ancho, int alto){
         esquinaSuperiorDerecha = new Coordenadas(ancho,alto);
+        listaRobots = new Robot[MAX_ROBOTS];
+        casillaObjetivo.setCoordenadas(
+                (int) (Math.random()*ancho + 1),
+                (int) (Math.random()*alto + 1)
+        );
     }
-
-    /*
-    TERMINAR ESTE MÉTODO
 
     public boolean estaEnTablero(Coordenadas punto){
         Coordenadas vectorDiferencia = esquinaSuperiorDerecha.compararCon(punto);
-        if (vectorDis)
-    }*/
+
+        int difX = vectorDiferencia.getX();
+        int difY = vectorDiferencia.getY();
+        if ((difX > 0) || (difX < -esquinaSuperiorDerecha.getX()) ||
+            (difY > 0) || (difY < -esquinaSuperiorDerecha.getX())){
+            return false;
+        }
+        return true;
+    }
 
     /* AGREGAR LOS SIGUIENTES MÉTODOS
 

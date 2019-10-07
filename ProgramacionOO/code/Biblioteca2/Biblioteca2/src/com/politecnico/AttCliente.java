@@ -12,7 +12,7 @@ public class AttCliente {
     public final static int OP_TERMINAR = 3;
 
     public AttCliente(){
-        lectorTeclado = new Scanner(System.in);
+        lectorTeclado = new Scanner(System.in).useDelimiter("\n");
     }
 
     public int preguntarOpciones(){

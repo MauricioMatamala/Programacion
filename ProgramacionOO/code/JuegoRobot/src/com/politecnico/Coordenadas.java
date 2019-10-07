@@ -20,14 +20,20 @@ public class Coordenadas {
                                diferenciaY);
     }
 
-    /* AÑADIR LOS SIGUIENTES MÉTODOS:
 
-        public boolean equals(Coordenadas punto){}
+    public boolean equals(Coordenadas punto){
+        return (punto.getX() == x) && (punto.getY() == y);
+    }
 
-        public String toString(){}
 
-     */
 
+    public String toString(){
+        return "(" +
+                x +
+                "," +
+                y +
+                ")";
+    }
 
     public int compararX(Coordenadas punto){
         return punto.getX() - x;

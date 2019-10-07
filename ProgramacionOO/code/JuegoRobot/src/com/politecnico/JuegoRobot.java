@@ -24,8 +24,9 @@ public class JuegoRobot {
 
 
     public static void main(String[] args) {
-        Coordenadas punto = new Coordenadas(0,0);
-        mostrarInfoPunto(punto);
+        Coordenadas punto = new Coordenadas(2,5);
+        System.out.println(punto);
+        /*mostrarInfoPunto(punto);
         Movimiento movimiento = new Movimiento();
         punto = movimiento.mover(punto,Movimiento.HACIA_ARRIBA);
         mostrarInfoPunto(punto);
@@ -41,8 +42,8 @@ public class JuegoRobot {
         Coordenadas punto3 = punto1.compararCon(punto2);
         System.out.println("Punto3 = (" + punto3.getX() +
                                       "," +
-                                        punto3.getY()+")");
-
+                                        punto3.getY()+")");*/
+        System.out.println((int) (Math.random() * 4));
 
     }
 }

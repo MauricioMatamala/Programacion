@@ -17,7 +17,6 @@ public class Biblioteca {
     }
 
     public String toString(){
-        int i= 0;
         String listadoLibros = "";
         for (int indiceLibro = 0; indiceLibro < numeroLibrosAlmacenados; indiceLibro++){
             Libro libro = libros[indiceLibro];

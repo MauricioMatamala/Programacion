@@ -23,10 +23,22 @@ public class Movimiento {
         return punto;
     }
 
-    /* AÑADIR EL SIGUIENTE MÉTODO
+    public void deshacerMovimiento(Coordenadas coordenadas, int tipoDeMovimiento) {
+        switch(tipoDeMovimiento){
+            case HACIA_ABAJO:
+                mover(coordenadas,HACIA_ARRIBA);
+                break;
+            case HACIA_ARRIBA:
+                mover(coordenadas,HACIA_ABAJO);
+                break;
+            case HACIA_IZQUIERDA:
+                mover(coordenadas,HACIA_DERECHA);
+                break;
+            case HACIA_DERECHA:
+                mover(coordenadas,HACIA_IZQUIERDA);
+        }
+    }
 
-        public void deshacerMovimiento(Coordenadas coordenadas, int tipoDeMovimiento) {}
 
-     */
 
 }
