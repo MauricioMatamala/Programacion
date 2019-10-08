@@ -1,18 +1,19 @@
 package com.politecnico;
 
 public class Tablero {
-    public final static int MAX_ROBOTS = 100;
+    public final static int MAX_ROBOTS = 3;
     private Coordenadas esquinaSuperiorDerecha;
     private Robot[] listaRobots;
     private Coordenadas casillaObjetivo;
+    private int numeroActualDeRobots;
 
     public Tablero(int ancho, int alto){
         esquinaSuperiorDerecha = new Coordenadas(ancho,alto);
+        numeroActualDeRobots = 0;
         listaRobots = new Robot[MAX_ROBOTS];
-        casillaObjetivo.setCoordenadas(
+        casillaObjetivo = new Coordenadas(
                 (int) (Math.random()*ancho + 1),
-                (int) (Math.random()*alto + 1)
-        );
+                (int) (Math.random()*alto + 1));
     }
 
     public boolean estaEnTablero(Coordenadas punto){
@@ -27,20 +28,31 @@ public class Tablero {
         return true;
     }
 
-    /* AGREGAR LOS SIGUIENTES MÉTODOS
+    public boolean estaEnTablero(String nombreRobot){
+        boolean esta = false;
+        for (int i = 0; i < numeroActualDeRobots; i++){
+            Robot robotActual = listaRobots[i];
+            if (robotActual.getNombre().equals(nombreRobot))
+                esta = true;
+        }
+        return esta;
+    }
 
-        public boolean estaEnTablero(String nombreRobot){}
+    public void anadirRobot(Robot robot){
+        if (numeroActualDeRobots < MAX_ROBOTS) {
+            listaRobots[numeroActualDeRobots] = robot;
+            numeroActualDeRobots++;
+        }
+    }
 
-        public void anadirRobot(Robot robot){}
-
-        public boolean estaRobotEnObjetivo(String nombreRobot){}
+ /*   public boolean estaRobotEnObjetivo(String nombreRobot){}
 
         public Robot getRobot(String nombreRobot){}
 
         public int getNumeroActualDeRobots()
 
-        public Robot getRobot(int n)
-    */
+        public Robot getRobot(int n)*/
+
 
 
 }
