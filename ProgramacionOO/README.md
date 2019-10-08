@@ -257,7 +257,7 @@ Finalmente, escribe un programa que solicite la información de varios libros y 
 
 Dicho método toma el número de término y devuelve el valor del término. Por ejemplo, el término número 10 de la serie de *Fibonacci* es 34.
 
-**Actividad 3.** Escribe una clase LIFO (estructura de datos *Last In First Out*) llamada *Pila* que almacena enteros, siguiendo las siguientes indicaciones:
+**Actividad 4.** Escribe una clase LIFO (estructura de datos *Last In First Out*) llamada *Pila* que almacena enteros, siguiendo las siguientes indicaciones:
 - una constante llamada *LONGITUD_MAXIMA* con el valor 1000, que representa el número máximo de elementos que puede contener la pila.
 - un método llamado *insertar* que permite insertar un nuevo número.
 - un método llamado *extraer* que permite extraer el número que está en la cima.
@@ -266,7 +266,7 @@ Dicho método toma el número de término y devuelve el valor del término. Por 
 
 Escribe un programa que utilizando la clase *Pila* tome una secuencia de números y los devuelva en orden inverso.
  
- **Actividad 4.** Revisa el ejercicio 3. Deseas una estructura de datos que además de todas esas operaciones, tenga dos operaciones adicionales:
+ **Actividad 5.** Revisa el ejercicio 3. Deseas una estructura de datos que además de todas esas operaciones, tenga dos operaciones adicionales:
 
  - insertarElementoEnPosicion, que acepta dos enteros, uno indicando el valor a insertar y el otro la posicón donde se insertará. El método insertará el elemento en la posición pedida, desplazando el resto de elementos de la parte superior de la pila. El método devuelve valor booleano, que será *true* si se insertó correctamente, o *false* si no hay espacio para insertar el elemento.
 
@@ -274,7 +274,7 @@ Escribe un programa que utilizando la clase *Pila* tome una secuencia de número
     - DE_MENOR_A_MAYOR
     - DE_MAYOR_A_MENOR
 
-**Actividad 5.** Durante el desarrollo de una aplicación de gestión de personal, surge la necesidad de cubrir esta historia: "*Calcular la nómina de cada trabajador, dependiendo de su tipo*".
+**Actividad 6.** Durante el desarrollo de una aplicación de gestión de personal, surge la necesidad de cubrir esta historia: "*Calcular la nómina de cada trabajador, dependiendo de su tipo*".
 
 Los empleados pueden ser de tres tipos:
 
@@ -284,6 +284,6 @@ Los empleados pueden ser de tres tipos:
 
 Deberás simular una base de datos de empleados mediante un *array* que aloje los tres tipos de empleados. El objetivo del ejercicio, es recorrer el *array* de trabajadores y generando un informe, que indique los datos básicos de cada trabajador (nombre, apellidos), así como los datos asociados a su tipo (horas trabajadas, ventas, etc) y la cantidad a percibir en función del tipo de trabajador que sea.
 
-**Actividad 6.** Modifica el código del ejercicio anterior, para que la clase Empleado tenga métodos abstractos (¡Ojo! con algún sentido práctico).
+**Actividad 7.** Modifica el código del ejercicio anterior, para que la clase Empleado tenga métodos abstractos (¡Ojo! con algún sentido práctico).
 
-**Actividad 7.** Vuelve a modificar el ejercicio anterior, para que las clases tengan implementado el método *toString*. Basa el informe de las nóminas en este método.
+**Actividad 8.** Vuelve a modificar el ejercicio anterior, para que las clases tengan implementado el método *toString*. Basa el informe de las nóminas en este método.
