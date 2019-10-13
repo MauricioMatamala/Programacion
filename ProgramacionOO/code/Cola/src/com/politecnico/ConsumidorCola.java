@@ -11,11 +11,18 @@ public class ConsumidorCola {
         cola.meter(60);
         cola.meter(12);
         System.out.println(cola);
-        System.out.println(cola.sacar());
-        System.out.println(cola.sacar());
+        cola.sacar();
+        System.out.println(cola);
+        cola.sacar();
+        System.out.println(cola);
         System.out.println(cola);
         cola.meter(66);
         cola.meter(98);
         System.out.println(cola);
+        cola.meter(74);
+        System.out.println(cola);
+        cola.meter(37);
+
+
     }
 }

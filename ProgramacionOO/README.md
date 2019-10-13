@@ -185,45 +185,67 @@ Ver [documentación de referencia](http://www.javawithus.com/tutorial/final-clas
 ### La clase Object
 Ver [documentación de referencia](https://www.javatpoint.com/object-class)
 
-### Control de acceso
+## 2.4. Paquetes e Interfaces
 
-Ver [documentación de referencia](https://javadesdecero.es/poo/modificadores-de-acceso/)
+### 2.4.1 Definir un paquete
 
-### Herencia
+Los paquetes son contenedores de clases. Permiten agrupar clases que tratan sobre el mismo tema.
 
-Ver [documentación de referencia](https://www.w3schools.com/java/java_inheritance.asp)
+### 2.4.2. Acceso a los miembros de una clase en función de su visibilidad
 
-### [Super](https://docs.oracle.com/javase/tutorial/java/IandI/super.html)
+|                                | private   |   default    |      protected   |   public   |
+|:-------------------------------|:---------:|:------------:|:----------------:|:----------:|
+| Misma clase                    |   sí      |      sí      |       sí         |    sí      |
+| Subclase en el mismo paquete   |   no      |      sí      |       sí         |    sí      |
+| Clases del mismo paquete       |   no      |      sí      |       sí         |    sí      |
+| Subclase en diferente paquete  |   no      |      no      |       sí         |    sí      |
+| Clases en diferente paquete    |   no      |      no      |       no         |    sí      | 
 
-Ver [documentación de referencia](https://docs.oracle.com/javase/tutorial/java/IandI/super.html)
+### 2.4.3. Importación de todas las clases de un paquete
 
-### Jerarquía multinivel
+### 2.4.4. Interfaces
 
-Ver [documentación de referencia](https://csveda.com/java/java-multilevel-hierarchy/)
+Las variables declaradas dentro de una interfaz sólo pueden ser constantes (*final* y *static*).
+Para implementar una interfaz se utiliza la palabra reservada *implements*.
+Si hay más de una interfaz implementada por una misma clase, se separan sus nombres por ",".
 
-### Sobreescritura de métodos
+### 2.4.5. Interfaces y polimorfismo
 
-En herencia de clases, cuando un método en una subclase tiene **el mismo nombre y signatura** que el método de su superclase, entonces el método en la subclase se dice que **sobreescribe** (*Override* en inglés) el método de la superclase. Cuando un método sobreescrito es llamado desde la subclase, siempre se ejecutará la versión definida en dicha subclase. La versión del método definida por la superclase será ignorada. Esta característica aporta una gran potencia a la POO, ya que es la base del polimorfismo.
+- Una variable definida de tipo interfaz puede apuntar a objetos diferentes que la implementan.
+- De esta forma se puede cambiar el comportamiento encapsulado por una variable sobre la marcha.
 
-### Polimorfismo
+### 2.4.6. Clases abstractas
 
-Ver [documentación de referencia](https://www.w3schools.com/java/java_polymorphism.asp)
+- Implementa solo una parte de la clase.
+- Puede implementar una parte de una interfaz heredada y otra no.
 
-### Clases abstractas
+### 2.4.7. Variables en interfaces
 
-Ver [documentación de referencia](https://www.w3schools.com/java/java_abstract.asp)
+- Definición de constantes heredables, como tipos de empleados, o de habitación.
 
-### Final para evitar sobreescritura de métodos
+### 2.4.8. Interfaces que implementan interfaces
 
-Ver [documentación de referencia](https://www.tutorialspoint.com/using-final-keyword-to-prevent-overriding-in-java)
+- Una interfaz puede implementar a otra.
 
-### Final para evitar la herencia
+### 2.4.9. interfaces con métodos defecto
 
-Ver [documentación de referencia](http://www.javawithus.com/tutorial/final-classes-and-methods)
+- Disponibles a partir de JDK 8.
+- Permiten extender las interfaces ya existentes sin romper el código de las clases que las implementan.
+- Además amplían el abanico de implementaciones de la interfaz, ya que deja los métodos por defecto como de implementación "opcional".
 
-### La clase Object
+Existe un comportamiento predefinido en caso de conflicto por implementación múltiple de interfaces con métodos por defecto coincidentes:
+- Cualquier clase heredada tiene preferencia sobre una interfaz con un método por defecto definido.
+- En caso de coincidencia de métodos por defecto definidos por interfaces implementadas por la misma clase, se produce un error.
+- En casos en que una interfaz implementa otra, y ambas definen el mismo método por defecto, el método de la interfaz que implementa tiene preferencia.
 
-Ver [documentación de referencia](https://www.javatpoint.com/object-class)
+### 2.4.10. Métodos estáticos en una interfaz
+
+Característica disponible a partir de JDK 8, que permite definir uno o más métodos estáticos en una interfaz. Por ello, se puede llamar directamente a dichos métodos, sin necesidad de que exista una instancia de la interfaz.
+
+### 2.4.11. Métodos privados en una interfaz
+
+Característica disponible a partir de JDK 9. Una interfaz puede incluir un método privado que puede ser llamado sólamente por un método por defecto u otro método privado de la interfaz. Este comportamiento incluye a subinterfaces. Su única razón de ser es evitar la duplicación de código (en caso de que varias métodos por defecto utilicen el mismo fragmento).
+
 
 **Acctividad 1.** Crea una clase llamada *Libro* que incluya la siguiente información del libro:
 - Título
@@ -266,11 +288,11 @@ Dicho método toma el número de término y devuelve el valor del término. Por 
 
 Escribe un programa que utilizando la clase *Pila* tome una secuencia de números y los devuelva en orden inverso.
  
- **Actividad 5.** Revisa el ejercicio 3. Deseas una estructura de datos que además de todas esas operaciones, tenga dos operaciones adicionales:
+ **Actividad 5.** Revisa el ejercicio 4. Deseas una estructura de datos que además de todas esas operaciones, tenga dos operaciones adicionales:
 
- - insertarElementoEnPosicion, que acepta dos enteros, uno indicando el valor a insertar y el otro la posicón donde se insertará. El método insertará el elemento en la posición pedida, desplazando el resto de elementos de la parte superior de la pila. El método devuelve valor booleano, que será *true* si se insertó correctamente, o *false* si no hay espacio para insertar el elemento.
+ - *insertarElementoEnPosicion*, que acepta dos enteros, uno indicando el valor a insertar y el otro la posición donde se insertará. El método insertará el elemento en la posición pedida, desplazando el resto de elementos de la parte superior de la pila.
 
- - ordenar, que ordena los elementos según un orden aritmético. El método acepta dos posibles constantes (declaradas en la misma clase):
+ - *ordenar*, que ordena los elementos según un orden aritmético. El método acepta dos posibles constantes (declaradas en la misma clase):
     - DE_MENOR_A_MAYOR
     - DE_MAYOR_A_MENOR
 
@@ -287,3 +309,58 @@ Deberás simular una base de datos de empleados mediante un *array* que aloje lo
 **Actividad 7.** Modifica el código del ejercicio anterior, para que la clase Empleado tenga métodos abstractos (¡Ojo! con algún sentido práctico).
 
 **Actividad 8.** Vuelve a modificar el ejercicio anterior, para que las clases tengan implementado el método *toString*. Basa el informe de las nóminas en este método.
+
+**Actividad 9.** Nos han encargado una aplicación para gestionar un aparcamiento de vehículos requisados. Cuando llega un nuevo vehículo, se anotan una serie de datos, que varían dependiendo del tipo de vehículo. Por ejemplo, los datos según vehículo serían los siguientes:
+
+- Barcos
+    - Nombre
+    - Fecha de fabricación
+    - Fecha de entrada
+    - Número de bastidor
+    - Eslora
+    - Calado
+    - Manga
+
+- Camiones
+    - Matrícula
+    - Fecha de entrada
+    - Fecha de fabricación
+    - Número de bastidor
+    - Ancho
+    - Altura
+    - Longitud
+
+- Coches
+    - Matrícula
+    - Fecha de entrada
+    - Fecha de fabricación
+    - Número de bastidor
+    - Ancho
+    - Altura
+    - Longitud
+
+Los vehículos, una vez requisados pasan a formar parte de la lista de vehículos en espera a ser subastado. Conforme se van autorizando nuevas subastas, los vehículos pasan a subasta. Una vez vendidos, entran en la lista de vendidos, junto con los datos del vendedor y el precio de venta.
+
+Los vehículos pueden ser comprados por dos tipos de compradores:
+- Personas físicas
+    - Nombre y apellidos
+    - DNI
+    - Dirección
+
+- Personas jurídicas
+    - Nombre
+    - CIF
+    - Razón social
+
+NOTA: También pueden haber personas extranjeras que no tengan DNI, y en su lugar cuenten con un NIE.
+
+El programa debe permitir hacer lo siguiente:
+
+1. introducir nuevos vehículos en el depósito, 
+2. poner en subasta un vehículo,
+3. registrar compradores autorizados,
+3. vender un vehículo subastado a un comprador registrado por un precio, y en una fecha concreta,
+4. registrar un vehículo como vendido,
+3. listar la información de los vehículos del depósito,
+3. listar los vehículos que están en espera a ser subastados,
+3. listar los vehículos vendidos, y a qué comprador se han vendido así como el precio y la fecha de venta
