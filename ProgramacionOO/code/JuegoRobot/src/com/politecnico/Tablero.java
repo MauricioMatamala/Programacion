@@ -8,12 +8,23 @@ public class Tablero {
     private int numeroActualDeRobots;
 
     public Tablero(int ancho, int alto){
-        esquinaSuperiorDerecha = new Coordenadas(ancho,alto);
+        this(new Coordenadas(ancho,alto));
+    }
+
+    public Tablero(Coordenadas esquinaSuperiorDerecha){
+        this.esquinaSuperiorDerecha = esquinaSuperiorDerecha;
         numeroActualDeRobots = 0;
         listaRobots = new Robot[MAX_ROBOTS];
-        casillaObjetivo = new Coordenadas(
-                (int) (Math.random()*ancho + 1),
-                (int) (Math.random()*alto + 1));
+        setCasillaObjetivo();
+    }
+
+    private void setCasillaObjetivo(){
+        if (esquinaSuperiorDerecha != null)
+            casillaObjetivo = new Coordenadas(
+                    (int) (Math.random() * esquinaSuperiorDerecha.getX() + 1),
+                    (int) (Math.random() * esquinaSuperiorDerecha.getY() + 1)
+            );
+        System.out.println("BORRAR: La casilla objetivo es " + casillaObjetivo);
     }
 
     public boolean estaEnTablero(Coordenadas punto){
@@ -45,14 +56,32 @@ public class Tablero {
         }
     }
 
- /*   public boolean estaRobotEnObjetivo(String nombreRobot){}
+    public boolean estaRobotEnObjetivo(String nombreRobot){
+        Robot robot = getRobot(nombreRobot);
+        if (robot != null){
+            return robot.getCoordenadas().equals(casillaObjetivo);
+        }
+        return false;
+    }
 
-        public Robot getRobot(String nombreRobot){}
+    public Robot getRobot(String nombreRobot){
+        for (int i=0; i<numeroActualDeRobots; i++){
+            if (listaRobots[i].getNombre().equals(nombreRobot)){
+                return listaRobots[i];
+            }
+        }
+        return null;
+    }
 
-        public int getNumeroActualDeRobots()
+    public int getNumeroActualDeRobots(){
+        return numeroActualDeRobots;
+    }
 
-        public Robot getRobot(int n)*/
-
-
+    public Robot getRobot(int nEsimo){
+        if ((nEsimo >= 0) && (nEsimo < numeroActualDeRobots))
+            return listaRobots[nEsimo];
+        else
+            return null;
+    }
 
 }

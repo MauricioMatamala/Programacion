@@ -14,7 +14,7 @@ public class Robot {
     }
 
     public String getNombre(){
-        return "Mi nombre es " + nombre;
+        return nombre;
     }
 
     public void setCoordenadas(Coordenadas coordenadas){
