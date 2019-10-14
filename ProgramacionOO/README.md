@@ -296,6 +296,17 @@ Escribe un programa que utilizando la clase *Pila* tome una secuencia de número
     - DE_MENOR_A_MAYOR
     - DE_MAYOR_A_MENOR
 
+```
+    // Ayuda: el siguiente algoritmo es llamado burbuja, y permite ordenar secuencias de datos.
+    public static void burbuja(int[] a) {
+        int n = a.length;
+        for (int i = 0; i <= n - 2; i++)
+            for (int j = n - 1; j > i; j--)
+                if (a[j - 1] > a[j])
+                    permuta(a, j - 1, j);
+    }
+```
+
 **Actividad 6.** Durante el desarrollo de una aplicación de gestión de personal, surge la necesidad de cubrir esta historia: "*Calcular la nómina de cada trabajador, dependiendo de su tipo*".
 
 Los empleados pueden ser de tres tipos:
