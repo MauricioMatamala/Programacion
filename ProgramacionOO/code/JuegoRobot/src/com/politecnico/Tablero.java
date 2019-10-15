@@ -43,7 +43,8 @@ public class Tablero {
         boolean esta = false;
         for (int i = 0; i < numeroActualDeRobots; i++){
             Robot robotActual = listaRobots[i];
-            if (robotActual.getNombre().equals(nombreRobot))
+
+            if (robotActual.getNombre().equalsIgnoreCase(nombreRobot))
                 esta = true;
         }
         return esta;

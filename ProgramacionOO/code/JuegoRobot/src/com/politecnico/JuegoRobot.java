@@ -1,7 +1,5 @@
 package com.politecnico;
 
-import javax.swing.*;
-
 public class JuegoRobot {
     private static InterfazJuego interfazJuego;
     private static Tablero tablero;
@@ -15,15 +13,25 @@ public class JuegoRobot {
         tablero = new Tablero(anchoAltoTablero);
     }
 
+    private static String obtenerNombreDeNuevoRobotNoRepetido(){
+        boolean robotNoRepetidoObtenido = false;
+        String nombreNuevoRobot = "";
+        while (!robotNoRepetidoObtenido) {
+            nombreNuevoRobot = interfazJuego.pedirNombreNuevoRobot();
+            if (!tablero.estaEnTablero(nombreNuevoRobot))
+                robotNoRepetidoObtenido = true;
+            else
+                interfazJuego.cartelRobotRepetido(nombreNuevoRobot);
+        }
+        return nombreNuevoRobot;
+    }
+
     public static void crearRobotsParaElJuego(){
         interfazJuego.cartelIntroducirNuevosRobots();
         do{
-            String nombreNuevoRobot = interfazJuego.pedirNombreNuevoRobot();
-            if (!tablero.estaEnTablero(nombreNuevoRobot)) {
-                Robot nuevoRobot = new Robot(nombreNuevoRobot, new Coordenadas(0, 0));
-                tablero.anadirRobot(nuevoRobot);
-            } else
-                interfazJuego.cartelRobotRepetido(nombreNuevoRobot);
+            String nombreNuevoRobot = obtenerNombreDeNuevoRobotNoRepetido();
+            Robot nuevoRobot = new Robot(nombreNuevoRobot, new Coordenadas(0, 0));
+            tablero.anadirRobot(nuevoRobot);
         } while (interfazJuego.usuarioDeseaCrearNuevoRobot());
     }
 
@@ -35,12 +43,24 @@ public class JuegoRobot {
         }
     }
 
+    public static int obtenerMovimientoValido(String nombreRobot){
+        Movimiento verificadorMovimiento = new Movimiento();
+        int movimiento = Movimiento.MOVIMIENTO_NO_VALIDO;
+        while (!verificadorMovimiento.movimientoValido(movimiento)){
+            movimiento = interfazJuego.pedirMovimientoParaRobot(nombreRobot);
+            if (!verificadorMovimiento.movimientoValido(movimiento))
+                interfazJuego.cartelMovimientoNoValido();
+        }
+        return movimiento;
+
+    }
+
     public static void iniciarJuego(){
         do {
             for (int i = 0; i < tablero.getNumeroActualDeRobots(); i++) {
                 Robot robotActual = tablero.getRobot(i);
                 interfazJuego.mostrarTurnoRobot(robotActual);
-                int movimiento = interfazJuego.pedirMovimientoParaRobot(robotActual.getNombre());
+                int movimiento = obtenerMovimientoValido(robotActual.getNombre());
                 moverRobotEnTablero(movimiento, tablero, robotActual.getNombre());
                 if (tablero.estaRobotEnObjetivo(robotActual.getNombre()))
                         robotGanador = robotActual;

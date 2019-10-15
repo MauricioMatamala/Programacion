@@ -1,8 +1,5 @@
 package com.politecnico;
 
-import jdk.swing.interop.SwingInterOpUtils;
-
-import javax.swing.*;
 import java.util.Scanner;
 
 public class InterfazJuego {
@@ -22,7 +19,7 @@ public class InterfazJuego {
 							"==================================\n\n");
 	}
 
-	private int pedirEntero(String mensajeMostrado){
+	private int pedirEnteroMostrandoMensaje(String mensajeMostrado){
 		System.out.print(mensajeMostrado);
 		String textoIntroducido = lectorTeclado.next();
 		if (textoIntroducido.matches("[0-9]*")){
@@ -34,8 +31,8 @@ public class InterfazJuego {
 	public Coordenadas pedirAnchoYAltoTablero(){
 		int ancho = -1, alto = -1;
 		while ((ancho < 0) && (alto < 0)){
-			ancho = pedirEntero("Por favor, indica el ancho del tablero [1-?]:");
-			alto = pedirEntero("Por favor, indica el alto del tablero: [1-?]:");
+			ancho = pedirEnteroMostrandoMensaje("Por favor, indica el ancho del tablero [1-?]:");
+			alto = pedirEnteroMostrandoMensaje("Por favor, indica el alto del tablero: [1-?]:");
 			if ((ancho < 0) || (alto < 0)){
 				System.out.println("El ancho y el alto deben ser números mayores de que cero. Por favor, vuelva a introducir valores válidos.");
 			}
@@ -69,19 +66,23 @@ public class InterfazJuego {
 		}
 	}
 
+	public void cartelMovimientoNoValido(){
+		System.out.println("Este movimiento no existe. Por favor, indique un movimiento válido");
+	}
+
 	public int pedirMovimientoParaRobot(String nombreRobot){
-		int movimiento = -1;
-		 do {
-			System.out.println("Elija un movimiento para " + nombreRobot + "\n" +
-					Movimiento.HACIA_ARRIBA + ". Hacia arriba\n" +
-					Movimiento.HACIA_DERECHA + ". Hacia la derecha\n" +
-					Movimiento.HACIA_ABAJO + ". hacia abajo\n" +
-					Movimiento.HACIA_IZQUIERDA + ". hacia la izquierda\n");
-			movimiento = pedirEntero("Elija una opción: ");
+		return pedirEnteroMostrandoMensaje("Elija un movimiento para " + nombreRobot + "\n" +
+				Movimiento.HACIA_ARRIBA + ". Hacia arriba\n" +
+				Movimiento.HACIA_DERECHA + ". Hacia la derecha\n" +
+				Movimiento.HACIA_ABAJO + ". hacia abajo\n" +
+				Movimiento.HACIA_IZQUIERDA + ". hacia la izquierda\n" +
+				"Elija una opción: ");
+		 /*do {
+		 	movimiento = pedirMovimientoParaRobot();
 			if ((movimiento < 1) || (movimiento > 4))
 				System.out.println("El movimiento elegido debe estar entre 1 y 4. Por favor, vuelva a introducir valores válidos");
 		} while ((movimiento < 1) || (movimiento > 4));
-		return movimiento;
+		return movimiento;*/
 	}
 
 	public void cartelRobotGanador(String nombreRobotGanador){
