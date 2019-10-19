@@ -1,4 +1,4 @@
-package com.politecnico;
+package com.politecnico.posicion;
 
 public class Coordenadas {
     private int x, y;
@@ -13,7 +13,7 @@ public class Coordenadas {
         this.y = y;
     }
 
-    public Coordenadas compararCon(Coordenadas punto){
+    public Coordenadas crearVectorDiferenciaRespectoA(Coordenadas punto){
         int diferenciaX = compararX(punto);
         int diferenciaY = compararY(punto);
         return new Coordenadas(diferenciaX,

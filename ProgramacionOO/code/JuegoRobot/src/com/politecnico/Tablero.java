@@ -1,45 +1,33 @@
 package com.politecnico;
 
+import com.politecnico.posicion.Coordenadas;
+
 public class Tablero {
     public final static int MAX_ROBOTS = 3;
-    private Coordenadas esquinaSuperiorDerecha;
+    //private Coordenadas esquinaSuperiorDerecha;
+    private PanelDeJuego panelDeJuego;
     private Robot[] listaRobots;
     private Coordenadas casillaObjetivo;
     private int numeroActualDeRobots;
 
-    public Tablero(int ancho, int alto){
-        this(new Coordenadas(ancho,alto));
-    }
-
     public Tablero(Coordenadas esquinaSuperiorDerecha){
-        this.esquinaSuperiorDerecha = esquinaSuperiorDerecha;
+        Coordenadas esquinaInferiorIzquierda = new Coordenadas(0,0);
+        this.panelDeJuego = new PanelDeJuego(esquinaInferiorIzquierda, esquinaSuperiorDerecha);
         numeroActualDeRobots = 0;
         listaRobots = new Robot[MAX_ROBOTS];
         setCasillaObjetivo();
     }
 
     private void setCasillaObjetivo(){
-        if (esquinaSuperiorDerecha != null)
-            casillaObjetivo = new Coordenadas(
-                    (int) (Math.random() * esquinaSuperiorDerecha.getX() + 1),
-                    (int) (Math.random() * esquinaSuperiorDerecha.getY() + 1)
-            );
+        casillaObjetivo = panelDeJuego.generarCasillaObjetivoAleatoria();
         System.out.println("BORRAR: La casilla objetivo es " + casillaObjetivo);
     }
 
-    public boolean estaEnTablero(Coordenadas punto){
-        Coordenadas vectorDiferencia = esquinaSuperiorDerecha.compararCon(punto);
-
-        int difX = vectorDiferencia.getX();
-        int difY = vectorDiferencia.getY();
-        if ((difX > 0) || (difX < -esquinaSuperiorDerecha.getX()) ||
-            (difY > 0) || (difY < -esquinaSuperiorDerecha.getX())){
-            return false;
-        }
-        return true;
+    public boolean estaPuntoEnTablero(Coordenadas punto){
+        return panelDeJuego.estaPuntoEnPanel(punto);
     }
 
-    public boolean estaEnTablero(String nombreRobot){
+    public boolean estaRobotEnTablero(String nombreRobot){
         boolean esta = false;
         for (int i = 0; i < numeroActualDeRobots; i++){
             Robot robotActual = listaRobots[i];
@@ -58,14 +46,14 @@ public class Tablero {
     }
 
     public boolean estaRobotEnObjetivo(String nombreRobot){
-        Robot robot = getRobot(nombreRobot);
+        Robot robot = getRobotPorNombre(nombreRobot);
         if (robot != null){
             return robot.getCoordenadas().equals(casillaObjetivo);
         }
         return false;
     }
 
-    public Robot getRobot(String nombreRobot){
+    public Robot getRobotPorNombre(String nombreRobot){
         for (int i=0; i<numeroActualDeRobots; i++){
             if (listaRobots[i].getNombre().equals(nombreRobot)){
                 return listaRobots[i];
@@ -78,7 +66,7 @@ public class Tablero {
         return numeroActualDeRobots;
     }
 
-    public Robot getRobot(int nEsimo){
+    public Robot getRobotPorNombre(int nEsimo){
         if ((nEsimo >= 0) && (nEsimo < numeroActualDeRobots))
             return listaRobots[nEsimo];
         else

@@ -1,5 +1,9 @@
 package com.politecnico;
 
+import com.politecnico.movimiento.EjecutorDeMovimiento;
+import com.politecnico.posicion.Coordenadas;
+import jdk.swing.interop.SwingInterOpUtils;
+
 import java.util.Scanner;
 
 public class InterfazJuego {
@@ -9,23 +13,14 @@ public class InterfazJuego {
 		lectorTeclado = new Scanner(System.in).useDelimiter("\n");
 	}
 
+	public void cartelInicioJuego(){
+		System.out.println("BIENVENIDO AL JUEGO DE LOS ROBOTS\n" +
+				"==================================\n\n");
+	}
+
 	public void cartelIntroducirNuevosRobots(){
 		System.out.println("\n\nAHORA DEBES INTRODUCIR NUEVOS ROBOTS\n" +
 							"=========================================\n\n");
-	}
-
-	public void cartelInicioJuego(){
-		System.out.println("BIENVENIDO AL JUEGO DE LOS ROBOTS\n" +
-							"==================================\n\n");
-	}
-
-	private int pedirEnteroMostrandoMensaje(String mensajeMostrado){
-		System.out.print(mensajeMostrado);
-		String textoIntroducido = lectorTeclado.next();
-		if (textoIntroducido.matches("[0-9]*")){
-			return Integer.parseInt(textoIntroducido);
-		} else
-			return Integer.MIN_VALUE;
 	}
 
 	public Coordenadas pedirAnchoYAltoTablero(){
@@ -60,29 +55,34 @@ public class InterfazJuego {
 
 	public void mostrarTurnoRobot(Robot robot){
 		if (robot != null) {
-			System.out.println("-------------------------------------");
-			System.out.println("Turno del robot " + robot.getNombre());
-			System.out.println(robot.getNombre() + " está en la posición " + robot.getCoordenadas());
+			System.out.println("=====================================");
+			System.out.println("  TURNO DEL ROBOT " + robot.getNombre());
+			System.out.println("=====================================");
+			mostrarPosicionRobot(robot);
 		}
+	}
+
+	public int pedirTipoDeEjecutorDeMovimiento(String nombreRobot) {
+		return pedirEnteroMostrandoMensaje("\nElija el tipo de movimiento para " + nombreRobot  + ":\n" +
+				EjecutorDeMovimiento.MOVIMIENTO_EN_L + ". Movimiento en L\n" +
+				EjecutorDeMovimiento.MOVIMIENTO_EN_DIAGONAL + ". Movimiento diagonal\n" +
+				EjecutorDeMovimiento.MOVIMIENTO_EN_CRUZ + ". Movimiento en cruz\n" +
+				"Opción: ");
+	}
+
+	public int pedirMovimientoParaRobot(String nombreRobot, EjecutorDeMovimiento ejecutorDeMovimiento){
+		return pedirEnteroMostrandoMensaje("\nElija un movimiento para " + nombreRobot + "\n" +
+														    ejecutorDeMovimiento.getInterfaceMenu() + "\n" +
+				                                           "Opción: ");
+
+	}
+
+	public void cartelEjecutorDeMovimientoNoValido(){
+		System.out.println("Este tipo de movimiento no existe. Por favor, indique un tipo de movimiento válido");
 	}
 
 	public void cartelMovimientoNoValido(){
 		System.out.println("Este movimiento no existe. Por favor, indique un movimiento válido");
-	}
-
-	public int pedirMovimientoParaRobot(String nombreRobot){
-		return pedirEnteroMostrandoMensaje("Elija un movimiento para " + nombreRobot + "\n" +
-				Movimiento.HACIA_ARRIBA + ". Hacia arriba\n" +
-				Movimiento.HACIA_DERECHA + ". Hacia la derecha\n" +
-				Movimiento.HACIA_ABAJO + ". hacia abajo\n" +
-				Movimiento.HACIA_IZQUIERDA + ". hacia la izquierda\n" +
-				"Elija una opción: ");
-		 /*do {
-		 	movimiento = pedirMovimientoParaRobot();
-			if ((movimiento < 1) || (movimiento > 4))
-				System.out.println("El movimiento elegido debe estar entre 1 y 4. Por favor, vuelva a introducir valores válidos");
-		} while ((movimiento < 1) || (movimiento > 4));
-		return movimiento;*/
 	}
 
 	public void cartelRobotGanador(String nombreRobotGanador){
@@ -91,4 +91,18 @@ public class InterfazJuego {
 		System.out.println("=======================================================================");
 	}
 
+	private int pedirEnteroMostrandoMensaje(String mensajeMostrado){
+		System.out.print(mensajeMostrado);
+		String textoIntroducido = lectorTeclado.next();
+		if (textoIntroducido.matches("[0-9]*")){
+			return Integer.parseInt(textoIntroducido);
+		} else
+			return Integer.MIN_VALUE;
+	}
+
+	public void mostrarPosicionRobot(Robot robot){
+		System.out.println("--------------------------------------------------------------------");
+		System.out.println("INFORMACIÓN: La posición actual de " + robot.getNombre() + " es " + robot.getCoordenadas());
+		System.out.println("--------------------------------------------------------------------");
+	}
 }

@@ -1,5 +1,7 @@
 package com.politecnico;
 
+import com.politecnico.posicion.Coordenadas;
+
 public class Robot {
     Coordenadas coordenadas;
     private String nombre;
