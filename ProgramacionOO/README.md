@@ -203,11 +203,13 @@ Los paquetes son contenedores de clases. Permiten agrupar clases que tratan sobr
 
 ### 2.4.3. Importación de todas las clases de un paquete
 
-### 2.4.4. Interfaces
+### 2.4.4. [Interfaces
 
 Las variables declaradas dentro de una interfaz sólo pueden ser constantes (*final* y *static*).
 Para implementar una interfaz se utiliza la palabra reservada *implements*.
 Si hay más de una interfaz implementada por una misma clase, se separan sus nombres por ",".
+
+Ver [documentación de referencia](https://javadesdecero.es/intermedio/interfaces-ejemplos/)
 
 ### 2.4.5. Interfaces y polimorfismo
 
@@ -219,9 +221,11 @@ Si hay más de una interfaz implementada por una misma clase, se separan sus nom
 - Implementa solo una parte de la clase.
 - Puede implementar una parte de una interfaz heredada y otra no.
 
+Ver [documentación de referencia](https://javadesdecero.es/clases/abstract/)
+
 ### 2.4.7. Variables en interfaces
 
-- Definición de constantes heredables, como tipos de empleados, o de habitación.
+- Definición de constantes heredables, como tipos de empleados, o de habitación. Las variables deben ser constantes.
 
 ### 2.4.8. Interfaces que implementan interfaces
 
@@ -238,14 +242,19 @@ Existe un comportamiento predefinido en caso de conflicto por implementación m�
 - En caso de coincidencia de métodos por defecto definidos por interfaces implementadas por la misma clase, se produce un error.
 - En casos en que una interfaz implementa otra, y ambas definen el mismo método por defecto, el método de la interfaz que implementa tiene preferencia.
 
+Ver [documentación de referencia](https://javadesdecero.es/intermedio/metodos-interfaces/)
+
 ### 2.4.10. Métodos estáticos en una interfaz
 
 Característica disponible a partir de JDK 8, que permite definir uno o más métodos estáticos en una interfaz. Por ello, se puede llamar directamente a dichos métodos, sin necesidad de que exista una instancia de la interfaz.
+
+Ver [documentación de referencia](https://javadesdecero.es/intermedio/metodos-interfaces/)
 
 ### 2.4.11. Métodos privados en una interfaz
 
 Característica disponible a partir de JDK 9. Una interfaz puede incluir un método privado que puede ser llamado sólamente por un método por defecto u otro método privado de la interfaz. Este comportamiento incluye a subinterfaces. Su única razón de ser es evitar la duplicación de código (en caso de que varias métodos por defecto utilicen el mismo fragmento).
 
+Ver [documentación de referencia](https://javadesdecero.es/intermedio/metodos-interfaces/)
 
 **Acctividad 1.** Crea una clase llamada *Libro* que incluya la siguiente información del libro:
 - Título
@@ -321,7 +330,27 @@ Deberás simular una base de datos de empleados mediante un *array* que aloje lo
 
 **Actividad 8.** Vuelve a modificar el ejercicio anterior, para que las clases tengan implementado el método *toString*. Basa el informe de las nóminas en este método.
 
-**Actividad 9.** Nos han encargado una aplicación para gestionar un aparcamiento de vehículos requisados. Cuando llega un nuevo vehículo, se anotan una serie de datos, que varían dependiendo del tipo de vehículo. Por ejemplo, los datos según vehículo serían los siguientes:
+**Actividad 9.** Una organización envía paquetes de publicaciones (libros y revistas) a negocios que desean contar con material de lectura en sus salas de lectura. Cada paquete es una lista de libros y revistas. Las características comunes que se almacenan tanto para las revistas como para los libros son:
+    - el código, 
+    - el título, 
+    - el año de publicación, y
+    - prestado
+
+Las tres primeras características se pasan por parámetro en el momento de crear las publicaciones, mientras que prestado es falso inicialmente. Se considera que las publicaciones no han sido prestadas hasta que no se han enviado en un paquete a su destinatario. Las publicaciones dejan de estar prestadas cuando son devueltas a la organización.
+
+Las revistas tienen un *número de ejemplar* (en el momento de crear las revistas se define el número de ejemplar).
+
+Tanto las revistas como los libros deben tener implementar toString() que devuelve un resumen. También tienen un método que devuelve el año de publicación, y otro el código.
+
+Para prevenir posibles cambios en el programa se tiene que implementar una interfaz **Prestable** con los métodos *prestar()*, *devolver()* y *estaPrestado()*.
+
+Crea un programa que permite:
+- Mostrar los libros y revistas de la organización.
+- Mostrar los libros y revistas prestados
+- Mostrar los libros y revistas devueltos o no prestados.
+
+
+**Actividad 10.** Nos han encargado una aplicación para gestionar un aparcamiento de vehículos requisados. Cuando llega un nuevo vehículo, se anotan una serie de datos, que varían dependiendo del tipo de vehículo. Por ejemplo, los datos según vehículo serían los siguientes:
 
 - Barcos
     - Nombre
