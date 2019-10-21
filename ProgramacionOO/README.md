@@ -330,11 +330,15 @@ Deberás simular una base de datos de empleados mediante un *array* que aloje lo
 
 **Actividad 8.** Vuelve a modificar el ejercicio anterior, para que las clases tengan implementado el método *toString*. Basa el informe de las nóminas en este método.
 
-**Actividad 9.** Una organización envía paquetes de publicaciones (libros y revistas) a negocios que desean contar con material de lectura en sus salas de lectura. Cada paquete es una lista de libros y revistas. Las características comunes que se almacenan tanto para las revistas como para los libros son:
-    - el código, 
-    - el título, 
-    - el año de publicación, y
-    - prestado
+**Actividad 9.** Escribe un programa que pueda almacenar diferentes tipo de figuras geométricas: círculos, triángulos y cuadrados. Todas las figuras tienen un color, y tienen una manera particular de obtener el área.
+Escribe un programa que contenga un array de figuras geométricas. Deberás recorrer el array e imprimir para cada figura el tipo de figura de que se trata, su color y su área.
+
+**Actividad 10.** Una organización envía paquetes de publicaciones (libros y revistas) a negocios que desean contar con material de lectura en sus salas de espera. Cada paquete es una lista de libros y revistas. Las características comunes que se almacenan tanto para las revistas como para los libros son:
+
+- el código, 
+- el título, 
+- el año de publicación, y
+- prestado
 
 Las tres primeras características se pasan por parámetro en el momento de crear las publicaciones, mientras que prestado es falso inicialmente. Se considera que las publicaciones no han sido prestadas hasta que no se han enviado en un paquete a su destinatario. Las publicaciones dejan de estar prestadas cuando son devueltas a la organización.
 
@@ -350,7 +354,7 @@ Crea un programa que permite:
 - Mostrar los libros y revistas devueltos o no prestados.
 
 
-**Actividad 10.** Nos han encargado una aplicación para gestionar un aparcamiento de vehículos requisados. Cuando llega un nuevo vehículo, se anotan una serie de datos, que varían dependiendo del tipo de vehículo. Por ejemplo, los datos según vehículo serían los siguientes:
+**Actividad 11.** Nos han encargado una aplicación para gestionar un aparcamiento de vehículos requisados. Cuando llega un nuevo vehículo, se anotan una serie de datos, que varían dependiendo del tipo de vehículo. Por ejemplo, los datos según vehículo serían los siguientes:
 
 - Barcos
     - Nombre
