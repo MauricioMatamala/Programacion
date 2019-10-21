@@ -353,8 +353,27 @@ Crea un programa que permite:
 - Mostrar los libros y revistas prestados
 - Mostrar los libros y revistas devueltos o no prestados.
 
+**Actividad 11.** Supongamos que contamos con una lista de productos. Cada producto tiene un nombre, un precio y un índice de valoración que puede ir de 0 a 5. Los productos se pueden gestionar dentro de una clase llamada LoteDeProductos, que implementa los métodos siguientes:
 
-**Actividad 11.** Nos han encargado una aplicación para gestionar un aparcamiento de vehículos requisados. Cuando llega un nuevo vehículo, se anotan una serie de datos, que varían dependiendo del tipo de vehículo. Por ejemplo, los datos según vehículo serían los siguientes:
+- int getTotalProductos()
+- Producto getProductoEnPosicion(int i)
+- void addProducto(Producto producto))
+
+Imagina que deseas obtener un mejor producto de la lista (Seller's Choice). Existen tres criterios para elegir el mejor producto:
+
+- El mejor valorado.
+- El más barato.
+- Aquel que tenga mejor relación valoración/precio.
+
+NOTA: Puede que en el futuro se propongan otros criterios de elección.
+
+Existe una interfaz llamada *SelectorDeMejoresProducto* que incluye el siguiente método:
+
+- *LoteDeProductos elegirMejoresProductos()*
+
+Implementa los métodos de elección propuestos anteriormente mediante implementaciones específicas de esta interfaz.
+
+**Actividad 12.** Nos han encargado una aplicación para gestionar un aparcamiento de vehículos requisados. Cuando llega un nuevo vehículo, se anotan una serie de datos, que varían dependiendo del tipo de vehículo. Por ejemplo, los datos según vehículo serían los siguientes:
 
 - Barcos
     - Nombre
