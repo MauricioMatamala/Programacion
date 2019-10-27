@@ -256,6 +256,56 @@ Característica disponible a partir de JDK 9. Una interfaz puede incluir un mét
 
 Ver [documentación de referencia](https://javadesdecero.es/intermedio/metodos-interfaces/)
 
+## 2.6. Excepciones
+Ver [documentación de referencia](https://www.w3schools.com/java/java_try_catch.asp). En esta documentación se cubren los siguientes temas:
+
+- Usar try y catch
+
+- Mostrar la descripción de una exepción
+
+- Múltiples catch
+
+- throw y throws
+
+- finally
+
+### 2.6.6. Excepciones customizadas
+Ver [documentación de referencia](https://www.javatpoint.com/custom-exception)
+
+## 2.5. Colecciones
+
+## LISTAS
+
+### 2.5.1. ArrayList
+Ver [documentación de referencia](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
+
+### 2.5.2. LinkedList
+Ver [documentación de referencia](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html)
+
+## CONJUNTOS
+
+### 2.5.3. HashSet
+Ver [documentación de referencia](https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html)
+
+### 2.5.4. TreeSet
+Ver [documentación de referencia](https://docs.oracle.com/javase/8/docs/api/java/util/TreeSet.html)
+
+## COLAS
+
+### 2.5.5. PriorityQueue
+Ver [documentación de referencia](https://docs.oracle.com/javase/8/docs/api/java/util/PriorityQueue.html)
+
+## MAPAS
+
+### 2.5.6. HashTable
+Ver [documentación de referencia](https://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html)
+
+### 2.5.7 TreeMap
+Ver [documentación de referencia](https://docs.oracle.com/javase/8/docs/api/java/util/TreeMap.html)
+
+## OTRAS COLECCIONES
+Ver [documentación de referencia](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)
+
 **Acctividad 1.** Crea una clase llamada *Libro* que incluya la siguiente información del libro:
 - Título
 - Autor
@@ -427,3 +477,14 @@ El programa debe permitir hacer lo siguiente:
 3. listar la información de los vehículos del depósito,
 3. listar los vehículos que están en espera a ser subastados,
 3. listar los vehículos vendidos, y a qué comprador se han vendido así como el precio y la fecha de venta
+
+**Actividad 13. ** Revisa el ejercicio 4. En dicho ejercicio se produce una situación excepcional cuando intenta sacar un número de una cola vacía. Inicialmente se solventó devolviendo un número muy pequeño (Integer.MIN_VALUE). Modifica el código para que la excepción pueda ser capturada y gestionada adecuadamente.
+
+**Actividad 14. ** Revisa la actividad 11. Hay ciertas situaciones que se pueden considerar excepcionales:
+- intentar obtener un producto en una posición que no existe.
+- intentar insertar un producto *null*.
+Añade el código necesario para que dichas situaciones excepcionales estén correctamente manejadas. Para ello, crea las siguientes excepciones:
+- ProductPositionException
+- NullProductException
+Dota al código del manejo de la excepción que consideres más oportuno.
+
