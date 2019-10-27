@@ -66,9 +66,9 @@ public class Tablero {
         return numeroActualDeRobots;
     }
 
-    public Robot getRobotPorNombre(int nEsimo){
-        if ((nEsimo >= 0) && (nEsimo < numeroActualDeRobots))
-            return listaRobots[nEsimo];
+    public Robot getRobotEnesimo(int enesimo){
+        if ((enesimo >= 0) && (enesimo < numeroActualDeRobots))
+            return listaRobots[enesimo];
         else
             return null;
     }

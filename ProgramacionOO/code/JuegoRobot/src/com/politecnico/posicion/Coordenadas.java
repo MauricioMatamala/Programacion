@@ -13,10 +13,10 @@ public class Coordenadas {
         this.y = y;
     }
 
-    public Coordenadas crearVectorDiferenciaRespectoA(Coordenadas punto){
+    public Vector crearVectorDiferenciaRespectoA(Coordenadas punto){
         int diferenciaX = compararX(punto);
         int diferenciaY = compararY(punto);
-        return new Coordenadas(diferenciaX,
+        return new Vector(diferenciaX,
                                diferenciaY);
     }
 

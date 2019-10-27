@@ -36,7 +36,7 @@ public class JuegoRobot {
     public static void iniciarJuego(){
         do {
             for (int i = 0; i < tablero.getNumeroActualDeRobots() && !hayRobotGanador(); i++) {
-                Robot robotActual = tablero.getRobotPorNombre(i);
+                Robot robotActual = tablero.getRobotEnesimo(i);
                 interfazJuego.mostrarTurnoRobot(robotActual);
                 moverRobotEnTablero(robotActual);
                 if (tablero.estaRobotEnObjetivo(robotActual.getNombre()))
