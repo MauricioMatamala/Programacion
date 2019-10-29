@@ -52,10 +52,6 @@ public class Cola {
         else
             temp++;
         return temp;
-
-
-        //return (( tail - head ) % elementos.length ) + 1;
-        //return elementosAlmacenados;
     }
 
     public String toString() {

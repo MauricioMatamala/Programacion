@@ -478,13 +478,16 @@ El programa debe permitir hacer lo siguiente:
 3. listar los vehículos que están en espera a ser subastados,
 3. listar los vehículos vendidos, y a qué comprador se han vendido así como el precio y la fecha de venta
 
-**Actividad 13. ** Revisa el ejercicio 4. En dicho ejercicio se produce una situación excepcional cuando intenta sacar un número de una cola vacía. Inicialmente se solventó devolviendo un número muy pequeño (Integer.MIN_VALUE). Modifica el código para que la excepción pueda ser capturada y gestionada adecuadamente.
+**Actividad 13.** Revisa el ejercicio 4. En dicho ejercicio se produce una situación excepcional cuando intenta sacar un número de una cola vacía. Inicialmente se solventó devolviendo un número muy pequeño (Integer.MIN_VALUE). Modifica el código para que la excepción pueda ser capturada y gestionada adecuadamente.
 
-**Actividad 14. ** Revisa la actividad 11. Hay ciertas situaciones que se pueden considerar excepcionales:
+**Actividad 14.** Revisa la actividad 11. Hay ciertas situaciones que se pueden considerar excepcionales:
 - intentar obtener un producto en una posición que no existe.
 - intentar insertar un producto *null*.
+
 Añade el código necesario para que dichas situaciones excepcionales estén correctamente manejadas. Para ello, crea las siguientes excepciones:
+
 - ProductPositionException
 - NullProductException
+
 Dota al código del manejo de la excepción que consideres más oportuno.
 
