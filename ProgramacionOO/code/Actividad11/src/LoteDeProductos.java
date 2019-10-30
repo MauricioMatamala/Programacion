@@ -15,9 +15,10 @@ public class LoteDeProductos {
             productos[totalProductos] = producto;
             totalProductos++;
         }
+
     }
 
-    public Producto getProductoEnPosicion(int i){
+    public Producto getProductoEnPosicion(int i) {
         if ((i >= 0) && (i < totalProductos))
             return productos[i];
         else

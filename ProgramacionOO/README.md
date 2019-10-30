@@ -269,6 +269,11 @@ Ver [documentación de referencia](https://www.w3schools.com/java/java_try_catch
 
 - finally
 
+[Excepciones checked](docs/checked-exceptions.png)
+
+[Excepciones unchecked](docs/unchecked-exceptions.png)
+
+
 ### 2.6.6. Excepciones customizadas
 Ver [documentación de referencia](https://www.javatpoint.com/custom-exception)
 
