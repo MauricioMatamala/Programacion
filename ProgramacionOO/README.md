@@ -269,8 +269,10 @@ Ver [documentación de referencia](https://www.w3schools.com/java/java_try_catch
 
 - finally
 
+### Lista de excepciones *checked*
 ![Excepciones checked](docs/checked-exceptions.png)
 
+### Lista de excepciones *unckecked*
 ![Excepciones unchecked](docs/unchecked-exceptions.png)
 
 
