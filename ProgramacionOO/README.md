@@ -281,10 +281,35 @@ Ver [documentación de referencia](https://www.javatpoint.com/custom-exception)
 
 ## 2.5. Colecciones
 
+### 2.5.1. La interfaz Collection
+
+La interfaz *Collection* está en lo más alto de la jerarquía de las colecciones. Proporciona todo lo que una colección de propósito general podría necesitar (y también lanza *UnsupportedOperationException*). *Collection* extiende la interfaz *Iterable*, que proporciona operaciones para recorrer una colección siguiendo el método *for-each*. El resto de colecciones (ya sean interfaces o clases) extienden a *Collection*, aunque están diseñadas para cubrir diferentes necesidades. Veamos cuáles son las principales:
+
+#### 2.5.1.1. List
+
+Las listas son lo más parecido a un array. Podemos acceder a sus elementos mediante un índice entero y buscar elementos en la lista. El índice empieza en 0 (igual que en un array).
+
+#### 2.5.1.2. Set
+
+Los conjuntos representan un conjunto **no repetido** de elementos sin un orden concreto. Sería lo más parecido a tener varios elementos no repetidos dentro de una bolsa. La interfaz *Set* no proporciona garantías de que los elementos se puedan devolver en un orden predecible, aunque algunas implementaciones (como TreeSet) mantienen el orden especificado por el programador.
+
+#### 2.5.1.3. Map
+
+Un mapa permite almacenar parejas de tipo *clave-valor*. Un mapa no puede tener claves repetidas, y cada clave puede apuntar a un único valor. Algunas implementaciones permiten mantener el orden entre los elementos según el orden natural (o establecido) de las claves.
+
+#### 2.5.1.4. Cola
+
+Una cola almacena los elementos para su posterior consumo. Las colas que implementan *Collection* permiten la operaciones básicas de una colección, pero además, agregan las operaciones de inserción de la teoría de colas (insertar y extraer). Una cola no necesariamente ordena los elementos según su orden de llegada. Hay más estrategias de ordenación, como las colas de prioridad, en que los elementos se ordenan según un orden preestablecido.
+
+![Collections Cheat Sheet](docs/collections-cheat-sheet.png)
+
+![Jerarquía de Collection](docs/esquema-collections.png)
+
 ## LISTAS
 
 ### 2.5.1. ArrayList
-Ver [documentación de referencia](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
+
+Es el equivalente dinámico a un array. Su tamaño se adapta según se necesita. Ver [documentación de referencia](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
 
 ### 2.5.2. LinkedList
 Ver [documentación de referencia](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html)
@@ -498,3 +523,31 @@ Añade el código necesario para que dichas situaciones excepcionales estén cor
 
 Dota al código del manejo de la excepción que consideres más oportuno.
 
+**Actividad 15.** La clase *RankingPilotos* mantiene una lista de pilotos participantes en una carrera automovilística. Dicha clase implementa los siguientes métodos:
+
+- añadirPiloto(Piloto piloto, int posicionDeSalida)
+- adelantarPiloto(Piloto piloto)
+- retrasarPiloto(Piloto piloto)
+- eliminarPilotosDescalificados()
+- ordenarPilotosPorPosicionDeSalida()
+- ordenarPilotosPorNombre()
+
+La clase *Piloto* incluye varios campos:
+
+- nombre 
+- escudería
+- posicionDeSalida
+- descalificado 
+
+Implementa un programa que mantenga la lista de pilotos según las operaciones realizadas sobre *RankingPilotos*. El archivo con los datos sobre los pilotos es el siguiente: [pilotos.csv](docs/pilotos.csv). Los sucesos que deben representarse correctamente son los siguientes:
+
+1. Los pilotos están inicialmente colocados según su orden de salida.
+2. Los pilotos son ordenados según su nombre.
+3. El piloto *Hamilton L.* adelanta hasta la tercera posición y *Magnussen K.* hasta la 9.
+4. Los pilotos *Albon A.* y *Grosjean R.* son descalificados.
+5. Los pilotos vuelven a ser ordenados según su orden inicial de salida, teniendo en cuenta que los decalificados no aparecen.
+
+NOTA: En los informes del contenido de *RankingPilotos* debe indicarse:
+a) La posición actual de cada piloto.
+b) Su posición inicial de salida.
+b) Sus datos básicos (nombre y escudería).
