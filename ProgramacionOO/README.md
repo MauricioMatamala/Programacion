@@ -312,7 +312,7 @@ Una cola almacena los elementos para su posterior consumo. Las colas que impleme
 Es el equivalente dinámico a un array. Su tamaño se adapta según se necesita. Ver [documentación de referencia](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
 
 ### 2.5.2. LinkedList
-Ver [documentación de referencia](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html)
+Sigue siendo una lista, aunque con operaciones de colas y pilas. Ver [documentación de referencia](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html)
 
 ## CONJUNTOS
 
@@ -543,7 +543,7 @@ Implementa un programa que mantenga la lista de pilotos según las operaciones r
 
 1. Los pilotos están inicialmente colocados según su orden de salida.
 2. Los pilotos son ordenados según su nombre.
-3. El piloto *Hamilton L.* adelanta hasta la tercera posición y *Magnussen K.* hasta la 9.
+3. El piloto *Hamilton L.* adelanta hasta la tercera posición y *Magnussen K.* hasta la novena.
 4. Los pilotos *Albon A.* y *Grosjean R.* son descalificados.
 5. Los pilotos vuelven a ser ordenados según su orden inicial de salida, teniendo en cuenta que los decalificados no aparecen.
 
@@ -551,3 +551,32 @@ NOTA: En los informes del contenido de *RankingPilotos* debe indicarse:
 a) La posición actual de cada piloto.
 b) Su posición inicial de salida.
 b) Sus datos básicos (nombre y escudería).
+
+**Actividad 16.** En el juego de la Oca, un jugador avanza por las casillas, identificadas por un número. El jugador parte inicialmente de la casilla 0. El avance a lo largo de las casillas depende del valor obtenido al tirar un dado. Se cuenta con la clase Jugador, que incluye los siguientes atributos y operaciones:
+
+- color
+- nombreJugador
+- casillaActual
+- avanzarCasillas(número)
+- retrocederACasilla(número)
+
+Se desea dotar a los jugadores con un historial de comandos, así como con las operaciones "redo" y "undo". Un jugador tiene acceso a las siguientes operaciones:
+
+- historial(): devuelve todos los movimientos realizados hasta el momento.
+- undo(): deshace un movimiento. Se pueden deshacer movimientos hasta llegar al primero.
+- redo(): rehace un movimiento deshecho. Se pueden rehacer movimientos hasta llegar al último realizdo.
+
+>> NOTA: No es necesario tener en cuenta la dinámica de juego de la Oca. Símplemente desarrollar la funcionalidad comentada. El historial debe mostrarse del siguiente modo:
+
+```
+El jugador RMS realizó los siguientes movimientos:
+1. Avance a la casilla 4
+2. Avance a la casilla 6
+3. Avance a la casilla 9
+4. Avance a la casilla 15
+5. Avance a la casilla 16
+6. Retroceso a la casilla 8
+7. Avance a la casilla 9
+8. Avance a la casilla 12
+9. Retroceso a la casilla 3
+```
