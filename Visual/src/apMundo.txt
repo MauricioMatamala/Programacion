@@ -1,0 +1,13 @@
+
+    private String dir = System.getProperty("user.dir");
+
+
+            File inputFile = new File(dir + File.separator + "aeropuertos.xml");
+            DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+            Document doc = dBuilder.parse(inputFile);
+            doc.getDocumentElement().normalize();
+            NodeList nodeList = doc.getElementsByTagName("aeropuerto");
+            for (int n = nodeList.getLength() - 1; n >= 0; n--) {
+              
+
