@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<listas>
+    <lista name="Lista de TripHop">
+        <cancion id="1" duracion="3">Canción TH 1</cancion>
+        <cancion id="2" duracion="4">Canción TH 2</cancion>
+        <cancion id="3" duracion="3">Canción TH 3</cancion>
+        <cancion id="4" duracion="3">Canción TH 4</cancion>
+    </lista>
+    <lista name="Lista de Rock">
+        <cancion id="1" duracion="3">Canción Rock 1</cancion>
+        <cancion id="2" duracion="2">Canción Rock 2</cancion>
+        <cancion id="3" duracion="3">Canción Rock 3</cancion>
+        <cancion id="4" duracion="3">Canción Rock 4</cancion>
+    </lista>
+</listas>
