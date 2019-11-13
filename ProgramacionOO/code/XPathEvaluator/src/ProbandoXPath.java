@@ -21,17 +21,7 @@ public class ProbandoXPath {
 				Una forma alternativa de obtener los nodos de interés es mediante el método getElementsByTagName.
 				En el siguiente fragmento se imprimen las canciones de las listas.
 		    */
-
-			for (int i=0; i<nodeSet.getLength(); i++){
-				Element e = (Element) nodeSet.item(i);
-				NodeList canciones = e.getElementsByTagName("cancion");
-				for (int j=0; j<canciones.getLength(); j++){
-					System.out.println("--------------------------------");
-					printInfoNodo(canciones.item(j),0);
-					printAtributosNodo(canciones.item(j),0);
-					System.out.println("CONTENIDO: "+canciones.item(j).getTextContent());
-				}
-			}
+			printNodesByTagName(nodeSet);
 		} catch (XPathExpressionException e) {
 			e.printStackTrace();
 		}
@@ -42,6 +32,7 @@ public class ProbandoXPath {
 			- item(i) -> devuelve un Nodo
 			- getChildNodes() -> devuelve un NodeList con los nodos hijos.
 	 */
+
 	public static void printNodeList(NodeList listaDeNodos, int nivelProfundidad){
 		if (listaDeNodos !=  null){
 			for (int i = 0; i < listaDeNodos.getLength(); i++) {
@@ -50,6 +41,19 @@ public class ProbandoXPath {
 				printInfoNodo(n, nivelProfundidad);
 				printAtributosNodo(n,nivelProfundidad);
 				printNodeList(n.getChildNodes(), nivelProfundidad + 1);
+			}
+		}
+	}
+
+	public static void printNodesByTagName(NodeList nodeSet){
+		for (int i=0; i<nodeSet.getLength(); i++){
+			Element e = (Element) nodeSet.item(i);
+			NodeList canciones = e.getElementsByTagName("cancion");
+			for (int j=0; j<canciones.getLength(); j++){
+				System.out.println("--------------------------------");
+				printInfoNodo(canciones.item(j),0);
+				printAtributosNodo(canciones.item(j),0);
+				System.out.println("CONTENIDO: "+canciones.item(j).getTextContent());
 			}
 		}
 	}
