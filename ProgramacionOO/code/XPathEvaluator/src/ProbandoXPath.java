@@ -38,8 +38,8 @@ public class ProbandoXPath {
 			for (int i = 0; i < listaDeNodos.getLength(); i++) {
 				System.out.println("----------------------------");
 				Node n = listaDeNodos.item(i);
-				printInfoNodo(n, nivelProfundidad);
-				printAtributosNodo(n,nivelProfundidad);
+				printNodeInfo(n, nivelProfundidad);
+				printNodeAttributes(n,nivelProfundidad);
 				printNodeList(n.getChildNodes(), nivelProfundidad + 1);
 			}
 		}
@@ -51,30 +51,30 @@ public class ProbandoXPath {
 			NodeList canciones = e.getElementsByTagName("cancion");
 			for (int j=0; j<canciones.getLength(); j++){
 				System.out.println("--------------------------------");
-				printInfoNodo(canciones.item(j),0);
-				printAtributosNodo(canciones.item(j),0);
+				printNodeInfo(canciones.item(j),0);
+				printNodeAttributes(canciones.item(j),0);
 				System.out.println("CONTENIDO: "+canciones.item(j).getTextContent());
 			}
 		}
 	}
 
-	private static void printInfoNodo(Node n, int nivelProfundidad){
-		System.out.println(getEspacios(nivelProfundidad) + getTipoNodo(n) + n.getNodeName());
+	private static void printNodeInfo(Node n, int nivelProfundidad){
+		System.out.println(getSeparador(nivelProfundidad) + getStringNodeType(n) + n.getNodeName());
 	}
 
 	/*
 		Dado un nodo, se obtienen sus atributos. Si hay alguno (n.getAttributes() != null) se imprime su contenido con toString()
 	 */
-	private static void printAtributosNodo(Node n, int nivelProfundidad){
-		if (n!=null){
+	private static void printNodeAttributes(Node n, int nivelProfundidad){
+		if ((n!=null) && (n.getNodeType() == Element.ELEMENT_NODE)){
 			NamedNodeMap atributos = n.getAttributes();
 			if (atributos != null)
 				for (int i=0; i<atributos.getLength(); i++)
-					System.out.println(getEspacios(nivelProfundidad) + "ATRIBUTO:" + atributos.item(i).toString());
+					System.out.println(getSeparador(nivelProfundidad) + "ATRIBUTO:" + atributos.item(i).toString());
 		}
 	}
 
-	private static String getTipoNodo(Node n){
+	private static String getStringNodeType(Node n){
 		if (n.getNodeType() == Element.ELEMENT_NODE)
 			return "NODO ELEMENTO: ";
 		else if (n.getNodeType() == Element.TEXT_NODE)
@@ -85,7 +85,7 @@ public class ProbandoXPath {
 			return "NODO: ";
 	}
 
-	private static String getEspacios(int numeroEspacios){
+	private static String getSeparador(int numeroEspacios){
 		String espacios = "";
 		for (int i=0; i<numeroEspacios; i++) espacios += "\t";
 		return espacios;
