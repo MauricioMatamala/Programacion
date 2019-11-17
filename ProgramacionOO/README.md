@@ -580,3 +580,6 @@ El jugador RMS realizó los siguientes movimientos:
 8. Avance a la casilla 12
 9. Retroceso a la casilla 3
 ```
+
+**Actividad 17.** Se desean obtener la lista de palabras que aparecen en un texto. Se desea eliminar las repeticiones. El texto es el contenido en el siguiente [fichero](docs/sample_text.txt).
+ 
