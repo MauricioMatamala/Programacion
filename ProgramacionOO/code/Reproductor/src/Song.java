@@ -1,21 +1,21 @@
 public class Song {
-    private String songName;
+    private String songTitle;
     private String fileName;
 
     public Song(){
 
     }
 
-    public Song(String songName){
-        this.songName = songName;
+    public Song(String songTitle){
+        this.songTitle = songTitle;
     }
 
-    public void setSongName(String songName){
-        this.songName = songName;
+    public void setSongTitle(String songTitle){
+        this.songTitle = songTitle;
     }
 
-    public String getSongName(){
-        return songName;
+    public String getSongTitle(){
+        return songTitle;
     }
 
     public String getFileName() {
@@ -29,7 +29,7 @@ public class Song {
     @Override
     public String toString() {
         return "Song{" +
-                "songName='" + songName + '\'' +
+                "songName='" + songTitle + '\'' +
                 ", fileName='" + fileName + '\'' +
                 '}';
     }

@@ -38,7 +38,7 @@ public class XMLSongsReader {
         Element songNode = (Element) nodeList.item(nodeIndex);
         Song song = new Song();
         song.setFileName(songNode.getAttribute("file"));
-        song.setSongName(songNode.getAttribute("title"));
+        song.setSongTitle(songNode.getAttribute("title"));
         nodeIndex++;
         return song;
     }
