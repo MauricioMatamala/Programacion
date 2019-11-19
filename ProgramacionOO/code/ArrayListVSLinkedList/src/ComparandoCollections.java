@@ -22,89 +22,103 @@ public class ComparandoCollections {
         insertarXNumerosAleatorios(list,100000);
     }
 
-    private static double calcularMediaIndexOf(List<Double> list){
+    private static double cronometrar(MétodoAEjecutar método){
         long[] tiempos = new long[ITERACIONES];
         for (int i=0;i<ITERACIONES;i++){
-            tiempos[i] = cronometrarIndexOf(list);
+            long inicio = System.nanoTime();
+            método.ejecutar();
+            long duracion = System.nanoTime() - inicio;
+            tiempos[i] = duracion;
         }
         return Arrays.stream(tiempos).average().getAsDouble();
     }
-
-    private static long cronometrarIndexOf(List<Double> list) {
-        long inicio = System.nanoTime();
-        list.indexOf(70.0);
-        return System.nanoTime() - inicio;
-    }
-
-    private static double calcularMediaInsert(List<Double> list,int pos) {
-        long[] tiempos = new long[ITERACIONES];
-        for (int i=0;i<ITERACIONES;i++){
-            tiempos[i] = cronometrarInsert(list,pos);
-        }
-        return Arrays.stream(tiempos).average().getAsDouble();
-    }
-
-    private static long cronometrarInsert(List<Double> list,int pos){
-        long inicio = System.nanoTime();
-        if (pos > 0) {
-            list.add(pos, 0.0);
-        } else{
-            list.add(0.0);
-        }
-        return System.nanoTime() - inicio;
-    }
-
-    private static double calcularMediaInsertFirst(LinkedList<Double> list) {
-        long[] tiempos = new long[ITERACIONES];
-        for (int i=0;i<ITERACIONES;i++){
-            tiempos[i] = cronometrarInsertFirst(list);
-        }
-        return Arrays.stream(tiempos).average().getAsDouble();
-    }
-
-    private static long cronometrarInsertFirst(LinkedList<Double> list){
-        long inicio = System.nanoTime();
-        list.addFirst(0.0);
-        return System.nanoTime() - inicio;
-
-    }
-
-    private static double calcularMediaBorrar(List<Double> list) {
-        long[] tiempos = new long[ITERACIONES];
-        for (int i=0;i<ITERACIONES;i++){
-            tiempos[i] = borrarCabeza(list);
-        }
-        return Arrays.stream(tiempos).average().getAsDouble();
-    }
-
-    private static long borrarCabeza(List<Double> list){
-        long inicio = System.nanoTime();
-        list.remove(0);
-        return System.nanoTime() - inicio;
-
-    }
-    
 
     public static void main(String[] args) {
         inicializarListas(aList);
         inicializarListas(lList);
 
-        System.out.println("IndexOf(ArrayList):"+calcularMediaIndexOf(aList)); // O(n)
-        System.out.println("IndexOf(LinkedList):"+calcularMediaIndexOf(lList)); // O(n)
+        System.out.println("IndexOf(ArrayList): " + cronometrar(new MétodoAEjecutar() {
+            @Override
+            public void ejecutar() {
+                aList.indexOf(70.0);
+            }
+        }));
 
-        // Calcular Get
+        System.out.println("IndexOf(LinkedList): " + cronometrar(new MétodoAEjecutar() {
+            @Override
+            public void ejecutar() {
+                lList.indexOf(70.0);
+            }
+        }));
 
-        System.out.println("Insert Principio(ArrayList):" + calcularMediaInsert(aList,0));
-        System.out.println("Insert Principio(LinkedList):" + calcularMediaInsertFirst(lList));
+        System.out.println("Get(ArrayList): " + cronometrar(new MétodoAEjecutar() {
+            @Override
+            public void ejecutar() {
+                aList.get(1000);
+            }
+        }));
 
-        System.out.println("Insert en medio(ArrayList):" + calcularMediaInsert(aList,aList.size()/2));
-        System.out.println("Insert en medio(LinkedList):" + calcularMediaInsert(lList,lList.size()/2));
+        System.out.println("Get(LinkedList): " + cronometrar(new MétodoAEjecutar() {
+            @Override
+            public void ejecutar() {
+                lList.get(1000);
+            }
+        }));
 
-        System.out.println("Insert al final(ArrayList):" + calcularMediaInsert(aList,-1));
-        System.out.println("Insert al final(LinkedList):" + calcularMediaInsert(lList,-1));
+        System.out.println("AddFirst(ArrayList): " + cronometrar(new MétodoAEjecutar() {
+            @Override
+            public void ejecutar() {
+                aList.add(0, 0.0);
+            }
+        }));
 
-        System.out.println("Borrar cabeza(ArrayList):" + calcularMediaBorrar(aList));
-        System.out.println("Borrar cabeza(LinkedList)" + calcularMediaBorrar(lList));
+        System.out.println("AddFirst(LinkedList): " + cronometrar(new MétodoAEjecutar() {
+            @Override
+            public void ejecutar() {
+                lList.addFirst(0.0);
+            }
+        }));
 
+        System.out.println("InsertarEnMedio(ArrayList): " + cronometrar(new MétodoAEjecutar() {
+            @Override
+            public void ejecutar() {
+                aList.add(100, 0.0);
+            }
+        }));
+
+        System.out.println("InsertarEnMedio(LinkedList): " + cronometrar(new MétodoAEjecutar() {
+            @Override
+            public void ejecutar() {
+                lList.add(100, 0.0);
+            }
+        }));
+
+        System.out.println("AddLast(ArrayList): " + cronometrar(new MétodoAEjecutar() {
+            @Override
+            public void ejecutar() {
+                aList.add(aList.size(), 0.0);
+            }
+        }));
+
+        System.out.println("AddLast(LinkedList): " +cronometrar(new MétodoAEjecutar() {
+            @Override
+            public void ejecutar() {
+                lList.addLast(0.0);
+            }
+        }));
+
+        System.out.println("RemoveFirst(ArrayList): " + cronometrar(new MétodoAEjecutar() {
+            @Override
+            public void ejecutar() {
+                aList.remove(0);
+            }
+        }));
+
+        System.out.println("RemoveFirst(LinkedList): " + cronometrar(new MétodoAEjecutar() {
+            @Override
+            public void ejecutar() {
+                lList.removeFirst();
+            }
+        }));
     }
 }
