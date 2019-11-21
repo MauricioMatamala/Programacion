@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aerolineas>
+    <Pais id="Spain">
+        <aerolinea id="2822">
+            <nombre>Iberia Airlines</nombre>
+            <iata>IBE</iata>
+            <codigoLlamada>IBERIA</codigoLlamada>
+        </aerolinea>
+        <aerolinea id="90">
+            <nombre>Air Europe</nombre>
+            <iata>AEA</iata>
+            <codigoLlamada>EUROPA</codigoLlamada>
+        </aerolinea>
+    </Pais>
+</aerolineas>

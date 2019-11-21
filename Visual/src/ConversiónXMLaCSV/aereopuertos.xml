@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aeropuertos>
+    <Pais name="Spain">
+        <aeropuerto>
+            <nombre><![CDATA[Málaga Airport]]></nombre>
+            <iata>AGP</iata>
+            <localizacion>
+                <ciudad><![CDATA[Málaga]]></ciudad>
+                <latitud>36.6749</latitud>
+                <longitud>-4.49</longitud>
+            </localizacion>         
+        </aeropuerto>
+        <aeropuerto>
+            <nombre><![CDATA[Adolfo Suárez Madrid–Barajas Airport]]></nombre>
+            <iata>MAP</iata>
+            <localizacion>
+                <ciudad><![CDATA[Madrid]]></ciudad>
+                <latitud>40.4719</latitud>
+                <longitud>-3.56</longitud>
+            </localizacion>         
+        </aeropuerto>
+        
+    </Pais>
+</aeropuertos>
+
