@@ -582,4 +582,32 @@ El jugador RMS realizó los siguientes movimientos:
 ```
 
 **Actividad 17.** Se desean obtener la lista de palabras que aparecen en un texto. Se desea eliminar las repeticiones. El texto es el contenido en el siguiente [fichero](docs/sample_text.txt).
+
+**Actividad 18.** En la sala de urgencias de un hospital, los pacientes son atendidos por orden de llegada. En recepción, el paciente describe su problema, y el empleado administrativo registra la urgencia como uno de los siguientes tipos, ordenados de mayor a menor prioridad:
+
+ - 1 - Neumología
+ - 2 - Cardiología
+ - 3 - Toxicología
+ - 4 - Pediatría
+ - 5 - Psiquiatría
+ - 6 - Radiología
+ - 7 - Digestivo
+ - 8 - Traumatología.
+ - 9 - Otorrino-laringología
+ - 10 - Cirugía
+ - 11 - Oftalmología
+
+Cada paciente es registrado indicando la siguiente información:
+ - Nombre
+ - Edad
+ - Id de especialidad
+ - Incidencia de gravedad
+
+Los pacientes son atendidos en primera instancia por un internista que les practica un reconocimiento. Su problema es valorado y en caso de tener suficiente gravedad, el internista lo deriva al especialista correspondiente. **En este programa se pretende únicamente gestionar el proceso de llamada en esta primera fase de reconocimiento.**
+
+El proceso de reconocimiento es el siguiente: 
+
+1. Cada paciente es reconocido por orden según la prioridad de su urgencia médica. En algunos casos,cuando la incidencia es especialmente grave, se puede adelantar pasar al paciente a reconocimiento independientemente de la prioridad predefinida.
+ 
+2. Cada paciente es avisado de que su turno de reconocimiento ha llegado a través de una pantalla informativa, donde se indica su nombre. Sólo se atenderá un nuevo paciente, cuando el médico de urgencias quede libre.
  
