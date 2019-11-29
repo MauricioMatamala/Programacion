@@ -1,0 +1,2442 @@
+[
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-100 - Curcumina",
+    "comentario": "No se han encontrado efectos adversos."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-100ii - Cúrcuma",
+    "comentario": "No se han encontrado efectos adversos."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-101 - Riboflavina (Lactoflavina)",
+    "comentario": "No se han encontrado efectos adversos."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-101a - Fosfato de Riboflavina",
+    "comentario": "No se han encontrado efectos adversos."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-102 - Tartrazina",
+    "comentario": "Posible hiperactividad en niños. En grandes dosis es un liberador de histamina y puede aumentar los síntomas del asma y producir eczemas, urticaria e insomnio. Debido a que es un colorante azoico puede provocar intolerancia en personas alérgicas al ácido salicílico. A largo plazo podría ser cancerígeno."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-103 - Crisoína",
+    "comentario": "Posible hiperactividad en niños. En grandes dosis es un liberador de histamina y puede aumentar los síntomas del asma y producir eczemas, urticaria e insomnio. Debido a que es un colorante azoico puede provocar intolerancia en personas alérgicas al ácido salicílico. A largo plazo podría ser cancerígeno."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-104 - Amarillo de Quinoleína",
+    "comentario": "Posible hiperactividad en niños. En grandes dosis puede producir alergia, eczemas, urticaria e insomnio. A largo plazo podría ser cancerígeno. "
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-105 - Amarillo Sólido",
+    "comentario": "Posible hiperactividad en niños. En grandes dosis es un liberador de histamina y puede aumentar los síntomas del asma y producir eczemas, urticaria e insomnio. Debido a que es un colorante azoico puede provocar intolerancia en personas alérgicas al ácido salicílico.)"
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-106 - Fosfato de Lactoflavina",
+    "comentario": "No se han encontrado efectos adversos."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-107 - Amarillo 2G",
+    "comentario": "Posible hiperactividad en niños. En grandes dosis es un liberador de histamina y puede aumentar los síntomas del asma y producir eczemas, urticaria e insomnio. Debido a que es un colorante azoico puede provocar intolerancia en personas alérgicas al ácido salicílico. A largo plazo podría ser cancerígeno."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-110 - Amarillo Ocaso FCF",
+    "comentario": "Posible hiperactividad en niños. En grandes dosis es un liberador de histamina y puede aumentar los síntomas del asma y producir eczemas, urticaria e insomnio. Debido a que es un colorante azoico puede provocar intolerancia en personas alérgicas al ácido salicílico. A largo plazo podría ser cancerígeno."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-111 - Naranja GGNr",
+    "comentario": "Peligroso, especialmente en niños. A largo plazo podría ser cancerígeno."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-120 - Ácido Carmínico",
+    "comentario": "Peligroso, en especial para los niños si se mezcla con analgésicos. Se obtiene aplastando insectos de la familia de la Cochinilla y parásitos de algunas especies de cáctus. Hacen falta 100.000 hembras para obtener 1 kilo de producto. Aunque su extracción es natural, para obtener los colores más vivos se mezcla con aluminio, calcio o amoniaco. En grandes dosis puede provocar hiperactividad, asma, eczemas e insomnio. No hay estudios sobre sus efectos a largo plazo en el sistema reproductivo y el metabolismo, aunque algunos informes indican que podría ser cancerígeno y mutágeno. En experimentos con ratas se observa una disminución del crecimiento y una proliferación del tejido del bazo en los conejos."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-120i - Rojo Carmín",
+    "comentario": "Peligroso, en especial para los niños si se mezcla con analgésicos. Se obtiene aplastando insectos de la familia de la Cochinilla y parásitos de algunas especies de cáctus. Hacen falta 100.000 hembras para obtener 1 kilo de producto. Aunque su extracción es natural, para obtener los colores más vivos se mezcla con aluminio, calcio o amoniaco. En grandes dosis puede provocar hiperactividad, asma, eczemas e insomnio. No hay estudios sobre sus efectos a largo plazo en el sistema reproductivo y el metabolismo, aunque algunos informes indican que podría ser cancerígeno y mutágeno. En experimentos con ratas se observa una disminución del crecimiento y una proliferación del tejido del bazo en los conejos."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-120ii - Extracto de Cochinilla",
+    "comentario": "Peligroso, en especial para los niños si se mezcla con analgésicos. Se obtiene aplastando insectos de la familia de la Cochinilla y parásitos de algunas especies de cáctus. Hacen falta 100.000 hembras para obtener 1 kilo de producto. Aunque su extracción es natural, para obtener los colores más vivos se mezcla con aluminio, calcio o amoniaco. En grandes dosis puede provocar hiperactividad, asma, eczemas e insomnio. No hay estudios sobre sus efectos a largo plazo en el sistema reproductivo y el metabolismo, aunque algunos informes indican que podría ser cancerígeno y mutágeno. En experimentos con ratas se observa una disminución del crecimiento y una proliferación del tejido del bazo en los conejos."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-121 - Rojo Cítrico 2",
+    "comentario": "En dosis bajas crea cálculos en vejiga y vesícula. En grandes dosis disminuye el número de globulos rojos y hemoglobina a la vez que aumenta el tamaño del hígado, los riñones y el bazo. A largo plazo da problemas degenerativos en el hígado y distintas clases de tumores en animales de laboratorio."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-122 - Azorrubina, Carmoisina",
+    "comentario": "Posible hiperactividad en niños. En grandes dosis es un liberador de histamina y puede aumentar los síntomas del asma y producir eczemas, urticaria e insomnio. Debido a que es un colorante azoico puede provocar intolerancia en personas alérgicas al ácido salicílico. A largo plazo provocó anemias, linfomas y tumores en ratones de laboratorio."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-123 - Amaranto",
+    "comentario": "Se ha establecido una conexión entre el consumo de amaranto y la producción de tumores en ratas, con efectos mutágenos y teratógenos. Posible hiperactividad en niños. En grandes dosis es un liberador de histamina y puede aumentar los síntomas del asma. Debido a que es un colorante azoico puede provocar intolerancia en personas alérgicas al ácido salicílico."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-124 - Ponceau 4R",
+    "comentario": "Posible hiperactividad en niños. En grandes dosis es un liberador de histamina y puede aumentar los síntomas del asma y producir eczemas, urticaria e insomnio. Debido a que es un colorante azoico puede provocar intolerancia en personas alérgicas al ácido salicílico. A largo plazo podría ser cancerígeno."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-125 - Ponceau SX",
+    "comentario": "Es muy difícil de eliminar por el organismo. Mezclado con analgésicos produce hipertiroidismo y fototoxicidad. Posible hiperactividad en niños. En grandes dosis es un liberador de histamina y puede aumentar los síntomas del asma y producir eczemas, urticaria e insomnio. Debido a que es un colorante azoico puede provocar intolerancia en personas alérgicas al ácido salicílico. A largo plazo podría ser cancerígeno."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-126 - Ponceau 6R",
+    "comentario": "Posible hiperactividad en niños. En grandes dosis es un liberador de histamina y puede aumentar los síntomas del asma y producir eczemas, urticaria e insomnio. Debido a que es un colorante azoico puede provocar intolerancia en personas alérgicas al ácido salicílico. A largo plazo podría ser cancerígeno."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-127 - Eritrosina",
+    "comentario": "Causa un aumento de la fotosensibilidad en las personas sensibles a la luz solar. En grandes dosis puede provocar hiperactividad y tener efectos mutágenos en el organismo. A largo plazo podría ser cancerígeno."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-128 - Rojo 2G",
+    "comentario": "En bajas dosis puede producir hiperactividad en niños. Debido a que es un colorante azoico puede provocar intolerancia en personas alérgicas al ácido salicílico. En grandes dosis es un liberador de histamina y puede aumentar los síntomas del asma, producir eczemas, urticaria e insomnio. Dentro del intestino se puede convertir en el compuesto tóxico Anilina y causar graves daños. A largo plazo podría ser cancerígeno."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-129 - Rojo Allura AC",
+    "comentario": "Posible hiperactividad en niños. En grandes dosis es un liberador de histamina y puede aumentar los síntomas del asma y producir eczemas, urticaria e insomnio. Debido a que es un colorante azoico puede provocar intolerancia en personas alérgicas al ácido salicílico. A largo plazo provoca cáncer de vejiga en animales de laboratorio."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-130 - Azul de Antraquinona",
+    "comentario": "Al derivar de un hidrocarburo es potencialmente cancerígeno. Produce alergias y urticaria en pocos minutos."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-131 - Azul Patente V",
+    "comentario": "Posible hiperactividad en niños. En grandes dosis es un liberador de histamina y puede aumentar los síntomas del asma y producir eczemas, urticaria e insomnio. Debido a que es un colorante azoico puede provocar intolerancia en personas alérgicas al ácido salicílico. A largo plazo podría ser cancerígeno."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-132 - Indigotina (Carmín Índigo)",
+    "comentario": "En dosis bajas hay informes contradictorios. En grandes dosis puede provocar hiperactividad, náuseas, hipertensión, reacciones cutáneas, problemas respiratorios y alergias y puede actuar como un liberador de histamina. A largo plazo podría ser cancerígeno y mutágeno."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-133 - Azul Brillante FCF",
+    "comentario": "Puede acumularse en los riñones y vasos linfáticos. Posible hiperactividad en niños. En grandes dosis es un liberador de histamina y puede aumentar los síntomas del asma y producir eczemas, urticaria e insomnio. Debido a que es un colorante azoico puede provocar intolerancia en personas alérgicas al ácido salicílico. A largo plazo podría ser cancerígeno. Este colorante no es bien absorbido por el intestino y puede teñir las heces de color verde."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-140 - Clorofilas",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-140i - Clorofila",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-140ii - Clorofilina",
+    "comentario": "No se ha encontrado ningún efecto secundario. Al calentarse puede liberar cobre, pero la concentración que alcanza no representa niveles tóxicos."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-141 - Complejos Cúpricos de Clorofila",
+    "comentario": "No se ha encontrado ningún efecto secundario. Al calentarse puede liberar cobre, pero la concentración que alcanza no representa niveles tóxicos."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-141i - Complejos Cúpricos de Clorofilas",
+    "comentario": "No se ha encontrado ningún efecto secundario. Al calentarse puede liberar cobre, pero la concentración que alcanza no representa niveles tóxicos."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-141ii - Complejos Cúpricos de Clorofilinas",
+    "comentario": "No se ha encontrado ningún efecto secundario. Al calentarse puede liberar cobre, pero la concentración que alcanza no representa niveles tóxicos."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-142 - Verde Ácido Brillante",
+    "comentario": "En grandes dosis puede provocar hiperactividad, asma, reacciones cutáneas e insomnio. Potencialmente cancerígeno a largo plazo."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-150 - Caramelo",
+    "comentario": "En grandes dosis puede provocar problemas intestinales y disminuir la absorción de Vitamina B6. Existe controversia en los amónicos (150c, 150d) ya que en pruebas con animales de laboratorio la molécula química 4-Metilimidazol '4Mei' produjo casos de cáncer, por lo que se cree que a largo plazo podrían ser cancerígenos."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-150a - Caramelo Caústico",
+    "comentario": "En grandes dosis puede provocar problemas intestinales y disminuir la absorción de Vitamina B6. Existe controversia en los amónicos (150c, 150d) ya que en pruebas con animales de laboratorio la molécula química 4-Metilimidazol '4Mei' produjo casos de cáncer, por lo que se cree que a largo plazo podrían ser cancerígenos."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-150b - Caramelo Caústico de Sulfito",
+    "comentario": "En grandes dosis puede provocar problemas intestinales y disminuir la absorción de Vitamina B6. Existe controversia en los amónicos (150c, 150d) ya que en pruebas con animales de laboratorio la molécula química 4-Metilimidazol '4Mei' produjo casos de cáncer, por lo que se cree que a largo plazo podrían ser cancerígenos."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-150c - Caramelo Amónico",
+    "comentario": "En grandes dosis puede provocar problemas intestinales y disminuir la absorción de Vitamina B6. Existe controversia en los amónicos (150c, 150d) ya que en pruebas con animales de laboratorio la molécula química 4-Metilimidazol '4Mei' produjo casos de cáncer, por lo que se cree que a largo plazo podrían ser cancerígenos."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-150d - Caramelo Sulfito de Amoniaco",
+    "comentario": "En grandes dosis puede provocar problemas intestinales y disminuir la absorción de Vitamina B6. Existe controversia en los amónicos (150c, 150d) ya que en pruebas con animales de laboratorio la molécula química 4-Metilimidazol '4Mei' produjo casos de cáncer, por lo que se cree que a largo plazo podrían ser cancerígenos."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-151 - Negro Brillante BN",
+    "comentario": "Se obtiene derivado del petróleo. Por acción del calor se convierte en tóxico y puede producir reacciones alérgicas. Posible hiperactividad en niños. En grandes dosis es un liberador de histamina y puede aumentar los síntomas del asma y del insomnio, y producir eczemas y/o urticarias. Debido a que es un colorante azoico puede provocar intolerancia en personas alérgicas al ácido salicílico. A largo plazo podría ser cancerígeno."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-152 - Negro 7984",
+    "comentario": "Se obtiene derivado del petróleo. Por acción del calor se convierte en tóxico y puede producir reacciones alérgicas. Posible hiperactividad en niños. En grandes dosis es un liberador de histamina y puede aumentar los síntomas del asma y del insomnio, y producir eczemas y/o urticarias. Debido a que es un colorante azoico puede provocar intolerancia en personas alérgicas al ácido salicílico. A largo plazo podría ser cancerígeno."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-153 - Carbón Vegetal Medicinal",
+    "comentario": "No se ha encontrado ningún efecto secundario. Después de la combustión del carbón se debe garantizar que no contiene benzopireno, una sustancia tóxica que aparece cuando se queman materias vegetales."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-154 - Marrón FK",
+    "comentario": "En bajas dosis produce posible hiperactividad en niños. Experimentos con bacterias han demostrado mutaciones genéticas.En grandes dosis es un liberador de histamina y puede aumentar los síntomas del asma y producir eczemas, urticaria e insomnio. Debido a que es un colorante azoico puede provocar intolerancia en personas alérgicas al ácido salicílico. A largo plazo podría ser cancerígeno."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-155 - Marrón Chocolate HT",
+    "comentario": "Experimentos realizados con bacterias han demostrado mutaciones genéticas. Posible hiperactividad en niños. En grandes dosis es un liberador de histamina y puede aumentar los síntomas del asma y del insomnio, y producir eczemas y urticaria. Debido a que es un colorante azoico puede provocar intolerancia en personas alérgicas al ácido salicílico. A largo plazo podría ser cancerígeno."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-160 - Beta Caroteno",
+    "comentario": "No se ha encontrado ningún efecto secundario.No se recomiendan los suplementos sintéticos de betacaroteno en fumadores porque podrían acelerar la aparición de cancer de pulmón."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-160a - Carotenoides",
+    "comentario": "No se ha encontrado ningún efecto secundario.No se recomiendan los suplementos sintéticos de betacaroteno en fumadores porque podrían acelerar la aparición de cancer de pulmón."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-160b - Annatto, Bixina, Norbixina",
+    "comentario": "No se ha encontrado ningún efecto secundario. Algunas personas pueden presentar pequeñas reacciones alérgicas."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-160c - Extracto de Pimiento (Paprika)",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-160d - Licopeno",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-160e - Beta Apocarotenal",
+    "comentario": "No se ha encontrado ningún efecto secundario.No se recomiendan los suplementos sintéticos de betacaroteno en fumadores porque podrían acelerar la aparición de cancer de pulmón."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-160f - Éster Etílico Ácido Beta Apocarotenoico",
+    "comentario": "No se ha encontrado ningún efecto secundario.No se recomiendan los suplementos sintéticos de betacaroteno en fumadores porque podrían acelerar la aparición de cancer de pulmón."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-161a - Flavoxantina",
+    "comentario": "Existen muy pocos informes."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-161b - Luteína",
+    "comentario": "No se ha encontrado ningún efecto secundario. En grandes dosis puede prevenir a largo plazo problemas oculares como la degeneración macular o las cataratas."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-161c - Criptoxantina",
+    "comentario": "Existen muy pocos informes."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-161d - Rubixantina",
+    "comentario": "Existen muy pocos informes."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-161e - Violaxantina",
+    "comentario": "Existen muy pocos informes."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-161f - Rodoxantina",
+    "comentario": "Existen muy pocos informes."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-161g - Cantaxantina",
+    "comentario": "En grandes dosis puede depositar partículas de cristal en la retina y producir daños en el hígado."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-161h - Zeaxantina",
+    "comentario": "No se ha encontrado ningún efecto secundario. En grandes dosis puede prevenir a largo plazo problemas oculares como la degeneración macular o las cataratas."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-161j - Astaxantina",
+    "comentario": "No se ha encontrado ningún efecto secundario. En grandes dosis puede prevenir a largo plazo problemas oculares como la degeneración macular o las cataratas."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-162 - Rojo Remolacha (Betanina)",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-163 - Antocianinas",
+    "comentario": "No se ha encontrado ningún efecto secundario. Esta familia de aditivos tiene potentes efectos antioxidantes contra enfermedades del corazón, cáncer y diabetes."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-163a - Cianidina",
+    "comentario": "No se ha encontrado ningún efecto secundario. Esta familia de aditivos tiene potentes efectos antioxidantes contra enfermedades del corazón, cáncer y diabetes."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-163b - Delfinidina",
+    "comentario": "No se ha encontrado ningún efecto secundario. Esta familia de aditivos tiene potentes efectos antioxidantes contra enfermedades del corazón, cáncer y diabetes."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-163c - Malvidina",
+    "comentario": "No se ha encontrado ningún efecto secundario. Esta familia de aditivos tiene potentes efectos antioxidantes contra enfermedades del corazón, cáncer y diabetes."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-164d - Pelargonidina",
+    "comentario": "No se ha encontrado ningún efecto secundario. Esta familia de aditivos tiene potentes efectos antioxidantes contra enfermedades del corazón, cáncer y diabetes."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-164e - Peonidina",
+    "comentario": "No se ha encontrado ningún efecto secundario. Esta familia de aditivos tiene potentes efectos antioxidantes contra enfermedades del corazón, cáncer y diabetes."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-165f - Petunidina",
+    "comentario": "No se ha encontrado ningún efecto secundario. Esta familia de aditivos tiene potentes efectos antioxidantes contra enfermedades del corazón, cáncer y diabetes."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-170 - Carbonatos Cálcicos",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-170i - Carbonato de Calcio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-170ii - Bicarbonato de Calcio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-171 - Óxido de Titanio",
+    "comentario": "En dosis bajas puede teñir las uñas de color amarillo. En grandes dosis puede bloquear la respiración celular, en especial en órganos como el hígado y los riñones. Sus nanopartículas provocan daños cromosómicos y aumentan las probabilidades de sufrir riesgo de cáncer."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-172 - Óxido de Hierro",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-173 - Aluminio",
+    "comentario": "En grandes dosis potencia la enfermedad de Alzheimer y resulta tóxico para los riñones."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-174 - Plata",
+    "comentario": "En dosis bajas provoca decoloración de la piel. En grandes dosis provoca daños en el sistema nervioso y cerebrales."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-175 - Oro",
+    "comentario": "En dosis bajas provoca alteraciones en la sangre. A largo plazo es tóxico y el 50% de los pacientes tratados con medicamentos que contienen oro han sufrido daños hepáticos y renales. No confundir los beneficios del oro a nivel externo en la piel, con su ingestión dentro del organismo."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-180 - Pigmento Rubí (Litol-Rubina BK)",
+    "comentario": "Posible hiperactividad en niños. En grandes dosis es un liberador de histamina y puede aumentar los síntomas del asma y producir eczemas, urticaria e insomnio. Debido a que es un colorante azoico puede provocar intolerancia en personas alérgicas al ácido salicílico. A largo plazo podría ser cancerígeno."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-181 - Tierra Sombra Quemada",
+    "comentario": "En dosis bajas puede causar problemas estomacales. En grandes dosis puede provocar constricción de las arterias. "
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-182 - Orceína (Orcina, Orcilla)",
+    "comentario": "Prohibido totalmente en Europa."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-200 - Ácido Sórbico",
+    "comentario": "No se ha encontrado ningún efecto secundario. No se recomienda consumir más de 10 mg/día porque podría provocar diarreas y cálculos renales."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-201 - Sorbato de Sodio",
+    "comentario": "No se ha encontrado ningún efecto secundario. No se recomienda consumir más de 10 mg/día porque podría provocar diarreas y cálculos renales."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-202 - Sorbato de Potasio",
+    "comentario": "No se ha encontrado ningún efecto secundario. No se recomienda consumir más de 10 mg/día porque podría provocar diarreas y cálculos renales."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-203 - Sorbato de Calcio",
+    "comentario": "No se ha encontrado ningún efecto secundario. No se recomienda consumir más de 10 mg/día porque podría provocar diarreas y cálculos renales."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-210 - Ácido Benzoico",
+    "comentario": "En dosis bajas puede producir asma, urticaria y reacciones alérgicas. En personas con alergia al ácido salicílico puede provocar intolerancia.En grandes dosis mezclado con Ácido Ascórbico (vitamina C) puede formar benceno, un hidrocarburo cancerígeno. Si se mezcla con sulfitos o con algunos colorantes artificiales se pueden provocar hiperactividad y otros problemas neurológicos. Su acumulación en el organismo podría favorecer a largo plazo la aparición de tumores.Prohibido su uso en comida para animales porque incluso en pequeñas dosis es letal para perros y gatos. En estudios con animales de laboratorio provocó ataques epilépticos)"
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-211 - Benzoato de Sodio",
+    "comentario": "En dosis bajas puede producir asma, urticaria y reacciones alérgicas. En personas con alergia al ácido salicílico puede provocar intolerancia.En grandes dosis mezclado con Ácido Ascórbico (vitamina C) puede formar benceno, un hidrocarburo cancerígeno. Si se mezcla con sulfitos o con algunos colorantes artificiales se pueden provocar hiperactividad y otros problemas neurológicos. Su acumulación en el organismo podría favorecer a largo plazo la aparición de tumores.Prohibido su uso en comida para animales porque incluso en pequeñas dosis es letal para perros y gatos. En estudios con animales de laboratorio provocó ataques epilépticos)"
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-212 - Benzoato de Potasio",
+    "comentario": "En dosis bajas puede producir asma, urticaria y reacciones alérgicas. En personas con alergia al ácido salicílico puede provocar intolerancia.En grandes dosis mezclado con Ácido Ascórbico (vitamina C) puede formar benceno, un hidrocarburo cancerígeno. Si se mezcla con sulfitos o con algunos colorantes artificiales se pueden provocar hiperactividad y otros problemas neurológicos. Su acumulación en el organismo podría favorecer a largo plazo la aparición de tumores.Prohibido su uso en comida para animales porque incluso en pequeñas dosis es letal para perros y gatos. En estudios con animales de laboratorio provocó ataques epilépticos)"
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-213 - Benzoato de Calcio",
+    "comentario": "En dosis bajas puede producir asma, urticaria y reacciones alérgicas. En personas con alergia al ácido salicílico puede provocar intolerancia.En grandes dosis mezclado con Ácido Ascórbico (vitamina C) puede formar benceno, un hidrocarburo cancerígeno. Si se mezcla con sulfitos o con algunos colorantes artificiales se pueden provocar hiperactividad y otros problemas neurológicos. Su acumulación en el organismo podría favorecer a largo plazo la aparición de tumores.Prohibido su uso en comida para animales porque incluso en pequeñas dosis es letal para perros y gatos. En estudios con animales de laboratorio provocó ataques epilépticos)"
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-214 - Etil Hidroxibenzoato",
+    "comentario": "En dosis bajas puede producir asma, urticaria y reacciones alérgicas. En personas con alergia al ácido salicílico puede provocar intolerancia.En grandes dosis mezclado con Ácido Ascórbico (vitamina C) puede formar benceno, un hidrocarburo cancerígeno. Si se mezcla con sulfitos o con algunos colorantes artificiales se pueden provocar hiperactividad y otros problemas neurológicos. Su acumulación en el organismo podría favorecer a largo plazo la aparición de tumores.Prohibido su uso en comida para animales porque incluso en pequeñas dosis es letal para perros y gatos. En estudios con animales de laboratorio provocó ataques epilépticos)"
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-215 - Etil Hidroxibenzoato de Sodio",
+    "comentario": "En dosis bajas puede producir asma, urticaria y reacciones alérgicas. En personas con alergia al ácido salicílico puede provocar intolerancia.En grandes dosis mezclado con Ácido Ascórbico (vitamina C) puede formar benceno, un hidrocarburo cancerígeno. Si se mezcla con sulfitos o con algunos colorantes artificiales se pueden provocar hiperactividad y otros problemas neurológicos. Su acumulación en el organismo podría favorecer a largo plazo la aparición de tumores.Prohibido su uso en comida para animales porque incluso en pequeñas dosis es letal para perros y gatos. En estudios con animales de laboratorio provocó ataques epilépticos)"
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-216 - Propil Hidroxibenzoato",
+    "comentario": "En dosis bajas puede producir asma, urticaria y reacciones alérgicas. En personas con alergia al ácido salicílico puede provocar intolerancia.En grandes dosis mezclado con Ácido Ascórbico (vitamina C) puede formar benceno, un hidrocarburo cancerígeno. Si se mezcla con sulfitos o con algunos colorantes artificiales se pueden provocar hiperactividad y otros problemas neurológicos. Su acumulación en el organismo podría favorecer a largo plazo la aparición de tumores.Prohibido su uso en comida para animales porque incluso en pequeñas dosis es letal para perros y gatos. En estudios con animales de laboratorio provocó ataques epilépticos)"
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-217 - Propil Hidroxibenzoato de Sodio",
+    "comentario": "En dosis bajas puede producir asma, urticaria y reacciones alérgicas. En personas con alergia al ácido salicílico puede provocar intolerancia.En grandes dosis mezclado con Ácido Ascórbico (vitamina C) puede formar benceno, un hidrocarburo cancerígeno. Si se mezcla con sulfitos o con algunos colorantes artificiales se pueden provocar hiperactividad y otros problemas neurológicos. Su acumulación en el organismo podría favorecer a largo plazo la aparición de tumores.Prohibido su uso en comida para animales porque incluso en pequeñas dosis es letal para perros y gatos. En estudios con animales de laboratorio provocó ataques epilépticos)"
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-218 - Metil Hidroxibenzoato",
+    "comentario": "En dosis bajas puede producir asma, urticaria y reacciones alérgicas. En personas con alergia al ácido salicílico puede provocar intolerancia.En grandes dosis mezclado con Ácido Ascórbico (vitamina C) puede formar benceno, un hidrocarburo cancerígeno. Si se mezcla con sulfitos o con algunos colorantes artificiales se pueden provocar hiperactividad y otros problemas neurológicos. Su acumulación en el organismo podría favorecer a largo plazo la aparición de tumores.Prohibido su uso en comida para animales porque incluso en pequeñas dosis es letal para perros y gatos. En estudios con animales de laboratorio provocó ataques epilépticos)"
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-219 - Metil Hidroxibenzoato de Sodio",
+    "comentario": "En dosis bajas puede producir asma, urticaria y reacciones alérgicas. En personas con alergia al ácido salicílico puede provocar intolerancia.En grandes dosis mezclado con Ácido Ascórbico (vitamina C) puede formar benceno, un hidrocarburo cancerígeno. Si se mezcla con sulfitos o con algunos colorantes artificiales se pueden provocar hiperactividad y otros problemas neurológicos. Su acumulación en el organismo podría favorecer a largo plazo la aparición de tumores.Prohibido su uso en comida para animales porque incluso en pequeñas dosis es letal para perros y gatos. En estudios con animales de laboratorio provocó ataques epilépticos)"
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-220 - Dióxido de Azufre (Sulfitos)",
+    "comentario": "En dosis bajas provoca irritaciones en el tubo digestivo y hace inactiva la Vitamina B. A largo plazo su consumo regular podría producir avitaminosis (déficit de vitaminas en el organismo). En grandes dosis puede provocar dolores de cabeza, náuseas, vómitos, alergia, irritación de los brónquios y asma."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-221 - Sulfito de Sodio",
+    "comentario": "En dosis bajas provoca irritaciones en el tubo digestivo y hace inactiva la Vitamina B. A largo plazo su consumo regular podría producir avitaminosis (déficit de vitaminas en el organismo). En grandes dosis puede provocar dolores de cabeza, náuseas, vómitos, alergia, irritación de los brónquios y asma."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-222 - Sulfito Ácido de Sodio",
+    "comentario": "En dosis bajas provoca irritaciones en el tubo digestivo y hace inactiva la Vitamina B. A largo plazo su consumo regular podría producir avitaminosis (déficit de vitaminas en el organismo). En grandes dosis puede provocar dolores de cabeza, náuseas, vómitos, alergia, irritación de los brónquios y asma."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-223 - Metabisulfito de Sodio",
+    "comentario": "En dosis bajas provoca irritaciones en el tubo digestivo y hace inactiva la Vitamina B. A largo plazo su consumo regular podría producir avitaminosis (déficit de vitaminas en el organismo). En grandes dosis puede provocar dolores de cabeza, náuseas, vómitos, alergia, irritación de los brónquios y asma."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-224 - Metabisulfito de Potasio",
+    "comentario": "En dosis bajas provoca irritaciones en el tubo digestivo y hace inactiva la Vitamina B. A largo plazo su consumo regular podría producir avitaminosis (déficit de vitaminas en el organismo). En grandes dosis puede provocar dolores de cabeza, náuseas, vómitos, alergia, irritación de los brónquios y asma."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-225 - Sulfito de Potasio",
+    "comentario": "En dosis bajas provoca irritaciones en el tubo digestivo y hace inactiva la Vitamina B. A largo plazo su consumo regular podría producir avitaminosis (déficit de vitaminas en el organismo). En grandes dosis puede provocar dolores de cabeza, náuseas, vómitos, alergia, irritación de los brónquios y asma."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-226 - Sulfito de Calcio",
+    "comentario": "En dosis bajas provoca irritaciones en el tubo digestivo y hace inactiva la Vitamina B. A largo plazo su consumo regular podría producir avitaminosis (déficit de vitaminas en el organismo). En grandes dosis puede provocar dolores de cabeza, náuseas, vómitos, alergia, irritación de los brónquios y asma."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-227 - Sulfito Ácido de Calcio",
+    "comentario": "En dosis bajas provoca irritaciones en el tubo digestivo y hace inactiva la Vitamina B. A largo plazo su consumo regular podría producir avitaminosis (déficit de vitaminas en el organismo). En grandes dosis puede provocar dolores de cabeza, náuseas, vómitos, alergia, irritación de los brónquios y asma."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-228 - Sulfito Ácido de Potasio",
+    "comentario": "En dosis bajas provoca irritaciones en el tubo digestivo y hace inactiva la Vitamina B. A largo plazo su consumo regular podría producir avitaminosis (déficit de vitaminas en el organismo). En grandes dosis puede provocar dolores de cabeza, náuseas, vómitos, alergia, irritación de los brónquios y asma."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-230 - Bifenilo (Difenilo)",
+    "comentario": "En dosis bajas provoca alergia, náuseas, vómitos e irritación de ojos."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-231 - Ortofenil Fenol",
+    "comentario": "En dosis bajas provoca alergia, náuseas, vómitos e irritación de ojos."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-232 - Ortofenil Fenolato Sódico",
+    "comentario": "En dosis bajas provoca alergia, náuseas, vómitos e irritación de ojos."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-233 - Tiabendazol",
+    "comentario": "En dosis bajas provoca alergia, náuseas, vómitos e irritación de ojos."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-234 - Nisina",
+    "comentario": "No se ha encontrado ningún efecto secundario. Salvo excepciones, el uso de antibióticos en alimentos está totalmente prohibido."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-235 - Natamicina (Pimaricina)",
+    "comentario": "No se ha encontrado ningún efecto secundario. Salvo excepciones, el uso de antibióticos en alimentos está totalmente prohibido."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-236 - Ácido Fórmico (Metanoico)",
+    "comentario": "En dosis bajas puede causar enrojecimiento, irritación, ampollas y quemaduras. En grandes dosis es venenoso y tóxico para los riñones. Si se mezcla con Formaldehído provoca daños en el nervio óptico, causando ceguera. En estudios con bacterias se vuelve mutágeno. A largo plazo podría ser cancerígeno. Prohibido en varios países."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-237 - Formiato de Sodio",
+    "comentario": "En dosis bajas puede causar enrojecimiento, irritación, ampollas y quemaduras. En grandes dosis es venenoso y tóxico para los riñones. Si se mezcla con Formaldehído provoca daños en el nervio óptico, causando ceguera. En estudios con bacterias se vuelve mutágeno. A largo plazo podría ser cancerígeno. Prohibido en varios países."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-238 - Formiato de Calcio",
+    "comentario": "En dosis bajas puede causar enrojecimiento, irritación, ampollas y quemaduras. En grandes dosis es venenoso y tóxico para los riñones. Si se mezcla con Formaldehído provoca daños en el nervio óptico, causando ceguera. En estudios con bacterias se vuelve mutágeno. A largo plazo podría ser cancerígeno. Prohibido en varios países."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-239 - peligrosidadametilentetramina (peligrosidadamina)",
+    "comentario": "En dosis bajas puede causar reacciones alérgicas, urticaria, problemas gástricos y urinarios. En grandes dosis provocó mutaciones genéticas en animales de laboratorio. A largo plazo podría ser cancerígeno."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-240 - Formaldehído  (Formol, Formalina)",
+    "comentario": "En dosis bajas es tóxico, alergénico y cancerígeno. Se encuentran concentraciones importantes en el humo de tabaco y en la combustión de algunos cigarrillos electrónicos (vapeadores). Se ha confirmado por la Agencia Internacional de Investigación del Cáncer (IARC) que provoca cáncer nasofaríngeo en humanos."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-242 - Dimetil Dicarbonato",
+    "comentario": "En grandes dosis es tóxico porque libera importantes cantidades de metanol al descomponerse."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-243 - Etil Lauroil Arginato",
+    "comentario": "Máximo 0.5 mg/kilo por persona para todos los grupos de población. "
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-249 - Nitrito de Potasio",
+    "comentario": "En grandes dosis puede reaccionar con la hemoglobina e impedir el transporte de oxígeno en la sangre (metahemoglobinemia). Su uso no está permitido en productos dirigidos a niños menores de 6 meses ya que tienen un tipo diferente de hemoglobina, la cual es mucho más reactiva que la hemoglobina normal. Al mezclarse con cloruro de sodio (sal común) se transforma en las potencialmente cancerígenas nitrosaminas, las cuales se forman en el estómago a partir de nitritos y proteínas."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-250 - Nitrito de Sodio",
+    "comentario": "En grandes dosis puede reaccionar con la hemoglobina e impedir el transporte de oxígeno en la sangre (metahemoglobinemia). Su uso no está permitido en productos dirigidos a niños menores de 6 meses ya que tienen un tipo diferente de hemoglobina, la cual es mucho más reactiva que la hemoglobina normal. Al mezclarse con cloruro de sodio (sal común) se transforma en las potencialmente cancerígenas nitrosaminas, las cuales se forman en el estómago a partir de nitritos y proteínas."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-251 - Nitrato de Sodio",
+    "comentario": "Los nitratos por sí mismos no son tóxicos, el peligro es su transformación en nitritos, hecho que sucede por una mala producción, por los envases de plástico y por nuestro propio cuerpo durante su digestión, originando a su vez nitrosaminas, las cuales son potencialmente cancerígenas y destructoras de glóbulos rojos, lo que provoca a largo plazo accidentes cardiovasculares."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-252 - Nitrato de Potasio",
+    "comentario": "Los nitratos por sí mismos no son tóxicos, el peligro es su transformación en nitritos, hecho que sucede por una mala producción, por los envases de plástico y por nuestro propio cuerpo durante su digestión, originando a su vez nitrosaminas, las cuales son potencialmente cancerígenas y destructoras de glóbulos rojos, lo que provoca a largo plazo accidentes cardiovasculares."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-260 - Ácido Acético",
+    "comentario": "En dosis bajas diluido en forma de vinagre es inofensivo. En dosis más concentradas puede resultar corrosivo para el sistema digestivo y los bronquios."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-261 - Acetato de Potasio",
+    "comentario": "En dosis bajas diluido en forma de vinagre es inofensivo. En dosis más concentradas puede resultar corrosivo para el sistema digestivo y los bronquios."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-262 - Acetato de Sodio",
+    "comentario": "En dosis bajas diluido en forma de vinagre es inofensivo. En dosis más concentradas puede resultar corrosivo para el sistema digestivo y los bronquios."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-263 - Acetato de Calcio",
+    "comentario": "En dosis bajas diluido en forma de vinagre es inofensivo. En dosis más concentradas puede resultar corrosivo para el sistema digestivo y los bronquios."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-264 - Acetato de Amonio",
+    "comentario": "En dosis bajas diluido en forma de vinagre es inofensivo. En dosis más concentradas puede resultar corrosivo para el sistema digestivo y los bronquios."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-270 - Ácido Láctico",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-280 - Ácido Propiónico",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-281 - Propionato de Sodio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-282 - Propionato de Calcio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-283 - Propionato de Potasio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-284 - Ácido Bórico",
+    "comentario": "Según la Organización Mundial de la Salud (OMS) es inaceptable como aditivo alimentario a pesar de que todavía lo utilizan algunos fabricantes. Los iones bóricos se oponen a la síntesis de glutamina en el cerebro. En estudios recientes su consumo elevado durante un periodo de 5 a 10 años provocó cáncer de hígado en humanos."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-285 - Tetraborato de Sodio (Bórax)",
+    "comentario": "Según la Organización Mundial de la Salud (OMS) es inaceptable como aditivo alimentario a pesar de que todavía lo utilizan algunos fabricantes. Los iones bóricos se oponen a la síntesis de glutamina en el cerebro. En estudios recientes su consumo elevado durante un periodo de 5 a 10 años provocó cáncer de hígado en humanos."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-290 - Dióxido de Carbono",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-296 - Ácido Málico",
+    "comentario": "En grandes dosis puede provocar problemas digestivos en niños y lactantes ya que ellos carecen de la capacidad de metabolizar ácido málico. No se permite por ello añadir altas concentraciones en alimentos para niños."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-297 - Ácido Fumárico",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-300 - Ácido Ascórbico",
+    "comentario": "No se ha encontrado ningún efecto secundario. No se recomienda consumir más de 500 miligramos/día porque podría provocar diarreas y cálculos renales"
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-301 - Ascorbato de Sodio",
+    "comentario": "No se ha encontrado ningún efecto secundario. No se recomienda consumir más de 500 miligramos/día porque podría provocar diarreas y cálculos renales"
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-302 - Ascorbato de Calcio",
+    "comentario": "No se ha encontrado ningún efecto secundario. No se recomienda consumir más de 500 miligramos/día porque podría provocar diarreas y cálculos renales"
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-303 - Ascorbato de Potasio",
+    "comentario": "No se ha encontrado ningún efecto secundario. No se recomienda consumir más de 500 miligramos/día porque podría provocar diarreas y cálculos renales"
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-304 - Palmitato Ascorbilo",
+    "comentario": "No se ha encontrado ningún efecto secundario. No se recomienda consumir más de 500 miligramos/día porque podría provocar diarreas y cálculos renales"
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-305 - Estearato Ascorbilo",
+    "comentario": "No se ha encontrado ningún efecto secundario. No se recomienda consumir más de 500 miligramos/día porque podría provocar diarreas y cálculos renales"
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-306 - Extractos Naturales Ricos en Tocoferol",
+    "comentario": "No se ha encontrado ningún efecto secundario. No se recomienda consumir grandes dosis de suplementos de Vitamina E junto a la Aspirina porque ambos actúan como anticoagulantes y al combinarse su efecto podría ser perjudicial."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-307 - Alfa Tocoferol",
+    "comentario": "No se ha encontrado ningún efecto secundario. No se recomienda consumir grandes dosis de suplementos de Vitamina E junto a la Aspirina porque ambos actúan como anticoagulantes y al combinarse su efecto podría ser perjudicial."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-308 - Gamma Tocoferol",
+    "comentario": "No se ha encontrado ningún efecto secundario. No se recomienda consumir grandes dosis de suplementos de Vitamina E junto a la Aspirina porque ambos actúan como anticoagulantes y al combinarse su efecto podría ser perjudicial."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-309 - Delta Tocoferol",
+    "comentario": "No se ha encontrado ningún efecto secundario. No se recomienda consumir grandes dosis de suplementos de Vitamina E junto a la Aspirina porque ambos actúan como anticoagulantes y al combinarse su efecto podría ser perjudicial."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-310 - Galato de Propilo",
+    "comentario": "No recomendado en niños y mujeres embarazadas. En grandes dosis provoca hiperactividad, asma, urticaria, insomnio, problemas digestivos, infección de hígado y riñones, linfomas y diversas reacciones alérgicas. Provoca problemas de hemoglobina, baja producción de glóbulos rojos y alteraciones morfológicas en el bazo. Puede provocar intolerancia en personas alérgicas al ácido salicílico."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-311 - Galato de Octilo",
+    "comentario": "No recomendado en niños y mujeres embarazadas. En grandes dosis provoca hiperactividad, asma, urticaria, insomnio, problemas digestivos, infección de hígado y riñones, linfomas y diversas reacciones alérgicas. Provoca problemas de hemoglobina, baja producción de glóbulos rojos y alteraciones morfológicas en el bazo. Puede provocar intolerancia en personas alérgicas al ácido salicílico."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-312 - Galato de Dodecilo",
+    "comentario": "No recomendado en niños y mujeres embarazadas. En grandes dosis provoca hiperactividad, asma, urticaria, insomnio, problemas digestivos, infección de hígado y riñones, linfomas y diversas reacciones alérgicas. Provoca problemas de hemoglobina, baja producción de glóbulos rojos y alteraciones morfológicas en el bazo. Puede provocar intolerancia en personas alérgicas al ácido salicílico."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-315 - Ácido Eritórbico",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-316 - Eritorbato Sódico",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-319 - Butilhidroquinona (BHQ)",
+    "comentario": "No recomendado en niños y mujeres embarazadas. En grandes dosis provoca hiperactividad, asma, urticaria, insomnio, problemas digestivos, infección de hígado y riñones, linfomas y diversas reacciones alérgicas. Provoca problemas de hemoglobina, baja producción de glóbulos rojos y alteraciones morfológicas en el bazo. Puede provocar intolerancia en personas alérgicas al ácido salicílico."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-320 - Butilhidroxianisol (BHA)",
+    "comentario": "No recomendado en niños y mujeres embarazadas. En grandes dosis provoca hiperactividad, asma, urticaria, insomnio, problemas digestivos, infección de hígado y riñones, linfomas y diversas reacciones alérgicas. Provoca problemas de hemoglobina, baja producción de glóbulos rojos y alteraciones morfológicas en el bazo. Puede provocar intolerancia en personas alérgicas al ácido salicílico."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-321 - Butilhidroxitolueno (BHT)",
+    "comentario": "No recomendado en niños y mujeres embarazadas. En grandes dosis provoca hiperactividad, asma, urticaria, insomnio, problemas digestivos, infección de hígado y riñones, linfomas y diversas reacciones alérgicas. Provoca problemas de hemoglobina, baja producción de glóbulos rojos y alteraciones morfológicas en el bazo. Puede provocar intolerancia en personas alérgicas al ácido salicílico."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-322 - Lecitina",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-325 - Lactato de Sodio",
+    "comentario": "No se ha encontrado ningún efecto secundario. No apto para intolerantes a la lactosa. No recomendado en personas con ataques de pánico, crisis de ansiedad o agorafobia porque podría aumentar sus efectos."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-326 - Lactato de Potasio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-327 - Lactato de Calcio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-328 - Lactato de Amonio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-329 - Lactato de Magnesio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-330 - Ácido Cítrico",
+    "comentario": "No se ha encontrado ningún efecto secundario. No se recomienda consumir grandes cantidades porque a largo plazo podría producir corrosión dental."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-331 - Citratos de Sodio",
+    "comentario": "No se ha encontrado ningún efecto secundario. No se recomienda consumir grandes cantidades porque a largo plazo podría producir corrosión dental."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-332 - Citratos de Potasio",
+    "comentario": "No se ha encontrado ningún efecto secundario. No se recomienda consumir grandes cantidades porque a largo plazo podría producir corrosión dental."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-333 - Citratos de Calcio",
+    "comentario": "No se ha encontrado ningún efecto secundario. No se recomienda consumir grandes cantidades porque a largo plazo podría producir corrosión dental."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-334 - Ácido Tartárico",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-335 - Tartrato de Sodio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-336 - Tartrato de Potasio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-337 - Tartrato Doble de Sodio y Potasio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-338 - Ácido Ortofosfórico",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-339 - Ortofosfatos de Sodio",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-339i - Ortofosfato Monosódico",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-339ii - Ortofosfato Disódico",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-339iii - Ortofosfato Trisódico",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-340 - Ortofosfatos de Potasio",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-340i - Ortofosfato Monopotásico",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-340ii - Ortofosfato Dipotásico",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-340iii - Ortofosfato Tripotásico",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-341 - Ortofosfatos de Calcio",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-341i - Ortofosfato Monocálcico",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-341ii - Ortofosfato Dicálcico",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-341iii - Ortofosfato Tricálcico",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-342 - Ortofosfatos de Amonio",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-342i - Ortofosfato Monoamónico",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-342ii - Ortofosfato Diamónico",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-342iii - Ortofosfato Triamónico",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-343 - Ortofosfatos de Magnesio",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-343i - Ortofosfato Monomagnésico",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-343ii - Ortofosfato Dimagnésico",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-343iii - Ortofosfato Trimagnésico",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-349 - Malatos de Amonio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-349i - Malato de Amonio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-349ii - Malato Ácido de Amonio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-350 - Malatos de Sodio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-350i - Malato de Sodio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-350ii - Malato Ácido de Sodio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-351 - Malatos de Potasio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-351i - Malato de Potasio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-351ii - Malato Ácido de Potasio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-352 - Malatos de Calcio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-352i - Malato de Calcio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-352ii - Malato Ácido de Calcio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-353 - Ácido Metatartárico",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-354 - Tartrato de Calcio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-355 - Ácido Adípico",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-356 - Adipato de Sodio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-357 - Adipato de Potasio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-363 - Ácido Succínico",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-364 - Fumarato de Magnesio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-365 - Fumarato de Sodio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-366 - Fumarato de Potasio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-366 - Fumarato de Potasio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-366 - Fumarato de Potasio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-366 - Fumarato de Potasio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-367 - Fumarato de Calcio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-368 - Fumarato de Amonio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-370 - Heptonolactona",
+    "comentario": "Existe poca información. Prohibido en Australia y otros países por los informes contradictorios sobre sus efectos sobre la salud."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-375 - Ácido Nicotínico (Niacina)",
+    "comentario": "No recomendado en mujeres embarazadas, porque en estudios con animales de laboratorio ha provocado problemas de crecimiento en el feto. En dosis bajas provoca piel seca, eczemas y alergias. En grandes dosis puede provocar problemas hepáticos y aumentar el ácido úrico."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-380 - Citrato Triamónico",
+    "comentario": "No se ha encontrado ningún efecto secundario. No se recomienda consumir grandes dosis porque a largo plazo puede causar corrosión dental."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-381 - Citrato Férrico de Amonio",
+    "comentario": "No se ha encontrado ningún efecto secundario. No se recomienda consumir grandes dosis porque a largo plazo puede causar corrosión dental."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-385 - Etileno Diamina Tetra Acetato (EDTA)",
+    "comentario": "No recomendado en niños y mujeres embarazadas. En dosis bajas inhibe la absorción de minerales y de hierro. En grandes dosis provoca vómitos, diarrea, dolores de estómago, problemas de coagulación y micropérdidas de sangre en la orina. En animales de laboratorio provocó daños en el metabolismo celular, afectando a los cromosomas. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-386 - Ácido Etilendiaminotetraacético (AEDT)",
+    "comentario": "No recomendado en niños y mujeres embarazadas. En dosis bajas inhibe la absorción de minerales y de hierro. En grandes dosis provoca vómitos, diarrea, dolores de estómago, problemas de coagulación y micropérdidas de sangre en la orina. En animales de laboratorio provocó daños en el metabolismo celular, afectando a los cromosomas. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-392 - Extracto de Romero",
+    "comentario": "No se ha encontrado ningún efecto secundario. Es un buen antioxidante y beneficioso para la salud debido a que es rico en ácidos fenólicos, flavonoides y diterpenos."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-400 - Ácido Algínico",
+    "comentario": "No se ha encontrado ningún efecto secundario. En grandes dosis puede tener un efecto laxante y puede inhibir la absorción de hierro y calcio en el intestino, pero sin problemas de salud."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-401 - Alginato de Sodio",
+    "comentario": "No se ha encontrado ningún efecto secundario. En grandes dosis puede tener un efecto laxante y puede inhibir la absorción de hierro y calcio en el intestino, pero sin problemas de salud."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-402 - Alginato de Potasio",
+    "comentario": "No se ha encontrado ningún efecto secundario. En grandes dosis puede tener un efecto laxante y puede inhibir la absorción de hierro y calcio en el intestino, pero sin problemas de salud."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-403 - Alginato de Amonio",
+    "comentario": "No se ha encontrado ningún efecto secundario. En grandes dosis puede tener un efecto laxante y puede inhibir la absorción de hierro y calcio en el intestino, pero sin problemas de salud."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-404 - Alginato de Calcio",
+    "comentario": "No se ha encontrado ningún efecto secundario. En grandes dosis puede tener un efecto laxante y puede inhibir la absorción de hierro y calcio en el intestino, pero sin problemas de salud."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-405 - Alginato de Propilenglicol",
+    "comentario": "No se ha encontrado ningún efecto secundario. En grandes dosis puede tener un efecto laxante y puede inhibir la absorción de hierro y calcio en el intestino, pero sin problemas de salud."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-406 - Agar-Agar",
+    "comentario": "No se ha encontrado ningún efecto secundario. En grandes dosis puede tener un efecto laxante y puede inhibir la absorción de hierro y calcio en el intestino, pero sin problemas de salud."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-407 - Carragenanos",
+    "comentario": "No recomendado en niños y mujeres embarazadas. Se consideraba inofensivo hasta que recientemente se demostró en estudios con animales que provoca úlceras en el intestino grueso, micropérdidas de sangre en la orina y ralentización del crecimiento. Su consumo puede provocar alergias, debilitar el sistema inmunitario, y en grandes cantidades puede disminuir la absorción de minerales esenciales. Este aditivo carece en sí de propiedades nutritivas y podría favorecer a largo plazo la formación de tumores cancerígenos."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-407a - Algas Eucheuma",
+    "comentario": "No recomendado en niños y mujeres embarazadas. Se consideraba inofensivo hasta que recientemente se demostró en estudios con animales que provoca úlceras en el intestino grueso, micropérdidas de sangre en la orina y ralentización del crecimiento. Su consumo puede provocar alergias, debilitar el sistema inmunitario, y en grandes cantidades puede disminuir la absorción de minerales esenciales. Este aditivo carece en sí de propiedades nutritivas y podría favorecer a largo plazo la formación de tumores cancerígenos."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-410 - Goma Garrofín (Algarrobo)",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-412 - Goma Guar",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-413 - Goma Tragacanto (Aldragante)",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-414 - Goma Arábiga (Acacia)",
+    "comentario": "En grandes dosis puede provocar alergias, inhibir la absorción de minerales y dañar la actividad de diversas enzimas."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-415 - Goma Xantana",
+    "comentario": "No recomendado en niños recién nacidos ni en mujeres embarazadas porque podría favorecer la aparición de la enfermedad Enterocolitis Necrosante (ECN). En dosis bajas puede provocar inflamación intestinal. En grandes dosis tiene alto efecto laxante."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-416 - Goma Karaya",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-417 - Goma Tara",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-418 - Goma Gellan",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-420 - Sorbitol",
+    "comentario": "En dosis bajas provoca flatulencias, diarrea y puede agravar el síndrome del intestino irritable. No está permitido su uso en alimentos para niños menores de 1 año porque puede causar diarreas severas."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-421 - Manitol",
+    "comentario": "En grandes dosis provoca flatulencias y diarrea. Está contraindicado en personas que sufran de insuficiencia cardiaca."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-422 - Glicerol",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-425 - Goma Konjac (Glucomanano)",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-426 - Hemicelulosa de Soja",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-427 - Goma Cassia",
+    "comentario": "Actualmente hay pocos informes toxicológicos."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-430 - Estearato Polioxietileno 8",
+    "comentario": "En dosis bajas puede provocar reacciones cutáneas y problemas digestivos. En grandes dosis puede provocar cálculos en la vejiga y en los riñones. Su consumo a largo plazo podría resultar cancerígeno."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-431 - Estearato Polioxietileno 40",
+    "comentario": "En dosis bajas puede provocar reacciones cutáneas y problemas digestivos. En grandes dosis puede provocar cálculos en la vejiga y en los riñones. Su consumo a largo plazo podría resultar cancerígeno."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-432 - Monolaurato Sorbitán Polioxietilenado (Polisorbato 20)",
+    "comentario": "En dosis bajas puede provocar reacciones cutáneas. En grandes dosis puede provocar infecciones urinarias, problemas digestivos, formación de coágulos y cálculos renales. A largo plazo podría ser cancerígeno."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-433 - Monooleato Sorbitán Polioxietilenado (Polisorbato 80)",
+    "comentario": "En dosis bajas puede provocar reacciones cutáneas. En grandes dosis puede provocar infecciones urinarias, problemas digestivos, formación de coágulos y cálculos renales. A largo plazo podría ser cancerígeno."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-434 - Monopalmitato Sorbitán Polioxietilenado (Polisorbato 40)",
+    "comentario": "En dosis bajas puede provocar reacciones cutáneas. En grandes dosis puede provocar infecciones urinarias, problemas digestivos, formación de coágulos y cálculos renales. A largo plazo podría ser cancerígeno."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-435 - Monoestearato Sorbitán Polioxietilenado (Polisorbato 60)",
+    "comentario": "En dosis bajas puede provocar reacciones cutáneas. En grandes dosis puede provocar infecciones urinarias, problemas digestivos, formación de coágulos y cálculos renales. A largo plazo podría ser cancerígeno."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-436 - Triestearato Sorbitán Polioxietilenado (Polisorbato 65)",
+    "comentario": "En dosis bajas puede provocar reacciones cutáneas. En grandes dosis puede provocar infecciones urinarias, problemas digestivos, formación de coágulos y cálculos renales. A largo plazo podría ser cancerígeno."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-440 - Pectina",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-440a - Pectinas",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-440b - Pectinas Amidadas",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-441 - Gelatina",
+    "comentario": "Se obtiene por extracción con Ácido Clorhídrico del colágeno procedente del tejido, piel, ligamentos, huesos, pezuñas y vísceras de animales o pescados. La mayoría procede de los restos del cerdo (como la piel). Evitar la gelatina porcina  aunque es difícil porque no la ley no obliga a detallar su origen en los productos. Puede causar diversas alergias, asma, etc. debido a que podría contener restos de Sulfitos."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-442 - Fosfátidos de Amonio",
+    "comentario": "En dosis bajas hay informes contradictorios. En grandes dosis puede provocar problemas digestivos e inhibir la asimilación de minerales."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-444 - Acetato Isobutirato de Sacarosa",
+    "comentario": "Pocos informes. En grandes dosis provocó alteraciones en el hígado y la bilis en animales de laboratorio, aunque no se ha demostrado que produzca los mismos efectos en humanos."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-445 - Ésteres Glicéridos Colofonia de Madera",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-445i - Abietato de Glicerilo",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-445ii - Goma Éster",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-450 - Difosfatos",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-450i - Difosfato Disódico",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-450ii - Difosfato Trisódico",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-450iii - Difosfato Tetrasódico",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-450iv - Difosfato Dipotásico",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-450v - Difosfato Tetrapotásico",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-450vi - Difosfato Dicálcico",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-450vii - Difosfato Ácido de Calcio",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-450ix - Difosfato Magnésico de Dihidrógeno",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-451 - Trifosfatos",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-451i - Trifosfato Pentasódico",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-451ii - Trifosfato Pentapotásico",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-452 - Polifosfatos",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-452i - Polifosfato de Sodio",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-452ii - Polifosfato de Potasio",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-452iii - Polifosfato de Sodio y Calcio",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-452iv - Polifosfato de Calcio",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-452v - Polifosfato de Amonio",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-459 - Beta Ciclodextrina",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-460 - Celulosa Microcristalina",
+    "comentario": "Informes contradictorios. La celulosa no es digerible para el ser humano pero puede ser fermentada en el intestino grueso y el colon en forma de fibras, sin embargo, el efecto a largo plazo sobre el consumo habitual de fibra añadida de forma artificial en los alimentos aún no se ha estudiado en personas y por el momento se desconoce."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-461 - Metilcelulosa",
+    "comentario": "Informes contradictorios. La celulosa no es digerible para el ser humano pero puede ser fermentada en el intestino grueso y el colon en forma de fibras, sin embargo, el efecto a largo plazo sobre el consumo habitual de fibra añadida de forma artificial en los alimentos aún no se ha estudiado en personas y por el momento se desconoce."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-462 - Etilcelulosa",
+    "comentario": "Informes contradictorios. La celulosa no es digerible para el ser humano pero puede ser fermentada en el intestino grueso y el colon en forma de fibras, sin embargo, el efecto a largo plazo sobre el consumo habitual de fibra añadida de forma artificial en los alimentos aún no se ha estudiado en personas y por el momento se desconoce."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-463 - Hidroxipropilcelulosa",
+    "comentario": "Informes contradictorios. La celulosa no es digerible para el ser humano pero puede ser fermentada en el intestino grueso y el colon en forma de fibras, sin embargo, el efecto a largo plazo sobre el consumo habitual de fibra añadida de forma artificial en los alimentos aún no se ha estudiado en personas y por el momento se desconoce."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-464 - Hidroxipropilmetilcelulosa",
+    "comentario": "Informes contradictorios. La celulosa no es digerible para el ser humano pero puede ser fermentada en el intestino grueso y el colon en forma de fibras, sin embargo, el efecto a largo plazo sobre el consumo habitual de fibra añadida de forma artificial en los alimentos aún no se ha estudiado en personas y por el momento se desconoce."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-465 - Etilmetilcelulosa",
+    "comentario": "Informes contradictorios. La celulosa no es digerible para el ser humano pero puede ser fermentada en el intestino grueso y el colon en forma de fibras, sin embargo, el efecto a largo plazo sobre el consumo habitual de fibra añadida de forma artificial en los alimentos aún no se ha estudiado en personas y por el momento se desconoce."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-466 - Carboximetilcelulosa de Sodio",
+    "comentario": "Informes contradictorios. La celulosa no es digerible para el ser humano pero puede ser fermentada en el intestino grueso y el colon en forma de fibras, sin embargo, el efecto a largo plazo sobre el consumo habitual de fibra añadida de forma artificial en los alimentos aún no se ha estudiado en personas y por el momento se desconoce."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-467 - Etilhidroxietilcelulosa",
+    "comentario": "Informes contradictorios. La celulosa no es digerible para el ser humano pero puede ser fermentada en el intestino grueso y el colon en forma de fibras, sin embargo, el efecto a largo plazo sobre el consumo habitual de fibra añadida de forma artificial en los alimentos aún no se ha estudiado en personas y por el momento se desconoce."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-468 - Carboximetilcelulosa de Sodio Reticulada",
+    "comentario": "Informes contradictorios. La celulosa no es digerible para el ser humano pero puede ser fermentada en el intestino grueso y el colon en forma de fibras, sin embargo, el efecto a largo plazo sobre el consumo habitual de fibra añadida de forma artificial en los alimentos aún no se ha estudiado en personas y por el momento se desconoce."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-469 - Carboximetilcelulosa de Sodio Hidrolizada",
+    "comentario": "Informes contradictorios. La celulosa no es digerible para el ser humano pero puede ser fermentada en el intestino grueso y el colon en forma de fibras, sin embargo, el efecto a largo plazo sobre el consumo habitual de fibra añadida de forma artificial en los alimentos aún no se ha estudiado en personas y por el momento se desconoce."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-470 - Sales de los Ácidos Grasos",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-470a - Sales de Sodio, Potasio y Calcio de los Ácidos Grasos",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-470b - Sales de Magnesio de los Ácidos Grasos",
+    "comentario": "En grandes dosis provocó una mala asimilación de ácidos grasos esenciales y aumentó el tamaño del hígado y riñones en animales de laboratorio. A la espera de más estudios que demuestren los mismos efectos en humanos. Además no se suele especificar en la etiqueta si tiene origen animal o vegetal."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-471 - Mono y Diglicéridos de los Ácidos Grasos",
+    "comentario": "En grandes dosis provocó una mala asimilación de ácidos grasos esenciales y aumentó el tamaño del hígado y riñones en animales de laboratorio. A la espera de más estudios que demuestren los mismos efectos en humanos. Además no se suele especificar en la etiqueta si tiene origen animal o vegetal."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-472 - Ésteres de los Mono y Diglicéridos de los Ácidos Grasos",
+    "comentario": "En grandes dosis provocó una mala asimilación de ácidos grasos esenciales y aumentó el tamaño del hígado y riñones en animales de laboratorio. A la espera de más estudios que demuestren los mismos efectos en humanos. Además no se suele especificar en la etiqueta si tiene origen animal o vegetal."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-472a - Ésteres Acéticos de los Mono y Diglicéridos de los Ácidos Grasos",
+    "comentario": "En grandes dosis provocó una mala asimilación de ácidos grasos esenciales y aumentó el tamaño del hígado y riñones en animales de laboratorio. A la espera de más estudios que demuestren los mismos efectos en humanos. Además no se suele especificar en la etiqueta si tiene origen animal o vegetal."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-472b - Ésteres Lácticos de los Mono y Diglicéridos de los Ácidos Grasos",
+    "comentario": "En grandes dosis provocó una mala asimilación de ácidos grasos esenciales y aumentó el tamaño del hígado y riñones en animales de laboratorio. A la espera de más estudios que demuestren los mismos efectos en humanos. Además no se suele especificar en la etiqueta si tiene origen animal o vegetal."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-472c - Ésteres Cítricos de los Mono y Diglicéridos de los Ácidos Grasos",
+    "comentario": "En grandes dosis provocó una mala asimilación de ácidos grasos esenciales y aumentó el tamaño del hígado y riñones en animales de laboratorio. A la espera de más estudios que demuestren los mismos efectos en humanos. Además no se suele especificar en la etiqueta si tiene origen animal o vegetal."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-472d - Ésteres Tartáricos de los Mono y Diglicéridos de los Ácidos Grasos",
+    "comentario": "En grandes dosis provocó una mala asimilación de ácidos grasos esenciales y aumentó el tamaño del hígado y riñones en animales de laboratorio. A la espera de más estudios que demuestren los mismos efectos en humanos. Además no se suele especificar en la etiqueta si tiene origen animal o vegetal."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-472e - Ésteres Monoacetiltartárico y Diacetiltartárico de los Mono y Diglicéridos de los Ácidos Grasos",
+    "comentario": "En grandes dosis provocó una mala asimilación de ácidos grasos esenciales y aumentó el tamaño del hígado y riñones en animales de laboratorio. A la espera de más estudios que demuestren los mismos efectos en humanos. Además no se suele especificar en la etiqueta si tiene origen animal o vegetal."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-472f - Ésteres Mixtos Acéticos y Tartáricos de los Mono y Diglicéridos de los Ácidos Grasos",
+    "comentario": "En grandes dosis provocó una mala asimilación de ácidos grasos esenciales y aumentó el tamaño del hígado y riñones en animales de laboratorio. A la espera de más estudios que demuestren los mismos efectos en humanos. Además no se suele especificar en la etiqueta si tiene origen animal o vegetal."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-473 - Sucroésteres de los Ácidos Grasos",
+    "comentario": "En grandes dosis provocó una mala asimilación de ácidos grasos esenciales y aumentó el tamaño del hígado y riñones en animales de laboratorio. A la espera de más estudios que demuestren los mismos efectos en humanos. Además no se suele especificar en la etiqueta si tiene origen animal o vegetal."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-474 - Sucroglicéridos de los Ácidos Grasos",
+    "comentario": "En grandes dosis provocó una mala asimilación de ácidos grasos esenciales y aumentó el tamaño del hígado y riñones en animales de laboratorio. A la espera de más estudios que demuestren los mismos efectos en humanos. Además no se suele especificar en la etiqueta si tiene origen animal o vegetal."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-475 - Ésteres Poliglicéridos de los Ácidos Grasos",
+    "comentario": "En grandes dosis provocó una mala asimilación de ácidos grasos esenciales y aumentó el tamaño del hígado y riñones en animales de laboratorio. A la espera de más estudios que demuestren los mismos efectos en humanos. Además no se suele especificar en la etiqueta si tiene origen animal o vegetal."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-476 - Polirricinoleato de Poliglicerol (PRPG)",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-477 - Ésteres de Propilenglicol de los Ácidos Grasos",
+    "comentario": "En grandes dosis provocó una mala asimilación de ácidos grasos esenciales y aumentó el tamaño del hígado y riñones en animales de laboratorio. A la espera de más estudios que demuestren los mismos efectos en humanos. Además no se suele especificar en la etiqueta si tiene origen animal o vegetal."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-479b - Aceite de Soja Oxidado",
+    "comentario": "Gran riesgo de alergia debido a la soja. En grandes dosis provocó una mala asimilación de ácidos grasos esenciales y aumentó el tamaño del hígado y riñones en animales de laboratorio. A la espera de más estudios que demuestren los mismos efectos en los humanos. Además no se suele especificar en la etiqueta si la mezcla tiene origen animal o tiene origen vegetal."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-480 - Dioctil Sulfosuccinato de Sodio",
+    "comentario": "Se emplea en panaderías. Hay pocos informes en la actualidad."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-481 - Estearoil-2-Lactilato de Sodio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-482 - Estearoil-2-Lactilato de Calcio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-483 - Tartrato de Estearilo",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-491 - Monoestearato de Sorbitán",
+    "comentario": "En grandes dosis provocó diarreas, cálculos en la vejiga y lesiones en órganos en animales de laboratorio. Resulta fácil llegar a consumir grandes cantidades de este aditivo con tomar 150 gramos de bollería o 300 gramos de postres o golosinas."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-492 - Triestearato de Sorbitán",
+    "comentario": "En grandes dosis provocó diarreas, cálculos en la vejiga y lesiones en órganos en animales de laboratorio. Resulta fácil llegar a consumir grandes cantidades de este aditivo con tomar 150 gramos de bollería o 300 gramos de postres o golosinas."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-493 - Monolaurato de Sorbitán",
+    "comentario": "En grandes dosis provocó diarreas, cálculos en la vejiga y lesiones en órganos en animales de laboratorio. Resulta fácil llegar a consumir grandes cantidades de este aditivo con tomar 150 gramos de bollería o 300 gramos de postres o golosinas."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-494 - Monooleato de Sorbitán",
+    "comentario": "En grandes dosis provocó diarreas, cálculos en la vejiga y lesiones en órganos en animales de laboratorio. Resulta fácil llegar a consumir grandes cantidades de este aditivo con tomar 150 gramos de bollería o 300 gramos de postres o golosinas."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-495 - Monopalmitato de Sorbitán",
+    "comentario": "En grandes dosis provocó diarreas, cálculos en la vejiga y lesiones en órganos en animales de laboratorio. Resulta fácil llegar a consumir grandes cantidades de este aditivo con tomar 150 gramos de bollería o 300 gramos de postres o golosinas."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-499 - Fitoesteroles Ricos en Estigmasterol",
+    "comentario": "No se ha encontrado ningún efecto secundario. Al contrario, el consumo de 1.3 gramos diarios de fitoesteroles puede ayudar a reducir un pequeño porcentaje del colesterol malo LDL (hasta un 10% como máximo), siempre y cuando se consuma diariamente, por tiempo prolongado, acompañado de un estilo de vida saludable y una alimentación variada. No se recomienda el consumo diario total de más de 3 gramos de esteroles vegetales."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-500 - Carbonatos de Sodio",
+    "comentario": "No se ha encontrado ningún efecto secundario. En grandes dosis puede irritar el tubo digestivo."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-500i - Carbonato de Sodio",
+    "comentario": "No se ha encontrado ningún efecto secundario. En grandes dosis puede irritar el tubo digestivo."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-500ii - Carbonato Ácido de Sodio",
+    "comentario": "No se ha encontrado ningún efecto secundario. En grandes dosis puede irritar el tubo digestivo."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-501 - Carbonatos de Potasio",
+    "comentario": "No se ha encontrado ningún efecto secundario. En grandes dosis puede irritar el tubo digestivo."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-501i - Carbonato de Potasio",
+    "comentario": "No se ha encontrado ningún efecto secundario. En grandes dosis puede irritar el tubo digestivo."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-501ii - Carbonato Ácido de Potasio",
+    "comentario": "No se ha encontrado ningún efecto secundario. En grandes dosis puede irritar el tubo digestivo."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-503 - Carbonatos de Amonio",
+    "comentario": "No se ha encontrado ningún efecto secundario. En grandes dosis puede irritar el tubo digestivo."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-503i - Carbonato de Amonio",
+    "comentario": "No se ha encontrado ningún efecto secundario. En grandes dosis puede irritar el tubo digestivo."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-503ii - Carbonato Ácido de Amonio",
+    "comentario": "No se ha encontrado ningún efecto secundario. En grandes dosis puede irritar el tubo digestivo."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-504 - Carbonatos de Magnesio",
+    "comentario": "No se ha encontrado ningún efecto secundario. En grandes dosis puede irritar el tubo digestivo."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-504i - Carbonato de Magnesio",
+    "comentario": "No se ha encontrado ningún efecto secundario. En grandes dosis puede irritar el tubo digestivo."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-504ii - Carbonato Ácido de Magnesio",
+    "comentario": "No se ha encontrado ningún efecto secundario. En grandes dosis puede irritar el tubo digestivo."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-507 - Ácido Clorhídrico",
+    "comentario": "Es utilizado para producir la Gelatina porcina. En grandes dosis produce daños irreversibles según la cantidad ingerida. Puede provocar erosión de las mucosas del esófago y del estómago, y puede verse afectado el sistema respiratorio así como la circulación sanguínea. Con sólo 40 ml/litro es suficiente para matar a una persona."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-508 - Cloruro de Potasio",
+    "comentario": "En dosis bajas provoca problemas digestivos. En grandes dosis provoca vómitos, diarreas, úlceras intestinales y hemorragias."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-509 - Cloruro de Calcio",
+    "comentario": "En dosis bajas provoca problemas digestivos. En grandes dosis provoca vómitos, diarreas, úlceras intestinales y hemorragias."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-510 - Cloruro de Amonio",
+    "comentario": "En dosis bajas provoca problemas digestivos. En grandes dosis provoca vómitos, diarreas, úlceras intestinales y hemorragias."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-511 - Cloruro de Magnesio",
+    "comentario": "En dosis bajas provoca problemas digestivos. En grandes dosis provoca vómitos, diarreas, úlceras intestinales y hemorragias."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-512 - Cloruro de Estaño",
+    "comentario": "En dosis bajas provoca problemas digestivos. En grandes dosis provoca vómitos, diarreas, úlceras intestinales y hemorragias."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-513 - Ácido Sulfúrico",
+    "comentario": "Incluso en dosis bajas puede ser muy tóxico e irritante."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-514 - Sulfatos de Sodio",
+    "comentario": "En grandes dosis puede provocar problemas intestinales."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-514i - Sulfato de Sodio",
+    "comentario": "En grandes dosis puede provocar problemas intestinales."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-514ii - Sulfato Ácido de Sodio",
+    "comentario": "En grandes dosis puede provocar problemas intestinales."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-516 - Sulfatos de Calcio",
+    "comentario": "En grandes dosis puede provocar problemas intestinales."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-516i - Sulfato de Calcio",
+    "comentario": "En grandes dosis puede provocar problemas intestinales."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-516ii - Sulfato Ácido de Calcio",
+    "comentario": "En grandes dosis puede provocar problemas intestinales."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-517 - Sulfatos de Amonio",
+    "comentario": "En grandes dosis puede provocar problemas intestinales."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-517i - Sulfato de Amonio",
+    "comentario": "En grandes dosis puede provocar problemas intestinales."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-517ii - Sulfato Ácido de Amonio",
+    "comentario": "En grandes dosis puede provocar problemas intestinales."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-518 - Sulfatos de Magnesio",
+    "comentario": "En grandes dosis puede provocar problemas intestinales."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-518i - Sulfato de Magnesio",
+    "comentario": "En grandes dosis puede provocar problemas intestinales."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-518ii - Sulfato Ácido de Magnesio",
+    "comentario": "En grandes dosis puede provocar problemas intestinales."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-519 - Sulfatos de Cobre",
+    "comentario": "En grandes dosis puede provocar toxicidad en los riñones y acumulación de partículas de cobre en el organismo. Está contraindicado en personas que sufran la enfermedad de Alzheimer ya que se considera neurotóxico."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-519i - Sulfato de Cobre",
+    "comentario": "En grandes dosis puede provocar toxicidad en los riñones y acumulación de partículas de cobre en el organismo. Está contraindicado en personas que sufran la enfermedad de Alzheimer ya que se considera neurotóxico."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-519ii - Sulfato Ácido de Cobre",
+    "comentario": "En grandes dosis puede provocar toxicidad en los riñones y acumulación de partículas de cobre en el organismo. Está contraindicado en personas que sufran la enfermedad de Alzheimer ya que se considera neurotóxico."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-520 - Sulfato de Aluminio",
+    "comentario": "En grandes dosis puede provocar toxicidad en los riñones y acumulación de partículas de cobre en el organismo. Está contraindicado en personas que sufran la enfermedad de Alzheimer ya que se considera neurotóxico."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-521 - Sulfato Sódico de Aluminio",
+    "comentario": "En grandes dosis puede provocar toxicidad en los riñones y acumulación de partículas de cobre en el organismo. Está contraindicado en personas que sufran la enfermedad de Alzheimer ya que se considera neurotóxico."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-522 - Sulfato Potásico de Aluminio",
+    "comentario": "En grandes dosis puede provocar toxicidad en los riñones y acumulación de partículas de cobre en el organismo. Está contraindicado en personas que sufran la enfermedad de Alzheimer ya que se considera neurotóxico."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-523 - Sulfato Amónico de Aluminio",
+    "comentario": "En grandes dosis puede provocar toxicidad en los riñones y acumulación de partículas de cobre en el organismo. Está contraindicado en personas que sufran la enfermedad de Alzheimer ya que se considera neurotóxico."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-524 - Hidróxido de Sodio",
+    "comentario": "En grandes dosis puede provocar irritación del tubo digestivo."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-525 - Hidróxido de Potasio",
+    "comentario": "En grandes dosis puede provocar irritación del tubo digestivo."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-526 - Hidróxido de Calcio",
+    "comentario": "En grandes dosis puede provocar irritación del tubo digestivo."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-527 - Hidróxido de Amonio",
+    "comentario": "En grandes dosis provoca irritaciones y úlceras en el tubo digestivo. Recientemente, McDonalds y Burguer King han retirado el uso de este aditivo."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-528 - Hidróxido de Magnesio",
+    "comentario": "En grandes dosis provoca irritaciones y úlceras en el tubo digestivo."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-529 - Óxido de Calcio",
+    "comentario": "En grandes dosis provoca irritaciones y úlceras en el tubo digestivo."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-530 - Óxido de Magnesio",
+    "comentario": "En grandes dosis provoca irritaciones y úlceras en el tubo digestivo."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-535 - Ferrocianuro de Sodio",
+    "comentario": "En dosis bajas puede provocar ligera toxicidad y riesgo de alergia."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-536 - Ferrocianuro de Potasio",
+    "comentario": "En dosis bajas puede provocar ligera toxicidad y riesgo de alergia."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-537 - Ferrocianuro de Magnesio",
+    "comentario": "En dosis bajas puede provocar ligera toxicidad y riesgo de alergia."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-538 - Ferrocianuro de Calcio",
+    "comentario": "En dosis bajas puede provocar ligera toxicidad y riesgo de alergia."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-540 - Pirofosfato Dicálcico",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-541 - Fosfato Ácido de Sodio y Aluminio",
+    "comentario": "En grandes dosis puede provocar toxicidad en los riñones y acumulación de partículas de aluminio en el organismo. Está contraindicado en personas que sufran la enfermedad de Alzheimer ya que se considera neurotóxico."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-542 - Fosfato de Huesos",
+    "comentario": "Se detectaron evidencias de que la Encefalopatía Espongiforme Bovina (llamada enfermedad de las Vacas Locas) podría estar causada por añadir este aditivo en la alimentación del ganado."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-543 - Pirofosfato de Sodio y Calcio",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-544 - Pirofosfato Calcio",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-545 - Pirofosfato Amonio",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-546 - Pirofosfato Magnesio",
+    "comentario": "En grandes dosis puede provocar hiperactividad y problemas digestivos. A largo plazo puede reducir el equilibrio natural de calcio y fósforo en el organismo. Es fácil consumir una elevada cantidad debido a los numerosos alimentos que lo contienen."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-551 - Óxido de Silicio",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-552 - Silicato de Calcio",
+    "comentario": "En países asiáticos se consume mucho arroz blanco pulido con Talco de California y el índice de cáncer de estómago es el más elevado del mundo porque este tipo de talco contiene hasta un 40% de tremolita, una forma de amianto."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-553a - Silicato de Magnesio",
+    "comentario": "En países asiáticos se consume mucho arroz blanco pulido con Talco de California y el índice de cáncer de estómago es el más elevado del mundo porque este tipo de talco contiene hasta un 40% de tremolita, una forma de amianto."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-553b - Talco",
+    "comentario": "En países asiáticos se consume mucho arroz blanco pulido con Talco de California y el índice de cáncer de estómago es el más elevado del mundo porque este tipo de talco contiene hasta un 40% de tremolita, una forma de amianto."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-554 - Silicato de Sodio y Aluminio",
+    "comentario": "En países asiáticos se consume mucho arroz blanco pulido con Talco de California y el índice de cáncer de estómago es el más elevado del mundo porque este tipo de talco contiene hasta un 40% de tremolita, una forma de amianto."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-555 - Silicato de Potasio y Aluminio",
+    "comentario": "En países asiáticos se consume mucho arroz blanco pulido con Talco de California y el índice de cáncer de estómago es el más elevado del mundo porque este tipo de talco contiene hasta un 40% de tremolita, una forma de amianto."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-558 - Bentonita",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-559 - Silicato de Aluminio (Caolín, Caolinita)",
+    "comentario": "En países asiáticos se consume mucho arroz blanco pulido con Talco de California y el índice de cáncer de estómago es el más elevado del mundo porque este tipo de talco contiene hasta un 40% de tremolita, una forma de amianto."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-570 - Ácidos Grasos",
+    "comentario": "Los ácidos grasos trans aumentan de una forma significativa el riesgo de contraer problemas cardiovasculares, tumores cancerígenos y diabetes.Evitar siempre que el etiquetado diga grasa parcialmente hidrogenada o grasa hidrogenada. "
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-571 - Estearato de Amonio",
+    "comentario": "Poca información. Se considera inofensivo, a menos que se inhale el polvo."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-572 - Estearato de Magnesio",
+    "comentario": "Poca información. Se considera inofensivo, a menos que se inhale el polvo."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-573 - Estearato de Aluminio",
+    "comentario": "En grandes dosis puede provocar toxicidad en los riñones y acumulación de partículas de aluminio en el organismo. Está contraindicado en personas que sufran la enfermedad de Alzheimer ya que se considera neurotóxico."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-574 - Ácido Glucónico",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-575 - Glucono Delta Lactona (GDL)",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-576 - Gluconato Sódico",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-577 - Gluconato Potásico",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-578 - Gluconato Cálcico",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-579 - Gluconato Ferroso",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-585 - Lactato Ferroso",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-620 - Ácido Glutámico (Glutamatos)",
+    "comentario": "En dosis bajas es potencialmente excitotóxico y neurotóxico ya que es capaz de destruir las neuronas del cerebro con gran rapidez. Está contraindicado en personales que sufran enfermedades neurológicas como el Transtorno Bipolar, Parkinson, Alzheimer, Epilepsia y Esquizofrenia. Puede favorecer la aparición de pensamientos suicidas. En grandes dosis puede provocar reacciones alérgicas y ataques de asma."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-621 - Glutamato Monosódico",
+    "comentario": "En dosis bajas es potencialmente excitotóxico y neurotóxico ya que es capaz de destruir las neuronas del cerebro con gran rapidez. Está contraindicado en personales que sufran enfermedades neurológicas como el Transtorno Bipolar, Parkinson, Alzheimer, Epilepsia y Esquizofrenia. Puede favorecer la aparición de pensamientos suicidas. En grandes dosis puede provocar reacciones alérgicas y ataques de asma."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-622 - Glutamato Monopotásico",
+    "comentario": "En dosis bajas es potencialmente excitotóxico y neurotóxico ya que es capaz de destruir las neuronas del cerebro con gran rapidez. Está contraindicado en personales que sufran enfermedades neurológicas como el Transtorno Bipolar, Parkinson, Alzheimer, Epilepsia y Esquizofrenia. Puede favorecer la aparición de pensamientos suicidas. En grandes dosis puede provocar reacciones alérgicas y ataques de asma."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-623 - Glutamato Cálcico",
+    "comentario": "En dosis bajas es potencialmente excitotóxico y neurotóxico ya que es capaz de destruir las neuronas del cerebro con gran rapidez. Está contraindicado en personales que sufran enfermedades neurológicas como el Transtorno Bipolar, Parkinson, Alzheimer, Epilepsia y Esquizofrenia. Puede favorecer la aparición de pensamientos suicidas. En grandes dosis puede provocar reacciones alérgicas y ataques de asma."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-624 - Glutamato Amónico",
+    "comentario": "En dosis bajas es potencialmente excitotóxico y neurotóxico ya que es capaz de destruir las neuronas del cerebro con gran rapidez. Está contraindicado en personales que sufran enfermedades neurológicas como el Transtorno Bipolar, Parkinson, Alzheimer, Epilepsia y Esquizofrenia. Puede favorecer la aparición de pensamientos suicidas. En grandes dosis puede provocar reacciones alérgicas y ataques de asma."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-625 - Glutamato Magnésico",
+    "comentario": "En dosis bajas es potencialmente excitotóxico y neurotóxico ya que es capaz de destruir las neuronas del cerebro con gran rapidez. Está contraindicado en personales que sufran enfermedades neurológicas como el Transtorno Bipolar, Parkinson, Alzheimer, Epilepsia y Esquizofrenia. Puede favorecer la aparición de pensamientos suicidas. En grandes dosis puede provocar reacciones alérgicas y ataques de asma."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-626 - Ácido Guanílico",
+    "comentario": "No recomendado en niños y mujeres embarazadas. Nuestro organismo una vez metabolizado lo transforma en ácido úrico, el cual se deposita en los tejidos y puede causar gota (dolor en las articulaciones). En grandes dosis puede provocar hiperactividad, asma, reacciones cutáneas, insomnio, alergia e irritación de las mucosas."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-627 - Guanilato Sódico",
+    "comentario": "No recomendado en niños y mujeres embarazadas. Nuestro organismo una vez metabolizado lo transforma en ácido úrico, el cual se deposita en los tejidos y puede causar gota (dolor en las articulaciones). En grandes dosis puede provocar hiperactividad, asma, reacciones cutáneas, insomnio, alergia e irritación de las mucosas."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-628 - Guanilato Potásico",
+    "comentario": "No recomendado en niños y mujeres embarazadas. Nuestro organismo una vez metabolizado lo transforma en ácido úrico, el cual se deposita en los tejidos y puede causar gota (dolor en las articulaciones). En grandes dosis puede provocar hiperactividad, asma, reacciones cutáneas, insomnio, alergia e irritación de las mucosas."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-629 - Guanilato Cálcico",
+    "comentario": "No recomendado en niños y mujeres embarazadas. Nuestro organismo una vez metabolizado lo transforma en ácido úrico, el cual se deposita en los tejidos y puede causar gota (dolor en las articulaciones). En grandes dosis puede provocar hiperactividad, asma, reacciones cutáneas, insomnio, alergia e irritación de las mucosas."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-630 - Ácido Inosínico",
+    "comentario": "No recomendado en niños y mujeres embarazadas. Nuestro organismo una vez metabolizado lo transforma en ácido úrico, el cual se deposita en los tejidos y puede causar gota (dolor en las articulaciones). En grandes dosis puede provocar hiperactividad, asma, reacciones cutáneas, insomnio, alergia e irritación de las mucosas."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-631 - Inosinato Sódico",
+    "comentario": "No recomendado en niños y mujeres embarazadas. Nuestro organismo una vez metabolizado lo transforma en ácido úrico, el cual se deposita en los tejidos y puede causar gota (dolor en las articulaciones). En grandes dosis puede provocar hiperactividad, asma, reacciones cutáneas, insomnio, alergia e irritación de las mucosas."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-632 - Inosinato Potásico",
+    "comentario": "No recomendado en niños y mujeres embarazadas. Nuestro organismo una vez metabolizado lo transforma en ácido úrico, el cual se deposita en los tejidos y puede causar gota (dolor en las articulaciones). En grandes dosis puede provocar hiperactividad, asma, reacciones cutáneas, insomnio, alergia e irritación de las mucosas."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-633 - Inosinato Cálcico",
+    "comentario": "No recomendado en niños y mujeres embarazadas. Nuestro organismo una vez metabolizado lo transforma en ácido úrico, el cual se deposita en los tejidos y puede causar gota (dolor en las articulaciones). En grandes dosis puede provocar hiperactividad, asma, reacciones cutáneas, insomnio, alergia e irritación de las mucosas."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-634 - Ribonucleótidos Cálcicos",
+    "comentario": "No recomendado en niños y mujeres embarazadas. Nuestro organismo una vez metabolizado lo transforma en ácido úrico, el cual se deposita en los tejidos y puede causar gota (dolor en las articulaciones). En grandes dosis puede provocar hiperactividad, asma, reacciones cutáneas, insomnio, alergia e irritación de las mucosas."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-635 - Ribonucleótidos Sódicos",
+    "comentario": "No recomendado en niños y mujeres embarazadas. Nuestro organismo una vez metabolizado lo transforma en ácido úrico, el cual se deposita en los tejidos y puede causar gota (dolor en las articulaciones). En grandes dosis puede provocar hiperactividad, asma, reacciones cutáneas, insomnio, alergia e irritación de las mucosas."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-636 - Maltol",
+    "comentario": "Máximo 1 miligramo/kilo. Aunque se absorbe en el intestino y se elimina por la orina, no se sabe con certeza si puede tener efectos cancerígenos o teratógenos. Otros estudios indican que podría aumentar el porcentaje de aluminio, hierro y galio en el plasma de la sangre."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-637 - Etil Maltol",
+    "comentario": "Máximo 2 miligramo/kilo. Aunque se absorbe en el intestino y se elimina por la orina, no se sabe con certeza si puede tener efectos cancerígenos o teratógenos. Otros estudios indican que podría aumentar el porcentaje de aluminio, hierro y galio en el plasma de la sangre."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-640 - Glicina y Glicinato Sódico",
+    "comentario": "En grandes dosis causó transtornos hepáticos y renales. La FDA propuso su prohibición."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-641 - L-Leucina",
+    "comentario": "En dosis bajas no se ha encontrado ningún efecto secundario, pero en grandes dosis puede causar malestar de estómago, impedir la absorción de otros aminoácidos y causar un aumento de los niveles de amoníaco en la sangre, pudiendo resultar tóxico para hígado y riñones. Máxima cantidad recomendada: 35 gramos/día."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-650 - Acetato de Zinc",
+    "comentario": "En mujeres que tomaron altas cantidades de zinc durante su embarazo, se observaron nacimientos prematuros y algunos casos provocó la muerte del feto. El zinc puede causar reacciones peligrosas si se mezcla con ciertos medicamentos, incluyendo la penicilamina. Los suplementos dietéticos de zinc sólo se deben tomar bajo la supervisión de un médico."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-900 - Dimetilpolisiloxano (DMS)",
+    "comentario": "Problemas renales, hepáticos, del sistema nervioso y alergias. Podría ser cancerígeno por contener restos de Amianto y Formaldehído(E-240)"
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-900a - Polidimetilsiloxano (PDMS)",
+    "comentario": "Problemas renales, hepáticos, del sistema nervioso y alergias. Podría ser cancerígeno por contener restos de Amianto y Formaldehído(E-240)"
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-901 - Cera de Abejas",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-902 - Cera Candelilla",
+    "comentario": "Hay que vigilar el método de extracción porque a menudo se utilizan disolventes."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-903 - Cera Carnaúba",
+    "comentario": "No se ha encontrado ningún efecto secundario. Algunas personas pueden presentar pequeñas reacciones alérgicas."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-904 - Goma Laca (Shellac)",
+    "comentario": "En estudios realizados en animales se produjeron algunas reacciones alérgicas y problemas digestivos."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-905 - Cera Microcristalina",
+    "comentario": "Mala absorción de las vitaminas y los minerales. Puede causar hemorragias en mujeres embarazadas si se consumen grandes cantidades. Se demostró que se encontraban restos de aceites minerales en el hígado y la linfa, y que se podían observar ciertas lesiones en ratas así como en humanos debido a los residuos de dichos aceites."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-907 - Poli-1-Deceno Hidrogenado",
+    "comentario": "Máximo 0.6 mg/kilo por persona. Mala absorción de las vitaminas y los minerales. Puede causar hemorragias en mujeres embarazadas si se consumen grandes cantidades. Se demostró que se encontraban restos de aceites minerales en el hígado y la linfa, y que se podían observar ciertas lesiones en ratas así como en humanos debido a los residuos de dichos aceites."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-912 - Ésteres del Ácido Montánico",
+    "comentario": "Puede provocar alergia. Debido a la poca información y falta de análisis más actuales sobre su uso en alimentación."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-913 - Lanolina (Cera de Lana)",
+    "comentario": "Puede provocar alergia aunque su toxicidad es muy baja. Hay poca información sobre su uso en alimentación."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-914 - Cera de Polietileno Oxidada",
+    "comentario": "Lavarse bien las manos después de pelar la fruta tratada con este aditivo. Mala absorción de las vitaminas y los minerales. Puede causar hemorragias en mujeres embarazadas si se consumen grandes cantidades. Se demostró que se encontraban restos de aceites minerales en el hígado y la linfa, y que se podían observar ciertas lesiones en ratas así como en humanos debido a los residuos de dichos aceites."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-920 - L-Cisteína",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-927a - Azodicarbonamida",
+    "comentario": "Provoca hiperactividad, asma, insomnio y mala asimilación de Vitamina E. "
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-927b - Carbamida (Urea)",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-938 - Gas Argón",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-939 - Gas Helio",
+    "comentario": "En grandes cantidades si se ingiere directamente la tonalidad de la voz se hace durante unos segundos más aguda."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-941 - Gas Nitrógeno",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-942 - Gas Óxido Nitroso",
+    "comentario": "Se califica como 'gas de la risa' porque en grandes dosis provoca euforia y alucinaciones. Nuestro organismo lo elimina rápidamente por los pulmones y a través de la piel y es desintegrado por la Vitamina B12 presente en las bacterias intestinales."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-943a - Gas Butano",
+    "comentario": "Se ha confirmado su efecto cancerígeno en animales de laboratorio. En grandes dosis provoca somnolencia y pérdida del conocimiento."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-943b - Gas Isobutano",
+    "comentario": "Se ha confirmado su efecto cancerígeno en animales de laboratorio. En grandes dosis provoca somnolencia y pérdida del conocimiento."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-944 - Gas Propano",
+    "comentario": "Se ha confirmado su efecto cancerígeno en animales de laboratorio. En grandes dosis provoca somnolencia y pérdida del conocimiento."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-948 - Gas Oxígeno",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-949 - Gas Hidrógeno",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-950 - Acesulfamo K (Acesulfame)",
+    "comentario": "Si compararamos los riesgos entre consumir Aspartamo, Sacarina y Acesulfamo K, este último es el más nocivo. A largo plazo podría ser cancerígeno y estar unido a problemas neurológicos, hiperglucemia y secreción de insulina."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-951 - Aspartamo (Aspartame)",
+    "comentario": "Un comité internacional de expertos ha establecido un nivel de IDA (ingesta diaria admisible) de 40 mg/kilo por persona, aunque en pruebas con ratas durante casi 10 años se ha demostrado que podría tener efectos cancerígenos."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-952 - Ciclamato",
+    "comentario": "En estudios con ratas de laboratorio provocó daños en los genitales y cáncer de vejiga por lo que se sospecha que a largo plazo también podría ser cancerígeno en humanos."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-953 - Isomaltosa",
+    "comentario": "No se ha encontrado ningún efecto secundario. En grandes dosis puede provocar flatulencias y diarrea, pero sin problemas de salud."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-954 - Sacarina",
+    "comentario": "Es obtenido mediante la síntesis química del petróleo. Es 300 veces más dulce que el azúcar. En bajas dosis puede presentar gran riesgo de alergia.En grandes dosis provoca cáncer de vejiga en ratas."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-955 - Sucralosa",
+    "comentario": "Es obtenido mediante la mezcla de la azúcar común y el cloro. Es 600 veces más dulce que el azúcar. En grandes dosis provoca la destrucción del sistema inmunitario afectando sobre todo al hígado y los riñones. Recientemente en ensayos con ratones se ha demostrado que en grandes dosis puede producir daños severos en el ADN. "
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-957 - Taumatina",
+    "comentario": "En grandes dosis puede provocar efectos laxantes. "
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-958 - Glicirricina",
+    "comentario": "En dosis bajas produce retención de líquidos, taquicardia e hipertensión. En grandes dosis provoca dolor de cabeza e insuficiencia renal."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-959 - Neohesperidina (NHDC)",
+    "comentario": "En grandes dosis provoca náuseas y migrañas"
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-960 - Esteviósido (Extracto de Stevia)",
+    "comentario": "Algunos estudios indican que podría tener efectos negativos a largo plazo. Otros estudios indican que solamente se producen estos efectos negativos en dosis muy elevadas y que anteriores estudios están dirigidos por productoras de edulcorantes químicos y empresas azucareras que tratan de dañar la imagen de la Stevia. "
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-961 - Neotamo (Neotame)",
+    "comentario": "Es 13000 veces más dulce que el azúcar. Un compuesto que reduce la cantidad de fenilalanina. Aunque se eliminan los riesgos por consumo de fenilalanina, se potencian el resto de efectos perjudiciales derivados del Aspartamo."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-962 - Sal de Aspartamo y Acesulfamo",
+    "comentario": "Se combinan los mismos posibles efectos secundarios del Aspartamo  y del Acesulfamo K. Además debe contener en su etiquetado la siguiente declaración: Contiene una fuente de Fenilalanina."
+  },
+  {
+    "peligrosidad": "Saludable",
+    "name": "E-963 - Tagatosa",
+    "comentario": "No se ha encontrado ningún efecto secundario. Además su consumo tiene reconocidos efectos antidiabéticos y aumenta los niveles de colesterol bueno en sangre (HDL)."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-965i - Maltitol",
+    "comentario": "En bajas dosis provoca flatulencias y diarreas frecuentes. En grandes dosis puede provocar cólicos. En USA es obligatorio advertir en la etiqueta que no se deben consumir más de 100 gr/día."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-965ii - Jarabe de Maltitol",
+    "comentario": "En bajas dosis provoca flatulencias y diarreas frecuentes. En grandes dosis puede provocar cólicos. "
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-966 - Lactitol",
+    "comentario": "En bajas dosis provoca flatulencias y diarreas frecuentes. En grandes dosis puede provocar cólicos. "
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-967 - Xilitol",
+    "comentario": "No se ha encontrado ningún efecto secundario. No se recomienda consumir grandes dosis porque puede tener un efecto laxante y provocar diarreas. El consumo de xilitol es tóxico en perros, incluso en dosis muy bajas, ya que produce una rápida bajada de azúcar en sangre, lo que provoca insuficiencia hepática."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-968 - Eritritol",
+    "comentario": "Tiene un 95% menos de calorías que el azúcar. No se ha encontrado ningún efecto secundario. En grandes dosis puede tener efecto laxante."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-969 - Advantamo (Advantame)",
+    "comentario": "Es 37000 veces más dulce que el azúcar.Máximo 5 mg/kilo por persona. Pocos informes. Este aditivo es de reciente creación y está en estudio. En grandes dosis puede tener efecto laxante y provocar diarreas."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-999 - Extracto de Quillay (Garcinia Cambogia)",
+    "comentario": "Algunos informes dicen que es inofensivo mientras otros lo consideran tóxico para la sangre y que puede provocar inflamación intestinal."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-1100 - Amilasa (Diastasa Ptialina)",
+    "comentario": "Prohibido en Europa."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-1103 - Invertasa (Sacarasa)",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-1105 - Lisozima (Muramidasa)",
+    "comentario": "Precaución en personas con alergia al huevo y sus derivados."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-1201 - Polivinilpirrolidona (PVP)",
+    "comentario": "En grandes dosis provoca cáncer y abortos espontáneos en animales de laboratorio. Este aditivo se cree que podría permanecer en nuestro organismo incluso años después de haberlo consumido, pese a ello, no es obligatorio indicar su uso en el etiquetado del producto."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-1202 - Polivinilpolipirrolidona (PVPP)",
+    "comentario": "En grandes dosis provoca cáncer y abortos espontáneos en animales de laboratorio. Este aditivo se cree que podría permanecer en nuestro organismo incluso años después de haberlo consumido, pese a ello, no es obligatorio indicar su uso en el etiquetado del producto."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-1203 - Alcohol Polivinílico (PVOH)",
+    "comentario": "Pocos informes toxicológicos. Este aditivo está en estudio porque su aprobación es muy reciente. En su obtención con disolventes pueden contener restos de hasta 1% de Metanol y 1% de Acetato de Metilo."
+  },
+  {
+    "peligrosidad": "Inofensivo",
+    "name": "E-1204 - Pululano (Pullulane)",
+    "comentario": "No se ha encontrado ningún efecto secundario."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-1208 - Copolímero de Acetato de Vinilo",
+    "comentario": "En grandes dosis provoca cáncer y abortos espontáneos en animales de laboratorio. Este aditivo se cree que podría permanecer en nuestro organismo incluso años después de haberlo consumido, pese a ello, no es obligatorio indicar su uso en el etiquetado del producto."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-1209 - Copolímero de injerto PVA-PEG",
+    "comentario": "Pocos informes a largo plazo. Este aditivo es de reciente creación y está en estudio."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-1400 - Dextrina",
+    "comentario": "En grandes dosis puede provocar hiperactividad y malestares digestivos. El almidón modificado arrastra restos calcáreos a los riñones y pelvis en animales de laboratorio, desconociéndose por ahora si también tiene el mismo efecto en humanos."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-1401 - Almidón Ácido",
+    "comentario": "En grandes dosis puede provocar hiperactividad y malestares digestivos. El almidón modificado arrastra restos calcáreos a los riñones y pelvis en animales de laboratorio, desconociéndose por ahora si también tiene el mismo efecto en humanos."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-1402 - Almidón Alcalino Modificado",
+    "comentario": "En grandes dosis puede provocar hiperactividad y malestares digestivos. El almidón modificado arrastra restos calcáreos a los riñones y pelvis en animales de laboratorio, desconociéndose por ahora si también tiene el mismo efecto en humanos."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-1403 - Almidón Blanqueado",
+    "comentario": "En grandes dosis puede provocar hiperactividad y malestares digestivos. El almidón modificado arrastra restos calcáreos a los riñones y pelvis en animales de laboratorio, desconociéndose por ahora si también tiene el mismo efecto en humanos."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-1404 - Almidón Oxidado",
+    "comentario": "En grandes dosis puede provocar hiperactividad y malestares digestivos. El almidón modificado arrastra restos calcáreos a los riñones y pelvis en animales de laboratorio, desconociéndose por ahora si también tiene el mismo efecto en humanos."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-1405 - Almidón Enzimático",
+    "comentario": "En grandes dosis puede provocar hiperactividad y malestares digestivos. El almidón modificado arrastra restos calcáreos a los riñones y pelvis en animales de laboratorio, desconociéndose por ahora si también tiene el mismo efecto en humanos."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-1410 - Fosfato Monoalmidón",
+    "comentario": "En grandes dosis puede provocar hiperactividad y malestares digestivos. El almidón modificado arrastra restos calcáreos a los riñones y pelvis en animales de laboratorio, desconociéndose por ahora si también tiene el mismo efecto en humanos."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-1412 - Fosfato Dialmidón",
+    "comentario": "En grandes dosis puede provocar hiperactividad y malestares digestivos. El almidón modificado arrastra restos calcáreos a los riñones y pelvis en animales de laboratorio, desconociéndose por ahora si también tiene el mismo efecto en humanos."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-1413 - Fosfato Dialmidón Fosfatado",
+    "comentario": "En grandes dosis puede provocar hiperactividad y malestares digestivos. El almidón modificado arrastra restos calcáreos a los riñones y pelvis en animales de laboratorio, desconociéndose por ahora si también tiene el mismo efecto en humanos."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-1414 - Fosfato Dialmidón Acetilado",
+    "comentario": "En grandes dosis puede provocar hiperactividad y malestares digestivos. El almidón modificado arrastra restos calcáreos a los riñones y pelvis en animales de laboratorio, desconociéndose por ahora si también tiene el mismo efecto en humanos."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-1420 - Almidón Acetilado",
+    "comentario": "En grandes dosis puede provocar hiperactividad y malestares digestivos. El almidón modificado arrastra restos calcáreos a los riñones y pelvis en animales de laboratorio, desconociéndose por ahora si también tiene el mismo efecto en humanos."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-1422 - Adipato Dialmidón Acetilado",
+    "comentario": "En grandes dosis puede provocar hiperactividad y malestares digestivos. El almidón modificado arrastra restos calcáreos a los riñones y pelvis en animales de laboratorio, desconociéndose por ahora si también tiene el mismo efecto en humanos."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-1440 - Hidroxipropil Almidón",
+    "comentario": "En grandes dosis puede provocar hiperactividad y malestares digestivos. El almidón modificado arrastra restos calcáreos a los riñones y pelvis en animales de laboratorio, desconociéndose por ahora si también tiene el mismo efecto en humanos."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-1442 - Fosfato Dialmidón Hidroxipropilado",
+    "comentario": "En grandes dosis puede provocar hiperactividad y malestares digestivos. El almidón modificado arrastra restos calcáreos a los riñones y pelvis en animales de laboratorio, desconociéndose por ahora si también tiene el mismo efecto en humanos."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-1450 - Octenil Succinato Sódico de Almidón",
+    "comentario": "En grandes dosis puede provocar hiperactividad y malestares digestivos. El almidón modificado arrastra restos calcáreos a los riñones y pelvis en animales de laboratorio, desconociéndose por ahora si también tiene el mismo efecto en humanos."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-1451 - Almidón Oxidado Acetilado",
+    "comentario": "En grandes dosis puede provocar hiperactividad y malestares digestivos. El almidón modificado arrastra restos calcáreos a los riñones y pelvis en animales de laboratorio, desconociéndose por ahora si también tiene el mismo efecto en humanos."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-1452 - Octenil Succinato Alumínico de Almidón",
+    "comentario": "En grandes dosis puede provocar hiperactividad y malestares digestivos. El almidón modificado arrastra restos calcáreos a los riñones y pelvis en animales de laboratorio, desconociéndose por ahora si también tiene el mismo efecto en humanos."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-1505 - Citrato de Trietilo",
+    "comentario": "En grandes dosis puede provocar vómitos. No hay muchos informes como aditivo alimentario."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-1517 - Diacetín (Diacetato de Glicerina)",
+    "comentario": "Aparece entre los 599 aditivos añadidos en los cigarrillos. Puede obtenerse de productos transgénicos como la soja."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-1518 - Triacetín (Triacetato de Glicerina)",
+    "comentario": "Aparece entre los 599 aditivos añadidos en los cigarrillos. Puede obtenerse de productos transgénicos como la soja."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-1519 - Alcohol Bencílico",
+    "comentario": "En grandes dosis provoca dolor abdominal, diarrea, somnolencia, náuseas y vómitos."
+  },
+  {
+    "peligrosidad": "Precaucion",
+    "name": "E-1520 - Propilenglicol",
+    "comentario": "En grandes dosis provocó graves daños en el sistema nervioso en animales de laboratorio. Prohibido en alimentación para perros y gatos por provocar problemas hepáticos. Nuestro organismo lo metaboliza en gran parte como Ácido Láctico."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-1521 - Polietilenglicoles",
+    "comentario": "En grandes dosis puede provocar alergia y favorecer la aparición de tumores cancerígenos."
+  },
+  {
+    "peligrosidad": "Peligroso",
+    "name": "E-1522 - Aceite de Palma",
+    "comentario": "El aceite de palma, por su contenido en ácidos grasos saturados, puede dificultar su absorción en el intestino. Además, su elevado índice de grasas saturadas hace que, tomado en exceso, aumente los niveles de colesterol malo. Tampoco es recomendable para aquellos que padecen alergia a los frutos secos. Puede provocar cáncer."
+  }
+]
