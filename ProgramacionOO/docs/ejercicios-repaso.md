@@ -80,3 +80,45 @@ El documento relativo a los alumnos y calificaciones de una asignatura (el ejemp
     ....
 </asignatura>
 ```
+-----------------------------------
+
+## Actividad 3
+
+En una fábrica se necesita tener control sobre el inventario de los componentes empleados para fabricar cada uno de los productos. Cada proucto fabricado contiene un conjunto específico de componentes, de forma que cada vez que se fabrica una unidad, se consumen los componentes necesarios para fabricarlo. Veamos un ejemplo:
+
+- El producto "P33" incluye los siguientes componentes:
+    - 2 unidades del componente "C130"
+    - 1 unidad del componente "C55"
+    - 12 unidades del componente "C12"
+    - 5 unidades del componente "C7"
+
+Estos requisitos vienen especificados en un documento XML como el siguiente:
+
+```
+<productos>
+    <producto id="P33">
+        <componente id="C130" cantidad="2"/>
+        <componente id="C55" cantidad="1"/>
+        <componente id="C12" cantidad="12"/>
+        <componente id="C7" cantidad="5"/>
+    </producto>
+    <producto id="P11">
+        ....
+    </producto>
+    ...
+</productos>
+```
+El objetivo de la aplicación es el siguiete
+
+- Monitorizar la fabricación de productos, para que cada vez que se fabrica un nuevo producto se actualice el inventario de componentes. Tras fabricar un cierto producto, si quedan menos unidades de las necesarias para fabricar 10 productos, se debe generar un mensaje informando de la escasez de dicho componente. 
+- Mostrar el inventario por pantalla.
+- Tambien se desa leer/generar desde/a un documento XML con el inventario de componentes:
+
+```
+<inventario>
+    <componente id="C1" existencias="200"/>
+    <componente id="C2" existencias="5000"/>
+    <componente id="C3" existencias="400"/>
+    ....
+</inventario>
+```
