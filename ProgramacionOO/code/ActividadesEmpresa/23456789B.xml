@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<empleado apellidos="Antúnez Piñero" categoría="30" dni="23456789B" nombre="Manuel">
+    <actividad duración="20000000" proyecto="PaperGest">Desarrollo de manejador de errores.</actividad>
+    <actividad duración="20000000" proyecto="iMed">Desarrollo de la vista de administrativos en atención al cliente</actividad>
+</empleado>

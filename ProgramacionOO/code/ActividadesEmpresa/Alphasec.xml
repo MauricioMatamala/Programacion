@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<proyecto departamento="Seguridad" fprod="2.5" nombre="Alphasec">
+    <descripcion>Proyecto de seguridad perimetral de la empresa XYZ ltd.</descripcion>
+    <actividad duracion="2000000">
+        <descripcion>Análisis perimetral de puertos de la red de Málaga Oeste</descripcion>
+        <empleado apellidos="López González" categoría="10" dni="12345678A" nombre="Juan Pedro"/>
+    </actividad>
+</proyecto>
