@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<inventario>
+    <componente cantidad="400" id="C3"/>
+    <componente cantidad="18" id="C1"/>
+    <componente cantidad="3908" id="C2"/>
+</inventario>
