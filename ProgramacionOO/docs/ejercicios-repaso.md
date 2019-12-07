@@ -165,11 +165,6 @@ Cada tarea es atendida durante un tiempo fijo, por lo que todas las tareas tiene
 Ninguna tarea queda relegada, ya que cada una tiene un tiempo fijo para ser atendida.
 Al tiempo que se dedica a cada tarea, se le llama "cuanto", "tiempo cuántico" o "quantum"
 
-## SRT: Shortest Remaining Time first
-
-Las tareas se eligen según el tiempo que les queda para ser completadas.
-
-
 ## Priority Queue
 
 La prioridad de una tarea se puede seleccionar diferentes criterios, aunque no deben coincidir con SRT ni SJF.
@@ -187,3 +182,4 @@ Nota de ayuda: para poder resolver el ejercicio, debes considerar las siguientes
 3. Cada tarea debe hacer un seguimiento de su tiempo de espera y de ejecución.
 4. En algunos de los algoritmos, una tarea puede ser interrumpida y puesta en cola de nuevo. Esto implica que el tiempo de espera de una tarea se obtiene sumando uno o más tiempos de espera a cada turno de ejecución. Del mismo modo, el tiempo de ejecución de una tarea se obtiene sumando uno o más tiempos de ejecución.
 5. Si lo necesitas, puedes consultar el diagrama de clases propuesto como análisis inicial del problema en [diagrama_clases_repaso4.png](diagrama_clases_repaso4.png). No tienes porqué seguir este modelo.
+
