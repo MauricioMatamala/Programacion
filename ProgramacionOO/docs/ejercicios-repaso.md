@@ -122,3 +122,68 @@ El objetivo de la aplicación es el siguiete
     ....
 </inventario>
 ```
+
+-----------------------------------
+
+## Actividad 4
+
+Se desea crear construir un simulador de un sistema de gestión  de tareas. En dicho sistema, existen varios tipos de tareas:
+
+Tipo de tarea | Duración | Prioridad
+--------------|----------|----------
+A             | 1200     | 1
+B             | 600      | 2
+C             | 1800     | 3
+
+Existe un planificador que selecciona la siguiente tarea a realizar según algún criterio (que se explica más adelante). Las tareas pueden estar en diferentes estados:
+
+- En espera
+- En ejecución
+- Terminada
+
+Sólo hay una tarea en ejecución a la vez, aunque pueden haber varias en espera o completadas. Cada tarea puede ser completada en un solo turno, o bien se puede hacer una parte de la tarea y dejar el resto para otro turno. En cualquier caso, hay un registro de tiempo que contabiliza el inicio y el final de cada periodo de espera y de ejecución. El sistema está en una fase de estudio inicial, por lo que la cadena de tareas se va a suministrar manualmente. Por mantener la simplicidad del problema asumiremos que todas las tareas a realizar se saben desde un principio. Por ejemplo, una posibilidad podría ser:  
+
+AAABBCCAAAABABABACCCCAAABACCCCAACACABBABCACB
+
+Esta cadena representa el orden de llegada de las tareas. Es decir, habrían llegado 3 tareas de tipo A, 2 de tipo B, 2 de tipo C, después 4 de tipo A, etc.
+
+EL planificador emplea un algoritmo para determinar cuál es la siguiente tarea a ejecutar. El objetivo principal del proyecto es calcular y comparar los tiempos de espera generados por diferentes algoritmos de planficiacón. A continuación se exponen varios de estos algoritmos de planificación.
+
+Dado un conjunto de tareas a realizar, existen diferentes estrategias para planificarlas:
+
+## FIFO: First In First Out
+
+El algoritmo FCFS no incluye ninguna lógica compleja, solo coloca las solicitudes de proceso en una cola y las ejecuta una por una. Hasta que una tarea no ha sido ejecutada por completo, no se da por concluida.
+
+## SJF: Shortest Job First
+
+Las tareas más cortas se ejecutan primero y luego las más largas.
+
+## RR: Round Robin
+
+Cada tarea es atendida durante un tiempo fijo, por lo que todas las tareas tienen la misma prioridad.
+Ninguna tarea queda relegada, ya que cada una tiene un tiempo fijo para ser atendida.
+Al tiempo que se dedica a cada tarea, se le llama "cuanto", "tiempo cuántico" o "quantum"
+
+## SRT: Shortest Remaining Time first
+
+Las tareas se eligen según el tiempo que les queda para ser completadas.
+
+
+## Priority Queue
+
+La prioridad de una tarea se puede seleccionar diferentes criterios, aunque no deben coincidir con SRT ni SJF.
+
+Objetivo: Diseñar un sistema que simule la planificación y ejecución de la secuencia de tareas utilizando cualquiera de los 5 algoritmos anteriores, y genere una estadística con los resultados de la ejecución. Esta estadística debe incluir la siguiente información:
+- Tiempo total de ejecución
+- Tiempo de espera media de las tareas.
+- Tiempo de espera de cada tarea.
+
+---------------------------------
+
+Nota de ayuda: para poder resolver el ejercicio, debes considerar las siguientes cuestiones:
+1. Ten en cuenta que sólo se pretenden calcular los tiempos. No es necesario ejecutar realmente las tareas, sino calcular cuánto tiempo  está esperando a ser ejecutado en su totalidad.
+2. Debe registrarse el momento de inicio del programa, y usarlo como referencia.
+3. Cada tarea debe hacer un seguimiento de su tiempo de espera y de ejecución.
+4. En algunos de los algoritmos, una tarea puede ser interrumpida y puesta en cola de nuevo. Esto implica que el tiempo de espera de una tarea se obtiene sumando uno o más tiempos de espera a cada turno de ejecución. Del mismo modo, el tiempo de ejecución de una tarea se obtiene sumando uno o más tiempos de ejecución.
+5. Si lo necesitas, puedes consultar el diagrama de clases propuesto como análisis inicial del problema en [diagrama_clases_repaso4.png](diagrama_clases_repaso4.png). No tienes porqué seguir este modelo.
