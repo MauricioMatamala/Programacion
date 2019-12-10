@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Ciudades {
-    ArrayList<Ciudad> ciudades;
+    private ArrayList<Ciudad> ciudades;
 
     public Ciudades(){
         ciudades = new ArrayList<>();
@@ -23,13 +23,6 @@ public class Ciudades {
                 estaciones.addAll(estacionesCiudad);
         }
         return estaciones;
-    }
-
-    @Override
-    public String toString() {
-        return "Ciudades{" +
-                "ciudades=" + ciudades +
-                '}';
     }
 
     public Estación getEstaciónMásCercanaA(Ubicación ubicación){
@@ -55,5 +48,12 @@ public class Ciudades {
             return ciudades.get(posiciónCiudad);
         else
             return null;
+    }
+
+    @Override
+    public String toString() {
+        return "Ciudades{" +
+                "ciudades=" + ciudades +
+                '}';
     }
 }

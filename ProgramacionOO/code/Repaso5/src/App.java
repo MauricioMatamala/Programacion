@@ -2,6 +2,9 @@ import java.util.ArrayList;
 
 public class App {
     public static void main(String[] args) {
+        // NOTAS SOBRE ESTA SOLUCIÓN:
+        // Se trata de una solución rápida con un enfoque similar al de un examen.
+        // Algunas de las decisiones podrían no ser adecuadas en un proyecto que deba ser mantenido y extendido a largo plazo.
 
         // Cargar datos
 
@@ -14,6 +17,7 @@ public class App {
         System.out.println("=====================");
         System.out.println("CIUDADES EN LAS QUE HAY ALGUNA ESTACIÓN");
         System.out.println("=====================");
+
         ArrayList<Ciudad> listaCiudades = ciudades.getCiudades();
         for (Ciudad ciudad: listaCiudades)
             System.out.println(ciudad.getNombre());
@@ -22,6 +26,7 @@ public class App {
         System.out.println("=====================");
         System.out.println("ESTACIONES EN UNA CIUDAD");
         System.out.println("=====================");
+
         Ciudad ciudad = ciudades.getCiudadByNombre("Bilbao");
         ArrayList<Estación> estaciones = ciudad.getEstaciones();
         for (Estación estación: estaciones){

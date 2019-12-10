@@ -1,6 +1,6 @@
 public class Ubicación {
-    double latitud;
-    double longitud;
+    private double latitud;
+    private double longitud;
 
     public Ubicación(double latitud, double longitud){
         this.latitud = latitud;

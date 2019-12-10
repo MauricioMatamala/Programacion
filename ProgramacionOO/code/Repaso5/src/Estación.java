@@ -4,11 +4,11 @@ public class Estación {
     public final static int ESTACIÓN_FUNICULAR = 3;
     public final static int ESTACIÓN_MARÍTIMA = 4;
 
-    String nombre;
-    String dirección;
-    String teléfono;
-    Ubicación ubicación;
-    int tipo;
+    private String nombre;
+    private String dirección;
+    private String teléfono;
+    private Ubicación ubicación;
+    private int tipo;
 
     public Estación(String nombre, String dirección, String teléfono, Ubicación ubicación, int tipo) {
         this.nombre = nombre;

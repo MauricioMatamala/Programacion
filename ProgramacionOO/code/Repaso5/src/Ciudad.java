@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 
 public class Ciudad {
-    String nombre;
-    ArrayList<Estación> estaciones;
+    private String nombre;
+    private ArrayList<Estación> estaciones;
 
     public Ciudad(String nombre){
         this.nombre = nombre;
@@ -13,12 +13,12 @@ public class Ciudad {
         return nombre;
     }
 
-    public ArrayList<Estación> getEstaciones(){
-        return estaciones;
-    }
-
     public void addEstación(Estación estación){
         estaciones.add(estación);
+    }
+
+    public ArrayList<Estación> getEstaciones(){
+        return estaciones;
     }
 
     public ArrayList<Estación> getEstacionesByTipo(int tipo){
