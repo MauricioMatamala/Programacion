@@ -49,18 +49,71 @@ public class ArchivoXML {
             NodeList nodeList = (NodeList) xPath.compile(xpathExpr).evaluate(doc, XPathConstants.NODESET);
             for (int i=0; i<nodeList.getLength();i++){
                 Element elementoRow = (Element) nodeList.item(i);
-                NodeList listaNodosLocality = elementoRow.getElementsByTagName("locality");
-                Element locality = (Element) listaNodosLocality.item(0);
-                Ciudad ciudad;
-                if (locality == null)
-                    ciudad = new Ciudad("Sin nombre");
-                else
-                    ciudad = new Ciudad(locality.getTextContent());
-                ciudades.addCiudad(ciudad);
+                String nombreCiudad = getNombreCiudadDeElementoRow(elementoRow);
+                Ciudad ciudad = getCiudadOCrearSiNoExiste(nombreCiudad,ciudades);
+                Estación estación = getEstaciónDeElementoRow(elementoRow);
+                ciudad.addEstación(estación);
             }
         } catch (XPathExpressionException e) {
             e.printStackTrace();
         }
         return ciudades;
+    }
+
+    private String getNombreCiudadDeElementoRow(Element elementoRow){
+        NodeList listaNodosLocality = elementoRow.getElementsByTagName("locality");
+        Element locality = (Element) listaNodosLocality.item(0);
+        if (locality == null)
+            return "Sin nombre";
+        else
+            return locality.getTextContent();
+    }
+
+    private Ciudad getCiudadOCrearSiNoExiste(String nombreCiudad, Ciudades ciudades){
+        Ciudad ciudad = ciudades.getCiudadByNombre(nombreCiudad);
+        if (ciudad == null) {
+            Ciudad nuevaCiudad = new Ciudad(nombreCiudad);
+            ciudades.addCiudad(nuevaCiudad);
+            return nuevaCiudad;
+        } else
+            return ciudad;
+    }
+
+    private Estación getEstaciónDeElementoRow(Element elementoRow){
+        String nombreEstación = elementoRow.getElementsByTagName("documentname").item(0).getTextContent();
+        String teléfono = elementoRow.getElementsByTagName("phone").item(0).getTextContent();
+        String dirección = elementoRow.getElementsByTagName("address").item(0).getTextContent();
+        Ubicación ubicación = getUbicaciónDeElementoRow(elementoRow);
+        int tipo = getTipoEstaciónDeElementoRow(elementoRow);
+        Estación estación = new Estación(nombreEstación,dirección,teléfono,ubicación,tipo);
+        return estación;
+    }
+
+    private Ubicación getUbicaciónDeElementoRow(Element elementoRow){
+        double latitud = 0;
+        double longitud = 0;
+        Element elementoLatwgs84 = (Element) elementoRow.getElementsByTagName("latwgs84").item(0);
+        Element elementoLonwgs84 = (Element) elementoRow.getElementsByTagName("lonwgs84").item(0);
+        if (elementoLatwgs84 != null)
+            latitud = Double.parseDouble(elementoLatwgs84.getTextContent());
+        if (elementoLonwgs84 != null)
+            longitud = Double.parseDouble(elementoLonwgs84.getTextContent());
+        return new Ubicación(latitud,longitud);
+    }
+
+    public int getTipoEstaciónDeElementoRow(Element elementoRow){
+        String tipo = elementoRow.getElementsByTagName("transporttype").item(0).getTextContent();
+        switch (tipo){
+            case "Tren":
+                return Estación.ESTACIÓN_TREN;
+            case "Autobús":
+                return Estación.ESTACIÓN_AUTOBÚS;
+            case "Funicular":
+                return Estación.ESTACIÓN_FUNICULAR;
+            case "Marítimo":
+                return Estación.ESTACIÓN_MARÍTIMA;
+            default:
+                return Estación.ESTACIÓN_TREN;
+        }
     }
 }
