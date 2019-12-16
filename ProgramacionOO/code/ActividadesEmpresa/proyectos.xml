@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<proyectos>
-    <proyecto nombre="Alphasec" departamento="Seguridad" fprod="2.5">Proyecto de seguridad perimetral de la empresa XYZ ltd.</proyecto>
-    <proyecto nombre="iMed" departamento="Desarrollo" fprod="1.5">Aplicación para centros médicos iMed</proyecto>
-    <proyecto nombre="PaperGest" departamento="Desarrollo" fprod="3">Aplicación de gestión burocrática para gestorías</proyecto>
-</proyectos>
