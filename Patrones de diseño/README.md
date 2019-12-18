@@ -20,7 +20,7 @@ Los patrones pueden organizarse en tres categorías principales:
 
 ## Principio que guía a los patrones de diseño
 
-> PRINCIPIO DE DISEÑO: Orientar el código a las interfaces, no a la implementación
+> PRINCIPIO DE DISEÑO: ORIENTAR EL CÓDIGO A INTERFACES, NO A IMPLEMENTACIONES
 
 ## Reutilizar el código
 
@@ -45,7 +45,7 @@ La composición también tiene cosas a favor y en contra:
 - Ventaja: favorecer la composición sobre la herencia, ayuda a mantener cada clase encapsulada y centrada en su trabajo.
 - Desventaja: tiende a incrementar el número de objetos, y el comportamiento depende de las relaciones entre ellos, en lugar de definirlo estáticamente desde el principio.
         
-> PRINCIPIO DE DISEÑOFAVORECER LA COMPOSICIÓN SOBRE LA HERENCIA.
+> PRINCIPIO DE DISEÑO: FAVORECER LA COMPOSICIÓN SOBRE LA HERENCIA.
 
 ## La legibilidad es muy deseable, pero...
 
@@ -58,12 +58,17 @@ Problema: crear un objeto indicando una clase explícitamente. Especificar una c
 **Problema**: Existe una clase abstracta Abstracta y sus subclases ConcretaA y ConcretaB con diferencias en su implementación. Se necesita un objeto de clase Abstracta, pero no se conocen de antemano los detalles y no se sabe que clase concreta hará falta (se sabrá solo en tiempo de ejecución).
     
 > Opción mala: usar if else... -> código poco extensible, dependiente.
-    
+
+Cuando no se aplica Factory Method, el resultado es lo siguiente:
+
+![](doc/factory_method_no_aplicado_diagrama_clases.png)
+![](doc/factory_method_no_aplicado_diagrama_secuencia.png)
+
 **Solución**: El patrón factory tiene el siguiente aspecto:
 
-![Diagrama de clases](doc/factory_method_diagrama_clases.png)
+![](doc/factory_method_diagrama_clases.png)
 
-![Diagrama de secuencia](doc/factory_method_diagrama_secuencia.png)
+![](doc/factory_method_diagrama_secuencia.png)
 
 Usar cuando una clase no puede prever la clase de objetos que tiene que crear en tiempo de ejecución (esa información vendría dada por un archivo de configuración, por ejemplo).
     
