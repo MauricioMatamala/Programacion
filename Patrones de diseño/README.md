@@ -275,7 +275,7 @@ Otra opción sería sería pasarle la papeleta a una clase que se encarge de con
 ```
 class DarBienvenida{
     public String bienvenida(int tipo){
-        Saludo saludo = ConstructorDeSaludos(tipo);
+        Saludo saludo = ConstructorDeSaludos.construirSaludo(tipo);
         return saludo.saludar();
     }
 }
