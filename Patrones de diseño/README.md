@@ -27,7 +27,7 @@ D. Dependency Inversion Principl
 https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
 Clean Architecture
 
-#### Single Responsitibility Principle
+# Single Responsitibility Principle
 
 > Una clase debería tener una única razón para cambiar
 
@@ -68,9 +68,12 @@ Tres de los requisitos funcionales de dicha aplicación es el siguiente:
 Una vez que las funcionalidades han sido desarrolladas, el departamento de contabilidad pide que se modifique el cálculo de los ingresos para que incluyan el IVA.
 
 a) Desarrolla las funcionalidades de la aplicación, para que incumpla el principio SRP.
+
 b) Modifica la aplicación para que sí lo cumpla.
 
-#### Open Close Principle
+--------------------------------------
+
+# Open Close Principle
 
 > Todo artefacto debería ser escrito para su extensión, pero también para evitar cambios
 
@@ -98,7 +101,9 @@ En esta imagen, la clase *Empleado* tiene un nivel de abstracción superior a *I
 a) Escribe el código necesario para cumplir con el enunciado.
 b) Posteriormente, el proyecto cambia, de forma que las medidas no serán longitudes, sino pares de coordenadas X,Y (en un plano cartesiano). Aplica el principio OCP para que la clase *Trayectoria* no sufra cambios cuando los datos cambien.
 
-#### Liskov Substitution Principle
+-------------------------------------------------
+
+# Liskov Substitution Principle
 
 > Si por cada objeto o1 de tipo S hay un objeto o2 de tipo T, de tal modo que todos los programas P, definidos en términos de T, el comportamienot de P no cambia cuando o1 es substituido por o2, entonces S es un subtipo de T
 
@@ -180,7 +185,9 @@ Si creamos la subclase *ControlAccesoMejorado*, violaríamos LSP si además incl
 a) Escribe una aplicación que resuelva el enunciado violando LSP.
 b) Escribe una aplacación que respete LSP.
 
-#### Interface Segregation Principle
+-----------------------------------------------
+
+# Interface Segregation Principle
 
 > Las clases que implementen una interfaz o una clase abstracta no deberían estar obligadas a definir partes que no van a utilizar.
 
@@ -208,7 +215,9 @@ Este diseño viola el ISP, ya que *ProcesoAutomático* lanzará únicamente exce
 a) Implementa la solución violando el ISP.
 b) Implementa la solución respetando el ISP.
 
-#### Dependency Inversion Principle
+---------------------------------------------------
+
+# Dependency Inversion Principle
 
 > Las dependencias deben hacer referencia a abstracciones, no a concreciones.
 
@@ -284,6 +293,8 @@ A su vez, las figuras disponibles son:
 
 a) Implementa la solución sin respetar el DIP
 b) Implementa la solución respetando el DIP
+
+------------------------------------------------------
 
 ### DRY (Don't Repeat Yourself)
 
