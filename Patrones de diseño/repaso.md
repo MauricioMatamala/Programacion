@@ -130,3 +130,5 @@ El programa debe permitir hacer lo siguiente:
 3. listar la información de los vehículos del depósito,
 3. listar los vehículos que están en espera a ser subastados,
 3. listar los vehículos vendidos, y a qué comprador se han vendido así como el precio y la fecha de venta
+
+**Actividad 6.** Escribe una aplicación para gestionar un hotel, similar al que se detalla en el documento [hote-producto-backlog.pdf](http://politecnico-ed.es/ED/introduccion/hotel-product-backlog.pdf).
