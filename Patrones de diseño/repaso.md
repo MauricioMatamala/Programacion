@@ -76,7 +76,32 @@ Deberás simular una base de datos de empleados que aloje los tres tipos de empl
 
 **Actividad 4.** Escribe un programa que pueda almacenar diferentes tipo de figuras geométricas: círculos, triángulos y cuadrados. Todas las figuras tienen un color, y tienen una manera particular de obtener el área. Escribe un programa que contenga un array de figuras geométricas. Deberás recorrer el array e imprimir para cada figura el tipo de figura de que se trata, su color y su área.
 
-**Actividad 5.** Nos han encargado una aplicación para gestionar un aparcamiento de vehículos requisados. Cuando llega un nuevo vehículo, se anotan una serie de datos, que varían dependiendo del tipo de vehículo. Por ejemplo, los datos según vehículo serían los siguientes:
+**Actividad 5.** (Actividad inspirada en la propuesta por Facundo) Crear una aplicación que permita gestionar tareas pendientes, añadir nuevas tareas, las fechas deben tener una fecha para ser completada y pertenecer a una categoría, ocio, clase , trabajo, etc. Se deben poder hacer las siguientes tareas:
+
+1. Crear una nueva categoría.
+2. Mostrar las categorías existentes.
+3. Crear una nueva tarea.
+4. Consultar las tareas pendientes.
+5. Eliminar una tarea (completada).
+6. Consultar las tareas de una categoría.
+7. Consultar las tareas en una fecha.
+8. Consultar las tareas en tiempo.
+9. Consultar las tareas retrasadas.
+
+**Actividad 6.** (Actividad inspirada en la propuesta de Alberto). En un concesionario se realizan ventas y compras de coches a clientes. Se utiliza una aplicación que gestiona la siguiente información.
+- Vehículos, incluyendo modelo, marca, color, año de fabricación, combustión, estado y precio recomendado de venta.
+- Clientes, incluyendo nombre, apellidos, niv, cuenta bancaria.
+- Operaciones de compraventa, incluyendo el cliente, el vehículo, el tipo de operación y el precio acordado.
+
+Escribe una aplicación que sea capaz de realizar las siguientes tareas:
+
+1. Introducir un nuevo vehículo.
+2. Introducir un nuevo cliente.
+3. Realizar una venta a un cliente.
+4. Realizar una compra a un cliente.
+5. Obtener el saldo total de un cliente que ha realizado ventas/compras en el concesionario.
+
+**Actividad 7.** Nos han encargado una aplicación para gestionar un aparcamiento de vehículos requisados. Cuando llega un nuevo vehículo, se anotan una serie de datos, que varían dependiendo del tipo de vehículo. Por ejemplo, los datos según vehículo serían los siguientes:
 
 - Barcos
     - Nombre
@@ -131,4 +156,4 @@ El programa debe permitir hacer lo siguiente:
 3. listar los vehículos que están en espera a ser subastados,
 3. listar los vehículos vendidos, y a qué comprador se han vendido así como el precio y la fecha de venta
 
-**Actividad 6.** Escribe una aplicación para gestionar un hotel, similar al que se detalla en el documento [hote-producto-backlog.pdf](http://politecnico-ed.es/ED/introduccion/hotel-product-backlog.pdf).
+**Actividad 8.** Escribe una aplicación para gestionar un hotel, similar al que se detalla en el documento [hote-producto-backlog.pdf](http://politecnico-ed.es/ED/introduccion/hotel-product-backlog.pdf).
