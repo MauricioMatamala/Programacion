@@ -76,7 +76,7 @@ Deberás simular una base de datos de empleados que aloje los tres tipos de empl
 
 **Actividad 4.** Escribe un programa que pueda almacenar diferentes tipo de figuras geométricas: círculos, triángulos y cuadrados. Todas las figuras tienen un color, y tienen una manera particular de obtener el área. Escribe un programa que contenga un array de figuras geométricas. Deberás recorrer el array e imprimir para cada figura el tipo de figura de que se trata, su color y su área.
 
-**Actividad 5.** (Actividad inspirada en la propuesta por Facundo) Crear una aplicación que permita gestionar tareas pendientes, añadir nuevas tareas, las fechas deben tener una fecha para ser completada y pertenecer a una categoría, ocio, clase , trabajo, etc. Se deben poder hacer las siguientes tareas:
+**Actividad 5.** (Actividad inspirada en la propuesta por Facundo) Crear una aplicación que permita gestionar tareas pendientes, añadir nuevas tareas. Las tareas deben tener una fecha límite y pertenecer a una categoría, como por ejemplo  *ocio, clase , trabajo*, etc. Se deben poder hacer las siguientes tareas:
 
 1. Crear una nueva categoría.
 2. Mostrar las categorías existentes.
