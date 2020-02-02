@@ -101,14 +101,14 @@ Escribe una aplicación que sea capaz de realizar las siguientes tareas:
 4. Realizar una compra a un cliente.
 5. Obtener el saldo total de un cliente que ha realizado ventas/compras en el concesionario.
 
-**Actividad 7.** (Acitividad prpuesta por Fernando). Se desea crear un programa para administrar una cafetería, en la que tengamos unas mesas establecidas y a estas les podamos agregar productos, que tendrán nombre y precio. Podremos abrir mesas, para añadirles productos, y cerrarlas, es decir cobrándolas. Tendremos un  recuento de caja donde se guarda todo el dinero que se han recaudado de las mesas. Las mesas estarán cerradas por defecto.
+**Actividad 7.** (Actividad propuesta por Fernando). Se desea crear un programa para administrar una cafetería, en la que tengamos unas mesas establecidas y a estas les podamos agregar productos, que tendrán nombre y precio. Podremos abrir mesas, para añadirles productos, y cerrarlas, es decir cobrándolas. Tendremos un  recuento de caja donde se guarda todo el dinero que se han recaudado de las mesas. Las mesas estarán cerradas por defecto.
 
--Consultar mesas abiertas.
--Consultar mesas cerradas.
--Consultar el recuento de caja actual.
--Añadir productos a la lista de productos(Crear nuevo producto).
--Añadir producto a una mesa.
--Cerrar mesa (Cobrarla).
+- Consultar mesas abiertas.
+- Consultar mesas cerradas.
+- Consultar el recuento de caja actual.
+- Añadir productos a la lista de productos(Crear nuevo producto).
+- Añadir producto a una mesa.
+- Cerrar mesa (Cobrarla).
 
 **Actividad 8.** Nos han encargado una aplicación para gestionar un aparcamiento de vehículos requisados. Cuando llega un nuevo vehículo, se anotan una serie de datos, que varían dependiendo del tipo de vehículo. Por ejemplo, los datos según vehículo serían los siguientes:
 
