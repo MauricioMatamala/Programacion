@@ -101,7 +101,16 @@ Escribe una aplicación que sea capaz de realizar las siguientes tareas:
 4. Realizar una compra a un cliente.
 5. Obtener el saldo total de un cliente que ha realizado ventas/compras en el concesionario.
 
-**Actividad 7.** Nos han encargado una aplicación para gestionar un aparcamiento de vehículos requisados. Cuando llega un nuevo vehículo, se anotan una serie de datos, que varían dependiendo del tipo de vehículo. Por ejemplo, los datos según vehículo serían los siguientes:
+**Actividad 7.** (Acitividad prpuesta por Fernando). Se desea crear un programa para administrar una cafetería, en la que tengamos unas mesas establecidas y a estas les podamos agregar productos, que tendrán nombre y precio. Podremos abrir mesas, para añadirles productos, y cerrarlas, es decir cobrándolas. Tendremos un  recuento de caja donde se guarda todo el dinero que se han recaudado de las mesas. Las mesas estarán cerradas por defecto.
+
+-Consultar mesas abiertas.
+-Consultar mesas cerradas.
+-Consultar el recuento de caja actual.
+-Añadir productos a la lista de productos(Crear nuevo producto).
+-Añadir producto a una mesa.
+-Cerrar mesa (Cobrarla).
+
+**Actividad 8.** Nos han encargado una aplicación para gestionar un aparcamiento de vehículos requisados. Cuando llega un nuevo vehículo, se anotan una serie de datos, que varían dependiendo del tipo de vehículo. Por ejemplo, los datos según vehículo serían los siguientes:
 
 - Barcos
     - Nombre
@@ -156,4 +165,4 @@ El programa debe permitir hacer lo siguiente:
 3. listar los vehículos que están en espera a ser subastados,
 3. listar los vehículos vendidos, y a qué comprador se han vendido así como el precio y la fecha de venta
 
-**Actividad 8.** Escribe una aplicación para gestionar un hotel, similar al que se detalla en el documento [hote-producto-backlog.pdf](http://politecnico-ed.es/ED/introduccion/hotel-product-backlog.pdf).
+**Actividad 9.** Escribe una aplicación para gestionar un hotel, similar al que se detalla en el documento [hote-producto-backlog.pdf](http://politecnico-ed.es/ED/introduccion/hotel-product-backlog.pdf).
