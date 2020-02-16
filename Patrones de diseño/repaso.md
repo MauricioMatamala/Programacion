@@ -166,3 +166,54 @@ El programa debe permitir hacer lo siguiente:
 3. listar los vehículos vendidos, y a qué comprador se han vendido así como el precio y la fecha de venta
 
 **Actividad 9.** Escribe una aplicación para gestionar un hotel, similar al que se detalla en el documento [hote-producto-backlog.pdf](http://politecnico-ed.es/ED/introduccion/hotel-product-backlog.pdf).
+
+------------------------------------------
+
+Un último ejercicio de repaso:
+
+1. Leer un documento XML con el siguiente contenido:
+
+```
+<vehiculos>
+    <vehiculo marca="Alfa-Romeo" modelo="Giulietta 1.4TB Sport 120CV" kilometros="35000" combustible="gasolina" precio="13800" unidades="15"/>
+    <vehiculo marca="Audi" modelo="A1 1.0 TFSI Sportback 95CV" kilometros="55000" combustible="gasolina" precio "13300" unidades="2"/>
+    <vehiculo marca="Citroen" modelo="C3 Puretech 82CV" kilometros="80000" combustible="gasolina" precio="6495" unidades="5"/>
+    <vehiculo marca="Fiat" modelo="500 1.2 Lounge 69CV" kilometros="40000" combustible="gasolina" precio="8895" unidades="3"/>
+</vehiculos>
+```
+El resultado debe guardarse en objetos de clase Vehículo.
+
+2. Leer un documento csv con el siguiente contenido:
+
+```
+Juan Pérez García;Pedro A. Rodríguez Delgado;Ana Rodríguez Córdoba;Antonia González Vicario
+```
+
+El resultado debe guardarse en objetos de clase Persona.
+
+3. Escribir el código para mostrar un inventario de vehículos disponibles. Este inventario estará gestionado por una clase llamada "ParqueVehiculos".
+
+4. Crear una clase llamada "Venta" que mantenga información sobre una persona y un vendedor, así como la cantidad de vehículos. Realizar una venta y mostrarla por pantalla.
+
+5. Escribir código para almacenar varias ventas, y mostrarlas por pantalla. Las ventas estarán gestionadas por una clase llamada "Ventas".
+
+6. Escribir el código necesario para obtener las ventas realizadas a una persona.
+
+7. Recorrer las ventas y actualizar la cantidad disponible de cada vehículo según las ventas realizadas.
+
+8. Escribir código para obtener una lista de vehículos de los que no quedan unidades debido a las unidades vendidas.
+
+9. Escribir código para obtener una lista de vehículos de los que sí quedan unidades.
+
+10. Escribir un menú de texto que muestre las siguientes opciones por pantalla y permita ejecutarlas.
+
+```    
+1. Realizar una venta
+2. Listar los vehículos disponibles
+3. Listar vehículos agotados
+4. Consultar las ventas a un cliente
+```
+
+NOTA:
+- La opción 1 muestra los vehículos disponibles y los clientes, y permite elegir uno de cada.
+- La opción 4 muestra los clientes y permite elegir uno.
