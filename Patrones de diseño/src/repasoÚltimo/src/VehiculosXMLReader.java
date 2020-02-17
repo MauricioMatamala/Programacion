@@ -33,8 +33,8 @@ public class VehiculosXMLReader {
         }
     }
 
-    public ArrayList<Vehiculo> getVehiculos(){
-        ArrayList<Vehiculo> vehiculos = new ArrayList<>();
+    public ArrayList<StockVehiculo> getStockVehiculos(){
+        ArrayList<StockVehiculo> stockVehiculos = new ArrayList<>();
         try {
             XPath xPath = XPathFactory.newInstance().newXPath();
             String xpathExpr = "/vehiculos/vehiculo";
@@ -42,12 +42,13 @@ public class VehiculosXMLReader {
             for (int i=0; i<nodeList.getLength();i++){
                 Element elementoVehiculo = (Element) nodeList.item(i);
                 Vehiculo vehiculo = getVehiculo(elementoVehiculo);
-                vehiculos.add(vehiculo);
+                int cantidad = Integer.parseInt(elementoVehiculo.getAttribute("unidades"));
+                stockVehiculos.add(new StockVehiculo(vehiculo,cantidad));
             }
         } catch (XPathExpressionException e) {
             e.printStackTrace();
         }
-        return vehiculos;
+        return stockVehiculos;
     }
 
     private Vehiculo getVehiculo(Element elementoVehiculo){

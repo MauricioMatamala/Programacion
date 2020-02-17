@@ -1,12 +1,24 @@
 public class Venta {
     private Persona comprador;
     private Vehiculo vehiculo;
-    private int cantidad;
+    private int unidades;
 
     public Venta(Persona comprador, Vehiculo vehiculo, int cantidad) {
         this.comprador = comprador;
         this.vehiculo = vehiculo;
-        this.cantidad = cantidad;
+        this.unidades = cantidad;
+    }
+
+    public Persona getComprador(){
+        return comprador;
+    }
+
+    public int getUnidades(){
+        return unidades;
+    }
+
+    public Vehiculo getVehiculo(){
+        return vehiculo;
     }
 
     @Override
@@ -14,7 +26,7 @@ public class Venta {
         return "Venta{" +
                 "comprador=" + comprador +
                 ", vehiculo=" + vehiculo +
-                ", cantidad=" + cantidad +
+                ", unidades=" + unidades +
                 '}';
     }
 }
