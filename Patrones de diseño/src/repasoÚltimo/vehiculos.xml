@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<vehiculos>
+    <vehiculo marca="Alfa-Romeo" modelo="Giulietta 1.4TB Sport 120CV" kilometros="35000" combustible="gasolina" precio="13800" unidades="15"/>
+    <vehiculo marca="Audi" modelo="A1 1.0 TFSI Sportback 95CV" kilometros="55000" combustible="gasolina" precio="13300" unidades="2"/>
+    <vehiculo marca="Citroen" modelo="C3 Puretech 82CV" kilometros="80000" combustible="gasolina" precio="6495" unidades="5"/>
+    <vehiculo marca="Fiat" modelo="500 1.2 Lounge 69CV" kilometros="40000" combustible="gasolina" precio="8895" unidades="3"/>
+</vehiculos>
