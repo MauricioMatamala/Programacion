@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<productos>
+    <producto nombre="Taco nylon autoperforante para cartón y yeso" ref="f001" precio="0.45" unidades="20000" umbral="2000"/>
+    <producto nombre="Anclaje reforzado A 10c 8x 60" ref="f002" precio="0.51" unidades="12000" umbral="500"/>
+    <producto nombre="Varilla roscada acero zincado M6x1" ref="f003" precio="0.34" unidades="500" umbral="50"/>
+    <producto nombre="Tornillo rosca chapa cabeza redonda 4,2x16" ref="f004" precio="0.01" unidades="20000" umbral="2000"/>
+    <producto nombre="Tornillo métrica de acero 2x14mm" ref="f005" precio="0.2" unidades="8000" umbral="800"/>
+    <producto nombre="Cadena recta eslabón corto acero zincado" ref="f006" precio="1.49" unidades="200" umbral="20"/>
+    <producto nombre="Abrazadera PVC 40mm" ref="f007" precio="1.99" unidades="1000" umbral="80"/>
+    <producto nombre="Abrazadera sin fin inoxidable" ref="f008" precio="5.00" unidades="500" umbral="50"/>
+    <producto nombre="Banco de trabajo bt2 120" ref="f009" precio="79.99" unidades="20" umbral="5"/>
+    <producto nombre="Pistola de cola termofusible Bosch" ref="f010" precio="34.00" unidades="40" umbral="8"/>
+</productos>
