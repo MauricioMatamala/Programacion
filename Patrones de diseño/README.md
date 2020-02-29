@@ -83,7 +83,7 @@ Supongamos que contamos con una clase llamada *Rectangulo* que tiene un alto y u
 
 El problema aparece si se quiere calcular el área total de un conjunto de rectángulos y círculos. El diseño anterior no se ajusta a OCP. Supongamos que deseamos agregar a los conjuntos de figuras, círculos y triángulos. Siguamos trabajando en una clase sin aplicar el principio OCP.
 
-![Ejemplo OCP](img/ocp-emeplo2.png)
+![Ejemplo OCP](img/ocp-ejemplo2.png)
 
 La clase AreaCalculator va aumentando el número de condiciones necesarias para realizar el trabajo.
 ----------------------------
