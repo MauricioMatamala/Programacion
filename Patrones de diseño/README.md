@@ -50,34 +50,47 @@ Solución propuesta:
 
 ![3b70662bf801a10c30a4e4828ce9c691.png](img/f1998969b2484c7993a3bf4bd911f0c0.png)
 
-**Actividad SRP**. En un concesionario, se utiliza una aplicación para su gestión. Los elementos que maneja la aplicación son:
+**Actividad SRP**. Escribe una aplicación que incluya una clase llamada *Mensaje*. Un mensaje tiene un remitente, un destinatario y un texto de mensaje. La clase contiene los siguientes métodos:
 
-- Comercial (Nombre y Apellidos)
-- Departamento de contabilidad 
-- Vehículo (Modelo, Precio sin IVA)
-- Extra (Nombre, Precio sin IVA )
-- Venta (comercial, Vehículo, Extras, Fecha)
-- Ventas
+- *guardar*, que permite guardar el mensaje en un documento XML. 
+- *mostrar*, que formatea el mensaje para presentarlo por pantalla.
+- *addDestinatario*, que añade un destinatario al mensaje.
 
-Tres de los requisitos funcionales de dicha aplicación es el siguiente:
-    
-    Los comerciales pueden registrar la venta de un vehículo, indicando el número de bastidor, los datos del comprador, fecha y extras añadidos.
-    Los comerciales pueden calcular su comisión según las ventas realizadas. Su margen será del 10% sobre el precio del vehículo (extras incluídos)
-    El departamento de contabilidad puede calcular los ingresos por las ventas durante un periodo.
-    
-Una vez que las funcionalidades han sido desarrolladas, el departamento de contabilidad pide que se modifique el cálculo de los ingresos para que incluyan el IVA.
+La clase *Mensaje* es usada por las clases *UI*, *Pesistencia* y *Mensajeria*.
 
-a) Desarrolla las funcionalidades de la aplicación, para que incumpla el principio SRP.
+------------------------------------
 
-b) Modifica la aplicación para que sí lo cumpla.
+Una vez que hayas implementado la solución, plantéate los siguientes enunciados:
 
---------------------------------------
+> Los mensajes pueden guardarse en una base de datos MySQL o en un documento XML.
+> La presentación de un mensaje puede basarse en texto plano o en html.
+
+Plantea una solución basada en SRP que permite añadir más métodos de guardado
+
+------------------------------------
 
 # Open Close Principle
 
 > Todo artefacto debería ser escrito para su extensión, pero también para evitar cambios
 
-Supongamos que contamos con una clase llamada *LogInterno* que se encarga de escribir cierta información en un archivo. Imaginemos que la información a escribir incluye los siguientes items:
+------------------------
+
+Ejemplo: 
+
+Supongamos que contamos con una clase llamada *Rectangulo* que tiene un alto y un ancho. Se desea crear una aplicación que calcule el área total de un conjunto de rectángulos. Una implementación podría ser la siguiente.
+
+![Ejemplo OCP](img/ocp-ejemplo.png)
+
+El problema aparece si se quiere calcular el área total de un conjunto de rectángulos y círculos. El diseño anterior no se ajusta a OCP. Supongamos que deseamos agregar a los conjuntos de figuras, círculos y triángulos. Siguamos trabajando en una clase sin aplicar el principio OCP.
+
+![Ejemplo OCP](img/ocp-emeplo2.png)
+
+La clase AreaCalculator va aumentando el número de condiciones necesarias para realizar el trabajo.
+----------------------------
+
+Otro ejemplo:
+
+Contamos con una clase llamada *LogInterno* que se encarga de escribir cierta información en un archivo. Imaginemos que la información a escribir incluye los siguientes items:
 
 - Artefacto: artefacto al que se refiere la información
 - Información: la información a registrar
@@ -86,6 +99,8 @@ Supongamos que contamos con una clase llamada *LogInterno* que se encarga de esc
 La información se registra en un documento de texto, con una línea por cada información.
 
 Ahora supongamos que surgen nuevas necesidades, y la información debe guardarse en un archivo XML. Si no se aplica el principio OCP, será necesario modificar una y otra vez el método de escritura.
+
+-------------------------------------
 
 > PRINCIPIO DE DISEÑO: Las partes de una clase que sospechemos que puedan sufrir cambios/ampliaciones, deben ser separadas.
 
