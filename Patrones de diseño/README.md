@@ -52,20 +52,13 @@ Solución propuesta:
 
 **Actividad SRP**. Escribe una aplicación que incluya una clase llamada *Mensaje*. Un mensaje tiene un remitente, un destinatario y un texto de mensaje. La clase contiene los siguientes métodos:
 
-- *guardar*, que permite guardar el mensaje en un documento XML. 
+- *guardar*, que permite guardar el mensaje en un documento CSV. 
 - *mostrar*, que formatea el mensaje para presentarlo por pantalla.
 - *addDestinatario*, que añade un destinatario al mensaje.
 
 La clase *Mensaje* es usada por las clases *UI*, *Pesistencia* y *Mensajeria*.
 
-------------------------------------
-
-Una vez que hayas implementado la solución, plantéate los siguientes enunciados:
-
-> Los mensajes pueden guardarse en una base de datos MySQL o en un documento XML.
-> La presentación de un mensaje puede basarse en texto plano o en html.
-
-Plantea una solución basada en SRP que permite añadir más métodos de guardado
+Plantea una solución que aplique SRP en la arquitectura, de forma que se permita añadir más métodos de guardado. Una vez que hayas implementado la solución, consulta los cambios en el [documento de cambios de requisitos](doc/cambios_solid.md):
 
 ------------------------------------
 
@@ -106,15 +99,15 @@ Ahora supongamos que surgen nuevas necesidades, y la información debe guardarse
 
 Sean dos componentes A y B que mantienen una relación. Si un componente A debe ser inmune a los cambios en el componente B, entonces B debería depender de A y no al revés. De esta regla, se deriva el siguiente principio de diseño:
 
-> PRINCIPIO DE DISEÑO: Los componentes de mayor nivel de abstracción, deben estar protegidos de los cambios en los componentes de menor nivel de abstracción.
+> PRINCIPIO DE DISEÑO: Los componentes de mayor nivel de abstracción (menos propensos a cambiar, dado que están más próximos a la lógica de negocio), deben estar protegidos de los cambios en los componentes de menor nivel de abstracción.
 
 ![90775d0d6b06281cdd135816c1f351fc.png](img/e62677434e574d95aeec41d48987429a.png)
 
 En esta imagen, la clase *Empleado* tiene un nivel de abstracción superior a *InformeEmpleado*. Por eso, la dependencia tiene el sentido indicado por la flecha (los cambios en los detalles de impresión no deben requerir cambios en la clase *Empleado*)
 
-**Actividad OCP** Contamos con una clase llamada *Medidas* que incluye un conjunto de medidas. Estas medidas son longitudes, medidas en metros. Contamos con otra clase, llamada *Trayectoria* que utiliza estas medidas para realizar un cálculo en su método *calcular*, consistente en la suma de las medidas, multiplicadas por 0.97. 
-a) Escribe el código necesario para cumplir con el enunciado.
-b) Posteriormente, el proyecto cambia, de forma que las medidas no serán longitudes, sino pares de coordenadas X,Y (en un plano cartesiano). Aplica el principio OCP para que la clase *Trayectoria* no sufra cambios cuando los datos cambien.
+**Actividad OCP** Contamos con una clase llamada *Medidas* que incluye un conjunto de medidas. Estas medidas son longitudes, medidas en metros. Contamos con otra clase, llamada *Trayectoria* que utiliza estas medidas para realizar un cálculo en su método *calcular*, consistente en la suma de las medidas, multiplicadas por 0.97. Escribe el código necesario para cumplir con el enunciado.
+
+> Una vez que termines, consulta las nuevas especificaciones en el [documento de cambios](doc/cambios_solid.md)
 
 -------------------------------------------------
 
@@ -196,9 +189,13 @@ Si creamos la subclase *ControlAccesoMejorado*, violaríamos LSP si además incl
 
 > PRINCIPIO DE DISEÑO: en las relaciones de herencia, las superclases y las subclases deben poder ser intercambiables, o habrá que llenar el código de multitud de mecanismos para compensar las diferencias.
 
-**Actividad LSP** Contamos con una clase llamada *Calculadora*. Esta clase contiene un método llamado *calcular*, que recibe como parámetro un objeto que puede ser o bien *Suma* o bien *Multiplicación*. Tanto *Suma* como *Multiplicación* contienen dos operandos.
-a) Escribe una aplicación que resuelva el enunciado violando LSP.
-b) Escribe una aplacación que respete LSP.
+**Actividad LSP** Contamos con un proyecto llamado *Calculadora*. En este proyecto se manejan operaciones de diferente tipo, inicialmente sumas y restas. Las operaciones reciben operandos, realizan cálculos sobre ellos y devuelven un valor. Tanto la operación de *Suma* como la de *Multiplicación* contienen dos operandos.
+
+La aplicación tendrá una clase llamada *Calculo* donde habrá un método llamado *calcular* que reciba la información necesaria sobre una operación y los operandos, que realice los cálculos y devuelve el valor calculado. 
+
+Escribe una aplacación, intentando respetar LSP.
+
+> Una vez que termines, consulta las nuevas especificaciones en el [documento de cambios](doc/cambios_solid.md)
 
 -----------------------------------------------
 
@@ -324,3 +321,19 @@ Las cosas deben ser lo más sencillas posible, pero no más.
 Si sospechamos que una característica nos hará falta en el futuro, no es razón suficiente para desarrollarla ahora, ya que "No La Vas A Necesitar".
 [YAGNI descrita por Martin Fowler](https://martinfowler.com/bliki/Yagni.html)
 
+-------------------------------------------------------------
+
+# Actividades del tema
+
+**Actividad 1**. Implementa un CRUD con Swing sobre una base de datos llamada *Empleados*. La base de datos *Empleados* contiene una tabla llamada *Empleado* con la siguiente estructura:
+
+Campo   |   Tipo    |   Clave primaria
+--------|-----------|---------------------
+id      | int       |  *
+nombre  | varchar(50)|
+
+La aplicación debe permitir consultar empleados a partir de un indicio de búsqueda (si el indicio es vacío se mostrarán todos los empleados). Además se debe poder insertar nuevos empleados, que se mostrarán de manera inmediata, nada más insertarlos. También se pueden modificar y borrar.
+
+> Asegúrate de aplicar el principio SRP a la hora de implementar la persistencia de los datos.
+
+Cuando implementes la solución, consulta el documento de [cambios de requisitos](doc/cambios_solid)
