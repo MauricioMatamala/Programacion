@@ -93,10 +93,10 @@ Puedes ver un ejemplo en [src/Patrones_diseño.zip](https://github.com/MauricioM
 
 ## Ventajas e inconvenientes
 
-- Minimizamos el acoplamiento entre las clases cliente y sus dependencias.
-- Garantizamos el principio SRP, ya que quitamos la responsabilidad de crear el producto adecuado a la clase cliente.
-- Garantizamos OCP. Se pueden introducir nuevas clases de producto sin romper el código existente.
-- El código se vuelve más complicado.
+- [Ventaja] Minimizamos el acoplamiento entre las clases cliente y sus dependencias.
+- [Ventaja] Garantizamos el principio SRP, ya que quitamos la responsabilidad de crear el producto adecuado a la clase cliente.
+- [Ventaja] Garantizamos OCP. Se pueden introducir nuevas clases de producto sin romper el código existente.
+- [Inconveniente] El código se vuelve más complejo.
 
 # Abstract Factory
 
@@ -106,7 +106,7 @@ Supongamos que estamos trabajando con varias categorías de vehículos, descrito
 
 Necesitamos un sistema para crear vehículos individuales de forma que estén en consonancia con los otros objetos de la misma familia. Por ejemplo, si un cuerpo militar solicita un avión y un barco, éstos deberían ser de categoría militar.
 
-También queremo evitar tener que cambiar el código cada vez que se añadan nuevos productos a la familia de productos. Imaginemos que agregamos también la categoría *futurístico* y *victoriano*.
+También queremos evitar tener que cambiar el código cada vez que se añadan nuevos productos a la familia de productos. Imaginemos que agregamos también la categoría *futurístico* y *victoriano*.
 
 ## Solución 
 
@@ -143,11 +143,11 @@ Puedes ver un ejemplo en [src/Patrones_diseño.zip](https://github.com/MauricioM
 
 ## Ventajas e inconvenientes
 
-- [V] Garantiza la compatibilidad entre los productos creados por una misma clase *factory*.
-- [V] Evita el acoplamiento entre los productos concretos y las clases cliente.
-- [V] Garantizamos el principio SRP, ya que movemos la creación de los productos a un único lugar de la aplicación, haciendo el código más fácil de mantener.
-- [V] Garantizamos el principio OCP, ya que introducimos nuevas familias de productos sin romper el código existente.
-- [X] El código se vuelve más complejo de lo que podría ser, ya que aparecen nuevas interfaces y clases para cubrir el patrón.
+- [Ventaja] Garantiza la compatibilidad entre los productos creados por una misma clase *factory*.
+- [Ventaja] Evita el acoplamiento entre los productos concretos y las clases cliente.
+- [Ventaja] Garantizamos el principio SRP, ya que movemos la creación de los productos a un único lugar de la aplicación, haciendo el código más fácil de mantener.
+- [Ventaja] Garantizamos el principio OCP, ya que introducimos nuevas familias de productos sin romper el código existente.
+- [Inconveniente] El código se vuelve más complejo de lo que podría ser, ya que aparecen nuevas interfaces y clases para cubrir el patrón.
 
 
 ---------
