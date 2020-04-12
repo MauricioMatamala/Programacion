@@ -1,5 +1,3 @@
-Patroneces creacionales
-
 # Patrones de diseño
 
 Existen tres tipos generales de patrones de diseño:
