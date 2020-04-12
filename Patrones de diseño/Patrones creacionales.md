@@ -98,6 +98,58 @@ Puedes ver un ejemplo en [src/Patrones_diseño.zip](https://github.com/MauricioM
 - Garantizamos OCP. Se pueden introducir nuevas clases de producto sin romper el código existente.
 - El código se vuelve más complicado.
 
+# Abstract Factory
+
+Supongamos que estamos trabajando con varias categorías de vehículos, descritos mediante la siguiente imagen:
+
+![fe11da1087103961d84d301bc05e6540.png](img/af1.png)
+
+Necesitamos un sistema para crear vehículos individuales de forma que estén en consonancia con los otros objetos de la misma familia. Por ejemplo, si un cuerpo militar solicita un avión y un barco, éstos deberían ser de categoría militar.
+
+También queremo evitar tener que cambiar el código cada vez que se añadan nuevos productos a la familia de productos. Imaginemos que agregamos también la categoría *futurístico* y *victoriano*.
+
+## Solución 
+
+Para empezar, el patrón *Abstract Factory* recomienda crear interfaces para cada producto distinto de cada familia (Barco, Autobús, Avión, etc.). Por ejemplo, en el caso del autobús:
+
+![996a6b19606b60f402be0b61c1393482.png](img/af2.jpg)
+
+El siguiente paso es crear una interfaz *Abstract Factory* con la lista de métodos de creación para todos los tipos de producto de una misma familia (por ejemplo, *crearTransporteTerrestre*, *crearTranporteAéreo* y *crearTransporteMarítimo*).
+
+Finalmente, habrá que crear una implementación concreta de la interfaz *Abstract Factory* para cada familia de productos, en nuestro caso, militar, recreativo y público. De este modo, nuestro ejemplo quedaría así:
+
+![cffc5a68448b0475269971f6e138da3d.png](img/af3.jpg)
+
+Supongamos que una clase cliente desea producir un vehículo terrestre. Es deseable que dicha clase no tenga que saber los datalles sobre si el vehículo debe ser militar o público. Además, debe tratar a todos los vehículos terrestres de la misma manera, sin preocuparle si se trata de un autobús, un camión militar o una autocaravana.
+
+Entonces, ¿Quién crea las factorías concretas? El cliente no debe tener que saber qué tipo de *astract factory* concreto necesita. Por ello, un posible enfoque es crear un *astract factory* concreto en la fase de inicialización, dependiendo de la configuración de la aplicación.
+
+![98ffbbe000e50799607d34ad515dbb27.png](img/af4.jpg)
+
+1. **Asbstract Products** declaran las interfaces para un conjunto de productos del mismo tipo, de diferente familia (en el ejemplo anterior, TransporteTerrestre, TransporteAéreo y TransporteMarítimo).
+2. **Concrete Products** son implementaciones de los *Abstract Products* (en el ejemplo anterior, para el *TransporteTerrestre*, estarían *Autobús*, *Autocaravana* y *Camión militar*).
+3. **Abstract Factory** interfaz que declara el conjunto de métodos de creación de cada *Abstract Product*.
+4. **Concrete Factory** implementa los métodos de creación del *Abstract Factory* para una familia de productos.
+
+> ¡OJO! Aunque los *Concrete Factory* devuelven productos de un tipo concreto, la clase devuelta debe ser la del *Abstract Product* correspondiente. De este modo, se elimina el acoplamiento a una cierta familia de productos.
+
+## Ejemplo
+
+Puedes ver un ejemplo en [src/Patrones_diseño.zip](https://github.com/MauricioMatamala/Programacion/blob/master/Patrones%20de%20dise%C3%B1o/src/patrones_dise%C3%B1o.zip)
+
+## Cuando aplicar *Abstract Factory*
+
+- Cuando el código necesita trabajar con varias familias de productos relacionados, pero no se desea depedender de las clases concretas de estos productos (porque no se sabe la familia a usar de antemano, o bien deseamos garantizar la extensibilidad futura).
+
+## Ventajas e inconvenientes
+
+- [V] Garantiza la compatibilidad entre los productos creados por una misma clase *factory*.
+- [V] Evita el acoplamiento entre los productos concretos y las clases cliente.
+- [V] Garantizamos el principio SRP, ya que movemos la creación de los productos a un único lugar de la aplicación, haciendo el código más fácil de mantener.
+- [V] Garantizamos el principio OCP, ya que introducimos nuevas familias de productos sin romper el código existente.
+- [X] El código se vuelve más complejo de lo que podría ser, ya que aparecen nuevas interfaces y clases para cubrir el patrón.
+
+
 ---------
 **Actividad 1**. Deseas poder mostrar información de texto por consola usando diferentes formatos. Para ello, cuentas con las siguientes clases:
 
@@ -147,5 +199,19 @@ Listado de empadronamientos:
     ...
 ```
 Aplica el patrón *Factory Method* para crear un proyecto que resuelva el problema. La información que debes mostrar por pantalla es la siguente: [poblacion-por-nacionalidades_2016-2018.xml](https://github.com/MauricioMatamala/Programacion/raw/master/Patrones%20de%20dise%C3%B1o/doc/poblacion-por-nacionalidades_2016-2018_alcobendas.xml)
+
+------------------------
+
+**Actividad 2**. En un juego hay diferentes escenarios posibles, y personajes acordes al escenario. En concreto, las posibilidades son las siguientes:
+
+Escenario    | Jugador        | Villano | Obstáculos 
+-------------|----------------|---------|------------------
+**Selva**    | Indiana        | Molaram | Carcelero turco
+**Desierto** | Patton         | Rommel  | Tanques
+**Espacio**  | USS Enterprise | Khan    | Naves Klingon 
+
+Dependiendo del Escenario elegido por el jugador, se crearán diferentes elementos para el juego. Es preciso que se traten de clases diferentes, puesto tendrán comportamientos diferentes. 
+
+Escribe una clase llamada *SelectorJuego* que da al jugador la opción de elegir uno u otro escenario. Dependiendo de la elección, crea los elementos del juego necesarios.
 
 
