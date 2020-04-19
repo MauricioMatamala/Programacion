@@ -149,7 +149,227 @@ Puedes ver un ejemplo en [src/Patrones_diseño.zip](https://github.com/MauricioM
 - [Ventaja] Garantizamos el principio OCP, ya que introducimos nuevas familias de productos sin romper el código existente.
 - [Inconveniente] El código se vuelve más complejo de lo que podría ser, ya que aparecen nuevas interfaces y clases para cubrir el patrón.
 
+---------
 
+# Patrón número 3: Builder
+
+El patrón *Builder* nos permite construir objetos complejos paso a paso. Además, permite producir diferentes objetos utilizando el mismo código.
+
+Este patrón suele ser utilizado en las inicializaciones largas de un cierto objeto con muchas opciones de configuración que dan lugar a: 
+
+a. Un constructor monstruoso con muchos parámetros.
+b. Código de configuración disemiado por muchas partes del código (esto es peor que un constructor monstruoso).
+
+
+
+## Construir una casa
+
+Imaginemos que tenemos que construir un objeto *Casa*. Una casa incluye 4 paredes, suelo, una puerta, varias ventanas y un tejado. Pero qué pasaría si quisiéramos una casa más grande, o más luminosa, con un patio trasero y piscina o un cobertizo.
+
+La solución más inmediata es extender la clase *Casa* y crear un conjunto de subclases que cubran todas las combinaciones: *Mansión*, *CasaLujo*, *Granja*. Pero si las posibilidades siguiesen aumentando y hubiese una explosión de subclases, existe una alternativa. Un constructor con todos los posibles parámetros (constructor monstruoso). Un constructor monstruoso es largo, difícil de mantener, y sobre todo, difícil de llamar:
+
+```
+Casa casa = new Casa(paredes, ventanas, suelo, puerta, tejado, Casa.MANSION, true, true, false, false);
+```
+
+Un constructor así, no es código limpio. Cada vez que se haga una llamada al constructor, habrá que declarar todos los parámetros necesarios (y es fácil equivocarse en el valor de un parámetro).
+
+## Solución
+
+El patrón *Builder* extrae la construcción del objeto fuera de la propia clase, y llevarla a un objeto aparte, llamado *Constructor* o *Builder*. 
+
+> Esta práctica está mal vista muchos programadores por considerarla un *code smell* (código que apesta). 
+
+![builder](img/build1.jpg)
+
+El patrón organiza la construcción en una serie de pasos (*construirParedes*, *construirVentanas*,etc.). La parte interesante, es que no hace falta pasar por todos ellos, y solo hay que pasar por los pasos necesarios en cada caso. Crear una casa con piscina y cobertizo se podría resolver así:
+
+```
+CasaBuilder casaBuilder = new CasaBuilder();
+Casa casaConPiscina = casaBuilder.construirParedes()
+                                 .construirPuertas()
+                                 .construirVentanas()
+                                 .construirTejado()
+                                 .construirPiscina()
+                                 .construirCobertizo()
+                                 .getResultado();
+```
+
+## Cuando hay varias implementaciones posibles
+
+Algunos de los pasos pueden requerir implementaciones diferentes. Por ejemplo, una casa puede ser un castillo, o una cabaña o un iglú. En este caso, se pueden crear diferentes clases *Builder* que implementen los mismos pasos, pero con diferente implementación.
+
+![Varias implementaciones](img/build2.jpg)
+
+## El director
+
+Para dar una vuelta más de tuerca, se puede extraer el conjunto de pasos a una clase separa llamada *Director*. Esta clase define el orden correcto en que se deben ejecutar los pasos constructivos. 
+
+No es necesario contar con un *Director*, pero éste ayuda a reutilizar secuencias constructivas cuando se repiten a lo largo del código. Otra ventaja de utilizar un *Director* es que oculta los detalles de construcción a la clase cliente, que únicamente le pasa al director un *Builder* concreto. El diagrama de clases, usando un director, podría quedar así:
+
+![Builder con director](img/build3.jpg)
+
+Atendiendo a este diseño, la construcción de un castillo con piscina podría quedar como sigue:
+
+```
+ResidenciaBuilder castilloBuilder = new CastilloBuilder();
+DirectorResidencia director = new Director(castilloBuilder);
+director.crearResidencia(Residencia.CON_PISCINA);
+Residencia castilloConPiscina = director.getResultado();
+```
+## Diagrama UML general del patrón Builder
+
+El diagrama UML general del patrón Builder es el siguiente:
+
+![Diagrama UML general](img/build4.png)
+
+Donde:
+- **Builder** es una interfaz común a todos los tipos de *builders* concretos.
+- **ConcreteBuilder** son implementaciones diferentes del proceso constructivo. 
+- **Product** es el resultado concreto de un proceso constructivo.
+- **Director** define el orden en que realizan los pasos constructivo. Su finalidad es la reutilización de configuraciones concretas.
+- **Client** es la clase cliente que utiliza el patrón. Existen dos posibilidades:
+    - El cliente utiliza directamente un *ConcreteBuilder*, ejecutando uno a uno los pasos constructivos.
+    - El cliente utiliza un *director* que lleva a cabo el proceso constructivo.
+
+## Ejemplo
+
+En el siguiente proyecto hay un ejemplo de aplicación del patrón *Builder*.
+
+[ejemplos de patrones de diseño](src/patrones_diseño.zip)
+
+## Cuándo aplicar el patrón Builder
+
+El patrón Builder puede ser una opción a considerar cuando:
+
+- Cuando nos vemos obligados a escribir un "constructor telescópico". Por ejemplo, imaginemos que tenemos un constructor con 10 parámetros. 
+
+- Cuando hay una explosión de constructores (muchos constructores con diferentes parámetros).
+
+- Cuando queremos que el código sera capaz de crear diferentes representaciones del mismo producto (como en el ejemplo de las residencias, para obtener un castillo con piscina, o una cabaña con parking).
+
+## Ventajas e inconvenientes
+
+- [Ventaja] Se pueden construir objetos paso a paso.
+- [Ventaja] Se puede postergar la construcción completa del objeto hasta que se tenga toda la información, ya que hasta que no se ejecute el método *getResultado* de la clase *builder* no obtendremos el producto.
+- [Ventaja] Se respeta SRP, aislando una construcción compleja del objeto de la lógica de negocio del mismo.
+- [Desventaja] La complejidad del código se ve incrementada, y aumenta el número de clases necesarias.
+
+# Patrón número 4: Singleton
+
+El patrón singleton garantiza que sólo existe una instancia de una clase. Además proporciona un punto global de acceso a dicha instancia. 
+
+> Sólo puede haber uno, y es visible siempre.
+
+## Solución
+
+El diagrama UML del patrón *Singleton* es:
+
+![UML Singleton](img/sing1.png)
+
+## Singleton desgranado
+
+La clave de *Singleton* es que contiene una referencia estática privada a una instancia de su mismo tipo.
+
+```
+Class Singleton{
+    private static Singleton instancia = null;
+
+    public getInstance(){
+        if (instancia == null)
+            instancia = new Singleton();
+        return instancia;
+    }
+
+    // Métodos útiles de la clase
+}
+```
+
+## Un ejemplo
+
+Supongamos que tenemos una clase con información que sólo puede tener un estado estado durante la ejecución del programa. Supongamos también que tenemos que acceder a dicho desde distintos puntos del programa. 
+
+Una opción puede ser pasar como parámetro la clase en cada punto donde debe ser consultada. En la mayoría de las situaciones esto es suficiente, pero puede convertirse en un laberinto conforme el programa crece. 
+
+En nuestro ejemplo, se desea llevar un registro de las acciones realizadas por un usuario una interfaz gráfica, independientemente de la vista que se trate. Si aplicamos el patrón *Singleton*, cuando se produzca un vento, podemos ejecutar lo siguiente:
+
+```
+    LogAcciones logAcciones = LogAcciones.getInstance();
+    logAcciones.anotar(acción);
+```
+
+Internamente, esta clase deberá mantener una lista de acciones. El código de nuestra clase *LogAcciones* podría ser la siguiente:
+
+```
+public class LogAcciones{
+    private static LogAcciones instancia = null;
+    
+    private List<String> acciones;
+
+    public LogAcciones(){
+        acciones = new ArrayList<String>();
+    }
+
+    public static LogAcciones getInstance(){
+        if (instancia == null)
+            instancia = new LogAcciones();
+        return instancia;
+    }
+
+    public void anotar(String acción){
+        acciones.add(acción);
+    }
+
+    public List<String> getAcciones(){
+        return acciones;
+    }
+}
+```
+
+puedes ver el ejemplo completo en [ejemplos de patrones de diseño](src/patrones_diseño.zip)
+
+## Versión proactiva/perezosa
+
+La inicialización de la instancia se puede hacer desde que se carga el programa en memoria, o bien cuando se solicite por primera vez la instancia. La versión mostrada en el apartado anterior es perezosa. La versión proactiva sería como sigue:
+
+```
+public class LogAcciones{
+    private static LogAcciones instancia = new LogAcciones();
+    
+    private List<String> acciones;
+
+    public LogAcciones(){
+        acciones = new ArrayList<String>();
+    }
+
+    public static LogAcciones getInstance(){
+        return instancia;
+    }
+
+    public void anotar(String acción){
+        acciones.add(acción);
+    }
+
+    public List<String> getAcciones(){
+        return acciones;
+    }
+}
+```
+
+## Cuándo aplicar Singleton
+
+El patrón Singleton se puede aplicar cuando:
+- Una clase debe tener una única instancia disponible para todos sus clientes.
+- Se requiere un control estricto sobre una variable global.
+
+
+## Ventajas e inconvenientes
+
+- [Ventaja] Garantías de que existe una única instancia de una clase.
+- [Ventaja] Acceso global a dicha instancia.
+- [Ventaja] Objeto *singleton* inicializado sólo cuando es requerido.
+- [Desventaja] Violación de SRP, ya que resuelve varios problemas a la vez.
+- [Desventaja] Puede enmascarar un mal diseño. Cuando una clase cliente no puede acceder a otra debido a un mal diseño, *Singleton* puede ser una tentación para resolver el problema de manera cómoda y rápida. Sin embargo un objeto *singleton* está expuesto a todos los demás componentes, y usado de manera incorrecta destruye la ocultación de información.
 ---------
 **Actividad 1**. Deseas poder mostrar información de texto por consola usando diferentes formatos. Para ello, cuentas con las siguientes clases:
 
@@ -214,4 +434,57 @@ Dependiendo del Escenario elegido por el jugador, se crearán diferentes element
 
 Escribe una clase llamada *SelectorJuego* que da al jugador la opción de elegir uno u otro escenario. Dependiendo de la elección, crea los elementos del juego necesarios.
 
+-------------------
 
+**Actividad 3**. Escribe un programa que cree un plan de actividades durante la estancia en un hotel de vacaciones. Existen varios servicios a los que un cliente puede acceder:
+
+- Desayuno
+- Almuerzo
+- Cena
+- Habitación simple, doble o suite
+- Cama adicional
+- Parque de atracciones
+- Curso de kite surf
+- Actividades infantiles
+- Cine en la playa
+
+Estos servicios se pueden contratar en packs, a saber:
+
+- Pack básico (habitación simple y desayuno)
+- Pack romance (habitación doble y cena)
+- Pack familiar (habitación doble, cama adicional, desayuno, almuerzo, cena, parque de atracciones, actividades infantiles y cine en la playa)
+- Pack padres relajados (habitación doble, cama adicional, desayuno, almuerzo, cena, actividades infantiles, curso de kite surf y cine en la playa)
+- Pack deluxe (suite, desayuno, almuerzo y cena, curso de kite surf y cine en la playa)
+- Pack deluxe familiar(suite, cama adicional, desayuno, almuerzo, cena, parque de atracciones, curso de kite surf, actividades infantiles y cine en la playa)
+
+Escribe un programa que pregunte al cliente qué pack desea contratar, y que construya el plan deseado mediante el patrón builder.
+
+----------------------
+
+**Actividad 4**. Observa el siguiente diagrama:
+
+![Actividad 4](img/act_sing.jpg)
+
+Escribe un proyecto que incluya las tres clases del diagrama, descritas a continuación:
+
+- *Tareas* implementa el patrón Singleton.      
+    - *tareas* contiene una lista de cadenas de texto que representan tareas que deben ser realizadas.  
+    - *últimaRealizada* con la posición de la última tarea realizada en la lista.
+    - *addTarea* permite añadir una nueva cadena de texto a la lista de tareas.
+    - *getÚltimaTareaRealizada* devuelve la cadena de texto de la lista en la posición *últimaTareaRealizada*.
+    - *cambiarÚltimaTareaRealizada* toma un valor positivo o negativo como parámetro y modifica el atributo *últimaTareaRealizada*.
+- *AvanceTarea* es una clase cliente de *Tareas*:
+    - *avanzar* toma un número positivo, e incrementa *últimaTareaRealizada*.
+    - *mostrarÚltimaTareaRealizada* devuelve la cadena de texto correspondiente a la última tarea realizada.
+- *RetrocesoTarea* es una clase cliente de *Tareas*:
+    - *retroceder* toma un número positivo, y decrementa *últimaTareaRealizada*.
+    - *mostrarÚltimaTareaRealizada* devuelve la cadena de texto correspondiente a la última tarea realizada.
+
+Escribe un programa que haga lo siguiente:
+
+1. Insertar un conjunto de tareas en la clase *Tareas*.
+2. Realiza varios avances y retrocesos en las tareas.
+3. Cada vez que realices un avance o un retroces, muestra la última tarea realizada.
+4. Antes de terminar, muestra la última tarea realizada y comprueba que la información es coherente con los avances y retrocesos realizados durante la ejecución.
+
+NOTA: Toma las decisiones que consideres oportunas en cuanto a manejo de errores (como un índice de lista fuera de rango).
