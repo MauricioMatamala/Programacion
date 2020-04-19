@@ -158,6 +158,7 @@ El patrón *Builder* nos permite construir objetos complejos paso a paso. Ademá
 Este patrón suele ser utilizado en las inicializaciones largas de un cierto objeto con muchas opciones de configuración que dan lugar a: 
 
 a. Un constructor monstruoso con muchos parámetros.
+
 b. Código de configuración disemiado por muchas partes del código (esto es peor que un constructor monstruoso).
 
 
