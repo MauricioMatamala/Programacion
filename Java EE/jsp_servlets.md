@@ -93,23 +93,29 @@ Tomcat es, además del nombre de un servidor web, el nombre de un **contenedor w
 Cuando Tomcat recibe una solicitud HTTP, el proceso es el siguiente:
 
 ![paso 1](img/jsp_serv3.png)
+
 paso 1. El usuaro hace clic en un enlace que tiene la url de un servlet (en lugar de una página estática).
 
 ![paso 2](img/jsp_serv4.png)
+
 paso 2. El contenedor ve que la solicitud es para un servlet. El contenedor crea dos objetos:
 - HttpServletResponse (response)
 - HttpServletRequest (request)
 
 ![paso 3](img/jsp_serv5.png)
+
 paso 3. El contenedor encuentra el servlet basándose en la URL. Entonces ejecuta el servlet y  le pasa los objetos *HttpServletResponse* y *HttpServletRequest* al servlet.
 
 ![paso 4](img/jsp_serv6.png)
+
 paso 4. Al herdedar de la clase *HttpServlet*, un servlet hereda un método llamado *service*. El contenedor ejecuta este método, que decide si la solicitud es de tipo *POST* o *GET*. Dependiendo de ello, el método *service* llama al método *doPost* o *doGet* (que son los métodos que el programador debe implementar.
 
 ![paso 5](img/jsp_serv7.png)
+
 paso 5. El método *doGet* o *doPost*, escrito por el programador, se ejecuta y genera contenido dinámico, que es devuelto al contenedor.
 
 ![paso 6](img/jsp_serv8.png)
+
 paso 6. Una vez que la ejecución del servlet concluye, el contenedor convierte el contenido devuelto en una respuesta HTTP, que es enviada de vuelta al cliente. Finalmente borra los objetos *HttpServletRequest* y *HttpServletResponse*.
 
 # Primer ejemplo con servlets
