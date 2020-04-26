@@ -8,7 +8,7 @@ Según Erich Gamma, los patrones estructurales plantean maneras de formar estruc
 
 El patrón adapter (también llamado *wrapper*) es un patrón de diseño que permite a objetos con interfaces incompatibles a colaborar
 
-![imagen de adaptadores](ad1.jpg)
+![imagen de adaptadores](imt/ad1.jpg)
 
 Supongamos que estamos escribiendo una aplicación para la monitorización del stock de mascarillas, es decir, muestra cuántas mascarillas hay en el mercado, y qué empresas las venden. Para ello, obtiene sus datos como documentos XML de un proveedor oficial de datos. Los datos XML son mostrados de una forma fácilmente interpretable por el usuario (mediante gráficos, por ejemplo).
 
@@ -95,7 +95,7 @@ Si por ejemplo utilizamos una librería profesional de vídeo, con decenas de fu
 
 El patrón *façade* queda descrito por el siguiente diagrama:
 
-![Diagrama UML de façade](fac3.png)
+![Diagrama UML de façade](img/fac3.png)
 
 donde:
 
