@@ -117,6 +117,67 @@ Se utiliza *façade* en cualquiera de las siguientes circunstancias:
 - [Ventaja] Se puede aislar el código de la complejidad de un subsistema, ya sea código nuestro o de terceros.
 - [Inconveniente] Un objeto *façade* puede terminar convirtiéndose en **El Objeto**. Llevado a un extremo, ninguna clase puede completar su función sin *El Objeto*. 
 
+# El patrón *Composite*
+
+El patrón *composite* es un patrón que nos permite componer objetos dentro de una estructura arbórea, y utilizarlos como si fueran objetos individuales. El una estructura *Composite* todos los elementos soportan operaciones comunes, como *ejecutar* o *calcular* por ejemplo. Pensar en *composite* es similar a pensar en una caja de un pedido por Internet. La caja principal puede contener otras cajas, que a su vez contienen cajas. Cada elemento, ya sea una caja o un producto, tiene un método común *obtener*. En el caso de una caja, *obtener* representa abrir la caja y extraer su contenido. En el caso de un producto, *obtener* es tomar el producto. Si vamos aplicando la operación *obtener* sucesivamente, en algún punto, llegamos a los productos.
+
+----------------------
+
+Por ejemplo, imaginemos una aplicación que almacena gestiona unidades organizativas y personas. Las reglas que rigen la estructura de datos es la siguiente:
+
+- Las unidades organizativas son una forma de organizar personas. 
+- Una unidad organizativa puede estas formada por otras unidades organizativas así como por personas. 
+- Una persona es un nodo *hoja*, por lo que no contiene más elementos en su interior.
+
+Supongamos también que el departamento de tesorería necesita saber cuánto debe pagar en sueldos a una persona o unidad organizativa.
+
+El problema tiene una estructura claramente arbórea. Por ejemplo:
+
+![Imagen de ejemplo de Composite](img/comp_ej2.png)
+
+----------------------
+
+El patrón *Composite* facilitará bastante las cosas para resolver este problema.
+
+## Descripción general del patrón *Composite*
+
+La estructura general del patrón *Composite* queda descrita por el siguiente diagrama:
+
+![Diagrama UML del patrón](img/comp1.png)
+
+donde:
+
+1. **Component** es una interfaz que describe las operaciones que son comunes tanto para los elementos simples (en el ejemplo anterior los empleados) como para los compuestos (en el ejemplo anterior las unidades organizativas).
+2. **Leaf** (hoja) es un elemento básico que no admite subelementos.
+3. **Container** (contenedor o composite) es un elemento que tiene subelementos, que pueden ser otros elementos *hoja* o bien otros *contenedores*. Un contenedor no sabe el tipo concreto de sus elementos hijo. Funciona con todos los subelementos a través de la interfaz de *Component*.
+
+> Cuando un contenedor recibe una solucitud, delega el trabajo a sus subelementos, y una vez ha conseguido un resultado, lo devuelve a la clase cliente.
+
+4. **Client** es la clase cliente, que trabaja con la estructura a través de la interfaz **Component**. Como resultado puede trabajar de la misma forma con un elemento simple o con uno compuesto.
+
+Como ejemplo puedes ver el código fuente del problema propuesto [aquí](src/UnidadesOrganizativas.zip).
+
+## ¿Cuándo aplicar el patrón *Composite*?
+
+El patrón *Composite* se puede aplicar en las siguientes circunstancias:
+
+- Cuando se tenga que implementar una estructura arbórea.
+- Cuando se desea que la clase cliente trabaje indistintamente con un elemento simple y con uno compuesto.
+
+## Ventajas e inconvenientes
+
+- [Ventaja] Se puede trabajar con estructura arbóreas complejas de manera cómoda.
+- [Ventaja] Fomento del principio OCP: se pueden introducir nuevos tipos de elemento sin romper el código existente.
+- [Inconveniente] Puede ser complicado proporcionar una interfaz común a todos los elementos (*hojas* y *contenedores*) cuando su funcionalidad es muy diferente, empujando el incumplimiento del principio LSP.
+
+## La relación de *Composite* con *Builder*
+
+El patrón *Builder* puede ser adecuado para la creación de una estructura *Composite*, ya que su construcción se puede hacer recursivamente.
+
+## Ejemplo de implementación
+
+Puedes ver el ejemplo de implementación del ejemplo planteado anteriormente en [patrones_diseño.zip](src/patrones_diseño.zip)
+
 -----------------------
 
 Actividad 1. En Swing, JTable permite mostrar objetos de forma tabulada. Hasta ahora hemos manejado las tablas usando un adaptador predefinido: *DefaultTableModel*. En este ejercicio vamos a crear nosotros nuestro propio adaptador, lo que ofrece más posibilidades.
@@ -144,3 +205,26 @@ Para saber cómo funciona *AbstractTableModel*, te propongo los siguientes recur
 3. [Apuntes resumidos sobre AbstractTableModelo](doc/AbstractTableModel.md)
 
 --------------------------
+
+Actividad 2. Supongamos que una empresa vende servicios con las siguientes características:
+- Un servicio tiene un nombre y un precio. 
+- Alungos tipos de servicio se pueden componer a su vez de más servicios, a lo que se le llama *paquete*.
+- Algunos tipos de servicio son llamados *productos*, y no se pueden componer de más servicios.
+
+Se desea poder almacenar esta información, y poder realizar las siguientes consultas sobre un servicio:
+
+- *añadir un servicio* (sólo es posible en el caso de un paquete)
+- *eliminar un servicio* (sólo es posible en el caso de un paquete)
+- *asignar el precio a un servicio* (en el caso de un paquete, el precio corresponde a la tasa por el paquete, aparte de los productos contratados).
+- *obtener el precio de un servicio* (en el caso de un paquete, el precio corresponde al precio total del servicio, incluyendo la tasa por paquete y los productos contratados) 
+
+La siguiente imagen muestra un ejemplo paquete contratado por un cliente:
+
+![Composite](img/comp_ej.png)
+
+Desarrolla un proyecto en el que puedas construir paquetes de servicios, y calcular su coste. Como prueba de funcionamiento, construye el paquete de servicios mostrado en la imagen, y calcula el coste de:
+
+- rack1 
+- ilink1.1
+- ilink1
+- cloud
