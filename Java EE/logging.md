@@ -1,5 +1,9 @@
 # Introducción
 
+Saber lo que está ocurriendo en el interior de una aplicación es útil, y en muchas ocasiones necesario. Java tiene sus propios mecanismos de Logging, y aunque existen librerías de terceros, el logging que ofrece Java por defecto tiene características más que suficientes para la mayoría de los casos. 
+
+¿De qué hablo en este apartado? Sobre cómo volcar mensajes sobre un archivo de logs, que me permitan revisar qué ha pasado en las ejecuciones anteriores. La mayoría de los servicios tienen sus propios archivos de log. Nosotros vamos a tener nuestro archivo de logs para nuestra aplicación.
+
 ![log1.png](img/log1.png)
 
 Esta imagen muestra cómo trabaja el API *java.util.logging*. Sigue las siguientes reglas:
