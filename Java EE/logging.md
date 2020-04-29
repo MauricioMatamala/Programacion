@@ -273,22 +273,22 @@ Indica cómo debe formatearse un cierto dato. Se dividen en las siguientes categ
 
 Las conversiones posibles pueden aparecer en mayúscula (por ejemplo, 'B', 'H', 'S', 'C', 'X', 'E', 'G', 'A' y 'T') o en minúscula. El resultado es igual, salvo que el resultado es mostrado en mayúscula.
 
-Conversión |Categoría |	Descripción |
------------|---------|---------|------------------|
-'b', 'B' | 	general | 	If the argument arg is null, then the result is "false". If arg is a boolean or Boolean, then the result is the string returned by String.valueOf(arg). Otherwise, the result is "true".|
-'h', 'H' |	general |	If the argument arg is null, then the result is "null". Otherwise, the result is obtained by invoking Integer.toHexString(arg.hashCode()).|
-'s', 'S' |	general |	If the argument arg is null, then the result is "null". If arg implements Formattable, then arg.formatTo is invoked. Otherwise, the result is obtained by invoking arg.toString().|
-'c', 'C' |	character |	The result is a Unicode character|
-'d' |	integral |	The result is formatted as a decimal integer|
-'o' |	integral |	The result is formatted as an octal integer|
-'x', 'X' |	integral |	The result is formatted as a hexadecimal integer|
-'e', 'E' |	floating point |	The result is formatted as a decimal number in computerized scientific notation|
-'f' |	floating point |	The result is formatted as a decimal number|
-'g', 'G' |	floating point |	The result is formatted using computerized scientific notation or decimal format, depending on the precision and the value after rounding.|
-'a', 'A' |	floating point |	The result is formatted as a hexadecimal floating-point number with a significand and an exponent|
-'t', 'T' |	date/time |	Prefix for date and time conversion characters. See Date/Time Conversions.|
-'%' |	percent |	The result is a literal '%' ('\u0025')|
-'n' |	line separator |	The result is the platform-specific line separator|
+| Conversión |Categoría |	Descripción |
+|------------|----------|---------------|
+|'b', 'B' | 	general | 	If the argument arg is null, then the result is "false". If arg is a boolean or Boolean, then the result is the string returned by String.valueOf(arg). Otherwise, the result is "true".|
+|'h', 'H' |	general |	If the argument arg is null, then the result is "null". Otherwise, the result is obtained by invoking Integer.toHexString(arg.hashCode()).|
+|'s', 'S' |	general |	If the argument arg is null, then the result is "null". If arg implements Formattable, then arg.formatTo is invoked. Otherwise, the result is obtained by invoking arg.toString().|
+|'c', 'C' |	character |	The result is a Unicode character|
+|'d' |	integral |	The result is formatted as a decimal integer|
+|'o' |	integral |	The result is formatted as an octal integer|
+|'x', 'X' |	integral |	The result is formatted as a hexadecimal integer|
+|'e', 'E' |	floating point |	The result is formatted as a decimal number in computerized scientific notation|
+|'f' |	floating point |	The result is formatted as a decimal number|
+|'g', 'G' |	floating point |	The result is formatted using computerized scientific notation or decimal format, depending on the precision and the value after rounding.|
+|'a', 'A' |	floating point |	The result is formatted as a hexadecimal floating-point number with a significand and an exponent|
+|'t', 'T' |	date/time |	Prefix for date and time conversion characters. See Date/Time Conversions.|
+|'%' |	percent |	The result is a literal '%' ('\u0025')|
+|'n' |	line separator |	The result is the platform-specific line separator|
 
 # Conversiones de fecha
 
