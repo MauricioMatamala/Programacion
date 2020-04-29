@@ -1,5 +1,4 @@
 # Introducción
-http://tutorials.jenkov.com/java-logging/overview.html
 
 ![log1.png](img/log1.png)
 
