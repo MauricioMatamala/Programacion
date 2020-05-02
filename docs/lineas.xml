@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<lineas>
+    <linea tipo="autobús" nombre="1">
+        <parada nombre="151 Plaza de Nazaret - Parque del Sur"/>
+        <parada nombre="152 Avda. de las Postas - Lorenza Correa"/>
+        <parada nombre="153 Emilio Díaz"/>
+        <parada nombre="154 San Juan Bosco - Albeniz"/>
+        <parada nombre="155 San Juan Bosco - Segalerva"/>
+        <parada nombre="1354 Eduardo Domínguez Ávila"/>
+        <parada nombre="156 Plaza de Capuchinos"/>
+        <parada nombre="157 Alameda de Capuchinos - El Ejido"/>
+        <parada nombre="158 Alameda de Capuchinos"/>
+        <parada nombre="159 Cristo de la Epidemia - Fuente Olletas"/>
+        <parada nombre="160 Cristo de la Epidemia - Tejeros"/>
+        <parada nombre="161 Plaza de la Victoria"/>
+        <parada nombre="170 Plaza de la Merced"/>
+        <parada nombre="301 Paseo del Parque - Plaza del General Torrijos"/>
+        <parada nombre="164 Paseo del Parque"/>
+        <parada nombre="1803 Paseo del Parque - Plaza Marina"/>
+        <parada nombre="119 Alameda Principal - Norte"/>
+        <parada nombre="2061 Nazareno del Paso"/>
+        <parada nombre="306 Cuarteles - Perchel"/>
+        <parada nombre="307 Cuarteles - Eslava"/>
+        <parada nombre="308 Héroe de Sostoa - Estación"/>
+        <parada nombre="309 Héroe de Sostoa - La Isla"/>
+        <parada nombre="310 Héroe de Sostoa - Jardín de la Abadía"/>
+        <parada nombre="312 Héroe de Sostoa - Obras Públicas"/>
+        <parada nombre="1202 Avda. de Europa - Bda. Dos Hermanas"/>
+        <parada nombre="1203 Avda. de Europa - Bda. El Torcal"/>
+        <parada nombre="1204 Avda. Europa - San Andrés 1ª Fase"/>
+        <parada nombre="1205 Avda. Europa - Vistafranca"/>
+        <parada nombre="1206 Avda. de Europa - La Luz"/>
+        <parada nombre="1207 Avda. Europa San Andrés - 2ª Fase"/>
+        <parada nombre="1209 Avda. de Europa - Camino Viejo de Churriana"/>
+        <parada nombre="1251 Polígono Santa Bárbara"/>
+        <parada nombre="172 Hermanos Lumiere"/>
+    </linea>
+    <linea tipo="autobús" nombre="2">
+        <parada nombre="Manuel José García Caparrós"/>
+        <parada nombre="Pasillo de Santa Isabel"/>
+        <parada nombre="Puente de la Aurora"/>
+        <parada nombre="Huerto de los Claveles"/>
+        <parada nombre="Jorge Silvela - Cruz Roja"/>
+        <parada nombre="Avda. Jorge Silvela - Fernando Loring"/>
+        <parada nombre="Avda. Ramón y Cajal - Cristo Rey"/>
+        <parada nombre="Avda. Ramón Y Cajal - Bda. del Carmen"/>
+        <parada nombre="Avda. Ramón y Cajal - Bda. Sgda. Familia"/>
+        <parada nombre="Avda. Ramón y Cajal - Mercado"/>
+        <parada nombre="Avda. Jacinto Benavente"/>
+        <parada nombre="Arroyo del Sastre - Limonero"/>
+        <parada nombre="Virgen de la Cabeza - J. Viciana"/>
+        <parada nombre="San José"/>
+    </linea>
+    <linea tipo="autobús" nombre="15">
+        <parada nombre="Jane Bowles - Bruckner"/>
+        <parada nombre="Jane Bowles - Borodin"/>
+        <parada nombre="Jane Bowles - Von Karajan"/>
+        <parada nombre="Plaza Herbert Von Karajan"/>
+        <parada nombre="Camino de la Virreina"/>
+        <parada nombre="Avda. de la Palmilla - Centro de Salud"/>
+        <parada nombre="Avda. de la Palmilla - Instituto Guadalmedina"/>
+        <parada nombre="Avda. de la Palmilla - Campo de Futbol"/>
+        <parada nombre="Paseo de Martiricos"/>
+        <parada nombre="Avda. Arroyo de los Ángeles - Guardia Civil"/>
+        <parada nombre="Avda. Arroyo de los Ángeles - Hospital Materno"/>
+        <parada nombre="Blas de Lezo"/>
+        <parada nombre="Eugenio Gross - Martinez de la Rosa"/>
+        <parada nombre="Eugenio Gross"/>
+        <parada nombre="Martínez Maldonado - Eugenio Gross"/>
+        <parada nombre="Martínez Maldonado - Las Chapas"/>
+        <parada nombre="Martínez Maldonado - Arroyo del Cuarto"/>
+        <parada nombre="Avda. Carlos Haya - Parque del Norte"/>
+        <parada nombre="Avda. Carlos Haya - Los Remedios"/>
+        <parada nombre="Avda. Sta. Rosa de Lima"/>
+        <parada nombre="Avda. Sta. Rosa de Lima - Competa"/>
+        <parada nombre="Virgen de la Cabeza - J. Viciana"/>
+        <parada nombre="Avda. Juan XXIII - Barbarela"/>
+        <parada nombre="Avda. Juan XXIII - Camino de San Rafael"/>
+        <parada nombre="Avda. Juan XXIII - Bodegueros"/>
+        <parada nombre="Avda. Europa"/>
+        <parada nombre="Avda. de la Paloma"/>
+        <parada nombre="Avda. de la Paloma - Bda. Girón"/>
+        <parada nombre="Avda. Sor Teresa Prat - Tabacalera"/>
+        <parada nombre="Las Delicias"/>
+        <parada nombre="Parque Mediterráneo"/>
+        <parada nombre="Luis Barahona Soto - Parque del Oeste"/>
+        <parada nombre="Santa Paula"/>
+        <parada nombre="Camino de la Térmica - Selene"/>
+        <parada nombre="Camino de la Térmica - Las Pirámides"/>
+    </linea>
+    <linea tipo="metro" nombre="L1">
+        <parada nombre="Andalucia Tech"/>
+        <parada nombre="Paraninfo"/>
+        <parada nombre="El Cónsul"/>
+        <parada nombre="Puente de la Aurora"/>
+        <parada nombre="Clínico"/>
+        <parada nombre="Universidad"/>
+        <parada nombre="Ciudad de la Justicia"/>
+        <parada nombre="Portada Alta"/>
+        <parada nombre="Las Flores"/>
+        <parada nombre="Carranque"/>
+        <parada nombre="Barbarela"/>
+        <parada nombre="La Unión"/>
+        <parada nombre="El Perchel"/>
+    </linea>
+    <linea tipo="metro" nombre="L2">
+        <parada nombre="Palacio de los Deportes"/>
+        <parada nombre="Puerta Blanca"/>
+        <parada nombre="La Luz - La Paz"/>
+        <parada nombre="El Torcal"/>
+        <parada nombre="Princesa - Huelin"/>
+        <parada nombre="La Isla"/>
+    </linea>
+    <linea tipo="tranvía" nombre="Tórtola">
+        <parada nombre="4 de Diciembre"/>
+        <parada nombre="25 Años de Paz"/>
+        <parada nombre="Arrollo de los Ángeles"/>
+        <parada nombre="Clínico"/>
+        <parada nombre="Finca El Candado"/>
+        <parada nombre="Finca La Palma"/>
+        <parada nombre="El Cónsul"/>
+        <parada nombre="Lagunillas"/>
+        <parada nombre="Las Delicias"/>
+        <parada nombre="Las Flores"/>
+        <parada nombre="Las Manseras"/>
+        <parada nombre="Jarazmín"/>
+        <parada nombre="La Aurora"/>
+        <parada nombre="La Bresca"/>
+        <parada nombre="Puente de la Aurora"/>
+        <parada nombre="Olías"/>
+    </linea>
+    <linea tipo="tranvía" nombre="Perdiz">
+        <parada nombre="Echeverría del Palo"/>
+        <parada nombre="La Alcubilla"/>
+        <parada nombre="Los Pinos del Limonar"/>
+        <parada nombre="Intelhorce"/>
+        <parada nombre="Heliomar"/>
+        <parada nombre="El Cónsul"/>
+        <parada nombre="Cortijo Alto"/>
+        <parada nombre="Cristo de la Epidemia"/>
+        <parada nombre="Clínico"/>
+        <parada nombre="El Atabal"/>
+        <parada nombre="Hacienda Bizcochero"/>
+        <parada nombre="Gamarra"/>
+        <parada nombre="Almudena"/>
+        <parada nombre="Baños del Carmen"/>
+        <parada nombre="Buenavista"/>
+    </linea>
+</lineas>
