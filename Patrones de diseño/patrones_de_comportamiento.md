@@ -1,7 +1,5 @@
 # Patrones de comportamiento
 
-Los patrones de comportamiento (o *behavioral patterns*) 
-
 Los patrones de comportamiento (*behaviorla patterns*) están relacionados con los algoritmos y la asignación de responsabilidades entre objetos. Este tipo de patrones describen no solo las estructuras, sino también los patrones de comunicación entre ellos. 
 
 Hay dos categorías, los *patrones de clase* y los *patrones de objetos*. Los patrones de clase de comportamiento usan la herencia para distribuir el comportamiento entre clases. Los patrones de objetos de comportamiento usan la composición de objetos en lugar de la herencia. 
