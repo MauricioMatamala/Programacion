@@ -3,7 +3,7 @@
 Se realizará una prueba el próximo lunes 11.
 
 | Tipo de Examen | Fecha y Hora | Detalles |
-|------|----------------|--------------|----------|
+|------|----------------|--------------|
 | Examen presencial | 11/5/2020 16:00 - 20:00 | Reunión por Google Meeting enviada por correo |
 
 # Procedimiento del examen
