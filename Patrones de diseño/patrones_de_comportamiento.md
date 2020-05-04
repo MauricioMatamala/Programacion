@@ -1,6 +1,8 @@
 # Patrones de comportamiento
 
-Los patrones de comportamiento (*behavioral patterns*) están relacionados con los algoritmos y la asignación de responsabilidades entre objetos. Este tipo de patrones describen no solo las estructuras, sino también los patrones de comunicación entre ellos. 
+Los patrones de comportamiento (o *behavioral patterns*) 
+
+Los patrones de comportamiento (*behaviorla patterns*) están relacionados con los algoritmos y la asignación de responsabilidades entre objetos. Este tipo de patrones describen no solo las estructuras, sino también los patrones de comunicación entre ellos. 
 
 Hay dos categorías, los *patrones de clase* y los *patrones de objetos*. Los patrones de clase de comportamiento usan la herencia para distribuir el comportamiento entre clases. Los patrones de objetos de comportamiento usan la composición de objetos en lugar de la herencia. 
 
@@ -154,6 +156,54 @@ Si has visto *Terminator (1984)*, recordarás esta escena:
 
 En el siguiente enlace puedes consultar un ejemplo del patrón *Strategy* basado en la escena [Ejemplos de patrones de diseño](src/patrones_diseño.zip)
 
+# Patrón *Observer*
+
+El patrón *Observer* permite definir un mecanismo de suscripción para notificar a múltiples objetos que se ha producido un cierto evento en los objetos que están observando (escuchando).
+
+Imaginemos que tenemos dos objetos: *Tienda* y *Cliente*. La clase *Cliente* está muy interesada en un cierto producto, y desea estar atenta a los cambios que se produzcan en su precio. Ante esta situación, la opción clásica es el *polling*:
+
+> La clase *Cliente* consulta a la clase *Tienda* el precio del producto de manera periódica, comprobando si ha cambiado. 
+
+Es una opción viable, aunque tiene un inconveniente: la mayoría de las consultas pueden ser inútiles, y servirán únicamente para certificar que no han habido cambios.
+
+## Solución
+
+Si tomamos el modelo de suscripión de una revista digital, existe un *publicador* (*Publisher*) que crea nuevas noticias, y unos *suscriptores* (*Suscriber*) que reciben en sus dispositivos las notificaciones de dichos artículos. En este patrón se utilizan los mismos nombres.
+
+El patrón *Observer* recomienda añadir un sistema de suscripción a la clase *Publisher*, de forma que objetos individuales puedan suscribirse y cancelar su suscripción a la cadena de eventos notificados.
+
+En resumen, se trata de que la clase *Publisher* contenga un array de objetos *Suscriber*, y ante un cierto evento, la clase *Publisher* recorre el array ejecutando el método *update* de cada objeto *Suscriber*, para informar del cambio.
+
+![Descripción de cómo funciona el patrón Observer](img/obs1.png)
+
+Lo normal es que existan diferentes tipos de objetos observados, pero nosotros queremos que los sucriptores sean compatibles con todos ellos. Para conseguirlo, debemos utilizar una interfaz común para todos los subscritores, con los métodos necesarios para el proceso de notificación. Así, sea cual esa la clase *Publisher*, sabrá como notificar un evento.
+
+La descripción general del patrón *Observer* es la siguiente:
+
+![Diagrama UML del patrón observer](img/obs2.png)
+
+Donde:
+
+1. **Publisher** notifica eventos a los otros objetos. Estos eventos se producen cuando la clase *Publisher* cambia su estado o ejecuta algún comportamiento/algoritmo. Los objetos *Publisher* contienen una estructura de tipo lista donde aloja los objetos de tipo *Suscriber*. Esos objetos *Suscriber* son añadidos mediante el método *susbribe* y excluidos mediante el método *unsubscribe*.
+
+2. Cuando se produce un nuevo evento, el objeto *Publisher* recorre la lista de objetos *Suscriber*, llamando al método *update* declarado en la interfaz *Suscriber*
+
+3. **Suscriber** es una interfaz que declara el método de notificación. En la mayoría de casos, se trata de un método *update*, aunque puede llamarse de otra forma, como *performAction*. El método *update* puede tener varios parámetros que permiten al objeto *Publisher* pasar detalles sobre el evento.
+
+4. **Concrete Subscribers** implementan el método *update*, para llevar a cabo algún comportamiento en respuesta a una notificación. Cada una de estas clases deben implementar la misma interfaz, para que el objeto *Publisher* no esté acoplado a clases concretas.
+
+5. Normalmente los objetos *Subscriber* necesitan información para manejar la actualización correctamente. Por esta razón, los objetos *Publisher* suelen pasar información extra como argumentos. Esta información puede ir de diversas formas:
+
+- Un parámetro con el *Subscriber* mismo.
+- Un conjunto de parámetros con la información de interés.
+- Un tipo de objeto especial (normalmente llamado *event*), que incluya al mismo *Publisher* como parámetro así como otra información sobre el evento.
+
+6. **Client** es el objeto que crea al objeto *Publisher* y a los *Subscriber*, y después registra a los subscriptores.
+
+> Llevamos usando el patrón *Observer* desde que empezamos a trabajar con *Swing*. En este caso, los objetos *Subscriber* son llamados *Listener*, y el objeto *Publisher* es un componente de *Swing*.
+
+> Ejemplo de patrón Observer en [Patrones de diseño](src/patrones_diseño.zip)                     
+
 **Actividad 1.** (Sacada del baúl de los recuerdos) Supongamos que contamos con una lista de productos. Cada producto tiene un nombre, un precio y un índice de valoración que puede ir de 0 a 5. Los productos se pueden gestionar dentro de una clase llamada LoteDeProductos, que implementa los métodos siguientes:
 
     int getTotalProductos()
@@ -173,3 +223,25 @@ Existe una interfaz llamada SelectorDeMejorProducto que incluye el siguiente mé
     LoteDeProductos elegirMejoresProductos()
 
 Resuelve el ejercicio utilizando uno de los patrones anteriores.
+
+**Actividad 2** (Sacada del baúl de los recuerdos). Contamos con un sensor que obtiene la temperatura de una cámara de combustión. Cada vez que se produce un cambio de temperatura, hay una serie de artefactos que reciben las nuevas actualizaciones de temperatura y utilizan esta información para procesarla de manera diferente. Por ejemplo:
+
+- Diario de temperaturas. Podemos ver la temperatura a lo largo de las horas del día.
+- Promedio de temperatura. Realiza un promedio de la temperatura a lo largo del día.
+- Registro de temperaturas críticas. Almacena las horas a las que se superó un umbral de temperatura crítica.
+
+No se descarta que se requieran nuevos artefactos.
+
+Construir un programa que resuelva el problema. Para ello, utilizar las siguientes interfaces:
+
+**ConsumidorDeTemperaturas**
+- setNuevaTemperatura(temperatura,hora)
+        
+**FuenteDeTemperaturas**
+- registrarConsumidor(ConsumidorDeTemperaturas)
+- informarAConsumidores()
+
+A continuación agrego un fragmento de código que puedes utilizar como punto de partida para simular las lecturas de temperatura. Si ejecutas este código, verás que se producen lecturas de temperatura aleatorias en periodos múltipos de 5 segundos. 
+
+[Ayuda actividad observer](src/ayuda_actividad_observer.zip)
+
