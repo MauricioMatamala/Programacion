@@ -1,3 +1,17 @@
+# Recuperación del primer trimestre
+
+Se realizará una prueba el próximo lunes 11.
+
+| Tipo de Examen | Fecha y Hora | Detalles |
+|------|----------------|--------------|----------|
+| Examen presencial | 11/5/2020 16:00 - 20:00 | Reunión por Google Meeting enviada por correo |
+
+# Procedimiento del examen
+
+Poco antes del examen, se enviará un documento por correo con el enunciado. Los alumnos que vayan a hacer el examen, se conectarán por Google Meeting, donde se leerá el enunciado del examen, se aclararán las dudas y se arreglará cualquier problema que haya. Durante el examen los alumnos harán commits cada 30 minutos a un repositorio con lo que lleven escrito hasta el momento. Al terminar, entregarán la URL de dicho repositorio.
+
+Cualquier duda que surja la podemos aclarar en la reunión de Google Meeting correspondiente al examen, en la que el profesor estará conectado todo el tiempo.
+
 # Actividad de repaso para la Recuperación del primer trimestre.
 
 Para poder recuperar el primer trimestre, realiaremos una actividad práctica el próximo lunes 11 de mayo. Daré instrucciones concretas sobre el examen el próximo fin de semana. Para que podáis preparar dicha actividad propondré un ejercicio práctico, que deberíais hacer para reforzar vuestros conocimientos de cara al examen. Estaré disponible para resolver las dudas sobre el ejercicio el martes, el jueves y el viernes a partir de las 18.00 en reuniones por Google Meeting cuya invitación enviaré por correo un día antes de cada reunión.
