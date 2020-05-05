@@ -478,6 +478,53 @@ En este archivo hay dos cuestiones destables por encima de las demás:
 - El valor del parámetro *action* del formulario (*opciones.do*) se corresponde con el *nombre de URL* del servlet.
 - El método de envío del formulario es *POST*. Esto es importante tenerlo en cuenta, porque el servlet implementa el método *doPost*, es decir, que espera una consulta de tipo *POST*. Si indicamos en el formulario que el método es *GET*, el servlet no sabrá como gestionar la consulta.
 
+## Apéndice: Peticiones GET con parámetros
+
+Si la solicitud es enviada mediante el método *GET*, los parámetros van en la URL, en tal caso el código necesario para resolver el mismo problema de la cerveza, es el siguiente:
+
+### El formulario (cambia el método de envío)
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sugerencia</title>
+</head>
+<body>
+<html><body>
+<h1 align="center">Beer Selection Page</h1>
+<form method="GET" action="opciones.do">
+    Select beer characteristics<p>
+    Color:
+    <select name="color">
+        <option value="clara">Clara</option>
+        <option value="ambar">Ámbar</option>
+        <option value="marron">Marrón</option>
+        <option value="negra">Negra</option>
+    </select>
+    <br><br>
+    <input type="submit">
+</form>
+
+</body>
+</html>
+```
+
+### El servlet (cambia el método ejecutado por *service* a *doGet*)
+
+```
+public class SugerenciaCervezaServlet extends HttpServlet {
+     @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        ExpertoCerveza experto = new ExpertoCerveza();
+        List<String> recomendaciones = experto.getMarcas(req.getParameter("color"));
+        req.setAttribute("lista_cervezas",recomendaciones);
+        RequestDispatcher view = req.getRequestDispatcher("resultCerveza.jsp");
+        view.forward(req,resp);
+    }
+}
+```
 --------------------------------
 
 **Actividad 1.** Prueba a desplegar el ejercicio anterior en tu servidor Tomcat y haz funcionar el proyecto. A continuación tienes unas capturas de su ejecución.
