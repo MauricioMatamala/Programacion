@@ -9,11 +9,13 @@ AJAX es un sueño hecho realidad para los programadores, porque:
 
 ## 1. Enviando una solicitud al servidor mediante AJAX (javascript)
 
+A continuación describo a grandes rasgos los elementos necesarios para enviar una consulta AJAX.
+
 ### Paso 1. Inicialización de la solicitud HTTP
 
 ```
 var xhrequest = new XMLHttpRequest();
-xhrequest.open('GET', 'send-ajax-data.php');
+xhrequest.open('POST', '/nombre_del_servlet');
 ```
 
 ### Paso 2. Definición de la función callback
@@ -49,7 +51,7 @@ Por otra parte, el atributo *status* hace referencia al código de estado de la 
 ### PASO 3. Envío de la solicitud
 
 ```
-xhrequest.send();
+xhrequest.send(JSON.stringify({clave:valor}));
 
 ```
 
@@ -144,12 +146,12 @@ xhrequest.onreadystatechange = function () {
 	}
 }
 
-xhrequest.send(jsonEnviado)
+xhrequest.send(JSON.strinfigy(jsonEnviado))
 ```
 
 # 3. Recepción de la cadena JSON en un servlet.
 
-Existen dos enfoques para obtener el contenido del JSON. Lo que desde luego no funciona es usar *req.getParameter*, porque este método busca en la carga útil datos en formato *x-www-form-urlencoded* o bien *multipart/form-data*, los utilizados para enviar datos desde un formulario.
+Existen dos enfoques para obtener el contenido del JSON. Lo que no funciona en un servlet es usar *req.getParameter*, porque este método busca en la carga útil datos en formato *x-www-form-urlencoded* o bien *multipart/form-data*. Estos formatos son los utilizados para enviar datos desde un formulario.
 
 ----------------------------
 <img align="left" src="img/tip.png"> 
