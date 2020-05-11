@@ -21,14 +21,6 @@ Una cookie es un fragmento de infomración que se almacena en el nevegador del u
     uiColorCookie.setMaxAge(60*60);
 ```
 
-### Establecer donde será enviada
-
-Se puede indicar cuándo enviar una cookie. Por ejemplo, podemos indicar si una cookie estará asociada a una cierta URL y todos sus subdirectorios.
-
-```
-    uiColorCookie.setPath("/welcomeUser");
-```
-
 ### Leer una cookie
 
 Cuando se crea un cookie, ésta es almacenada en el equipo del usuario, y gestionada por el navegador. A partir de ese momento, y mientras la *cookie* siga viva (no caduque), será enviada desde el cliente (navegador) en cada cabecera HTTP enviada al servidor. En el servidor se puede extraer de la cabecera y consultar su valor. El lugar idóneno donde hacer eso es en un *servlet*.
@@ -53,7 +45,7 @@ Cuando una *cookie* ya no va a ser utilizada más, es deseable eliminarla, para 
 ```
 
 Por ejemplo, podemos desear eliminar una cookie cuando un usuario cierra sesión.
-    
+
 -------------------------
 **Actividad 1.** El objetivo de este ejercicio es crear una *cookie* desde el servidor. En este caso, la *cookie* es el código hexadecimal de un color.
 
