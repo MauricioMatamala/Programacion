@@ -1,6 +1,6 @@
 # Recuperación del segundo trimestre
 
-Se realizará una prueba el próximo lunes 11.
+Se realizará una prueba el próximo lunes 18.
 
 | Tipo de Examen | Fecha y Hora | Detalles |
 |------|----------------|--------------|
