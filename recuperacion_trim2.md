@@ -21,6 +21,7 @@ Los alumnos que deban recuperar el segundo trimestre deben centrarse en estas ac
 Los ejercicios de repaso serán los siguientes:
 
 **Actividad de repaso 1**. Instala un servidor MySQL localmente. Crea una base de datos llamada **Usuarios** con una tabla llamada **usuarios** con una estructura como la siguiente:
+
 ```
 create table usuarios
 (
@@ -48,7 +49,7 @@ Después, escribe el código necesario para llevar a cabo las siguientes tareas:
 3. Modificar la base de datos, de forma que el usuario "Pedro García" tenga 23 años. 
 4. Borrar el registro de "Ana López".
 
-[](Recuperaciones/act1_repaso_swing.zip)
+[actividad 1 resuelta](Recuperaciones/act1_repaso_swing.zip)
 
 **Actividad de repaso 2.** Las aplicaciones reales suelen organizar su código por responsabilidades. Una de estas responsabilidades es la persistencia de los datos (como una base de datos, por ejemplo). Existe un patrón, llamado DAO (Data Access Object), que es habitual encontrar. Para implementar este patrón, vamos a crear las siguientes clases:
 
@@ -68,7 +69,7 @@ Después, escribe el código necesario para llevar a cabo las siguientes tareas:
 
 Modifica la actividad anterior, para que las interacciones con la base de datos se produzcan desde la clase **UsuarioDAO** (Dababase Access Object).
 
-[](Recuperaciones/act2_repaso_swing.zip)
+[Actividad 2 resuelta](Recuperaciones/act2_repaso_swing.zip)
 
 **Actividad 3**. Crea una interfaz *Swing* con la siguiente interfaz:
 
@@ -76,7 +77,7 @@ Modifica la actividad anterior, para que las interacciones con la base de datos 
 
 Al introducir un número, debe mostrarse el resultado de la operación solicitada.
 
-[](Recuperaciones/act3_repaso_swing.zip)
+[Actividad 3 resuelta](Recuperaciones/act3_repaso_swing.zip)
 
 **Actividad 4**. Crea una interfaz *Swing* desde la que se pueda borrar un elemento de la base de datos. La interfaz puede ser como la siguiente:
 
@@ -86,12 +87,12 @@ En la etiqueta resultado se puede ver si la inserción ha sido exitosa o no, con
 - "Inserción correcta".
 - "Inserción fracasada".
 
-[](Recuperaciones/act4_repaso_swing.zip)
+[Actividad 4 resuelta](Recuperaciones/act4_repaso_swing.zip)
 
 **Actividad 5**. Crea una interfaz *Swing* desde la que se pueda ver una lista de los usuarios existentes en la base de datos. La interfaz puede ser como la siguiente:
 
 ![](Recuperaciones/act5_repaso_swing.png)
-[](Recuperaciones/act5_repaso_swing.zip)
+[Actividad 5 resuelta](Recuperaciones/act5_repaso_swing.zip)
 
 **Actividad 6**. Crea una interfaz *Swing* como la mostrada más abajo.
 
@@ -100,7 +101,7 @@ En la etiqueta resultado se puede ver si la inserción ha sido exitosa o no, con
 - Al aceptar, se mostrará el número insertado así como los anteriores, como se ve en la imagen:
 
 ![](Recuperaciones/act6_repaso_swing.png)
-[](Recuperaciones/act6_repaso_swing.zip)
+[Actividad 6 resuelta](Recuperaciones/act6_repaso_swing.zip)
 
 **Actividad 7**. Añade al ejercicio 3 una interfaz gráfica basada completa con *Swing* según se explica en la siguiente imagen:
 
