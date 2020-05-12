@@ -92,6 +92,7 @@ En la etiqueta resultado se puede ver si la inserción ha sido exitosa o no, con
 **Actividad 5**. Crea una interfaz *Swing* desde la que se pueda ver una lista de los usuarios existentes en la base de datos. La interfaz puede ser como la siguiente:
 
 ![](Recuperaciones/act5_repaso_swing.png)
+
 [Actividad 5 resuelta](Recuperaciones/act5_repaso_swing.zip)
 
 **Actividad 6**. Crea una interfaz *Swing* como la mostrada más abajo.
@@ -101,6 +102,7 @@ En la etiqueta resultado se puede ver si la inserción ha sido exitosa o no, con
 - Al aceptar, se mostrará el número insertado así como los anteriores, como se ve en la imagen:
 
 ![](Recuperaciones/act6_repaso_swing.png)
+
 [Actividad 6 resuelta](Recuperaciones/act6_repaso_swing.zip)
 
 **Actividad 7**. Añade al ejercicio 3 una interfaz gráfica basada completa con *Swing* según se explica en la siguiente imagen:
