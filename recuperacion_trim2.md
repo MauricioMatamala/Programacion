@@ -14,11 +14,7 @@ Cualquier duda que surja la podemos aclarar en la reunión de Google Meeting cor
 
 # Actividad de repaso para la Recuperación del segundo trimestre.
 
-Para poder recuperar el primer trimestre, realizaremos una actividad práctica el próximo lunes 11 de mayo. Daré instrucciones concretas sobre el examen el próximo fin de semana. Para que podáis preparar dicha actividad propondré ejercicios prácticos, que deberíais hacer para reforzar vuestros conocimientos de cara al examen. Estaré disponible para resolver las dudas sobre el ejercicio el martes, el jueves y el viernes a partir de las 18.00 en reuniones por Google Meeting cuya invitación enviaré por correo un día antes de cada reunión.
-
-Los alumnos que deban recuperar el segundo trimestre deben centrarse en estas actividades de repaso
-
-Los ejercicios de repaso serán los siguientes:
+Para que podáis preparar el examen propondré ejercicios prácticos, que deberíais hacer para reforzar vuestros conocimientos. Los alumnos que deban recuperar el segundo trimestre deben centrarse en estas actividades de repaso. Los ejercicios de repaso serán los siguientes:
 
 **Actividad de repaso 1**. Instala un servidor MySQL localmente. Crea una base de datos llamada **Usuarios** con una tabla llamada **usuarios** con una estructura como la siguiente:
 
