@@ -115,5 +115,5 @@ Además de comunicación con una base de datos y *Swing*, hemos visto SOLID. Par
 
 - [explicación de los principos SOLID](https://github.com/MauricioMatamala/Programacion/blob/master/Patrones%20de%20dise%C3%B1o/README.md)
 - [ejemplos de aplicación de SOLID](Recuperaciones/resumen-ejemplos-SOLID.pdf)
-- [ejemplo de aplicación de SOLID. Ejemplo: Farmacia](Recuperacioes/ejemplo_solid_farmacia.pdf)
+- [ejemplo de aplicación de SOLID. Ejemplo: Farmacia](Recuperaciones/ejemplo_solid_farmacia.pdf)
 
