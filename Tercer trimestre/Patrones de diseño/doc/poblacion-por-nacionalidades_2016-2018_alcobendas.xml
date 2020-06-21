@@ -1,0 +1,407 @@
+<?xml version="1.0"?>
+<root>
+<row Año="2016" Nacionalidad="Afganistán" Número_de_empadronados="9"></row>
+<row Año="2016" Nacionalidad="Albania" Número_de_empadronados="3"></row>
+<row Año="2016" Nacionalidad="Alemania" Número_de_empadronados="305"></row>
+<row Año="2016" Nacionalidad="Angola" Número_de_empadronados="12"></row>
+<row Año="2016" Nacionalidad="Apátridas" Número_de_empadronados="45"></row>
+<row Año="2016" Nacionalidad="Arabia Saudí" Número_de_empadronados="24"></row>
+<row Año="2016" Nacionalidad="Argelia" Número_de_empadronados="41"></row>
+<row Año="2016" Nacionalidad="Argentina" Número_de_empadronados="263"></row>
+<row Año="2016" Nacionalidad="Armenia" Número_de_empadronados="119"></row>
+<row Año="2016" Nacionalidad="Australia" Número_de_empadronados="5"></row>
+<row Año="2016" Nacionalidad="Austria" Número_de_empadronados="22"></row>
+<row Año="2016" Nacionalidad="Azerbaiyán" Número_de_empadronados="6"></row>
+<row Año="2016" Nacionalidad="Bangladesh" Número_de_empadronados="44"></row>
+<row Año="2016" Nacionalidad="Belarús" Número_de_empadronados="8"></row>
+<row Año="2016" Nacionalidad="Bélgica" Número_de_empadronados="57"></row>
+<row Año="2016" Nacionalidad="Benin" Número_de_empadronados="2"></row>
+<row Año="2016" Nacionalidad="Bolivia" Número_de_empadronados="226"></row>
+<row Año="2016" Nacionalidad="Brasil" Número_de_empadronados="255"></row>
+<row Año="2016" Nacionalidad="Bulgaria" Número_de_empadronados="189"></row>
+<row Año="2016" Nacionalidad="Burkina Faso" Número_de_empadronados="6"></row>
+<row Año="2016" Nacionalidad="Burundi" Número_de_empadronados="1"></row>
+<row Año="2016" Nacionalidad="Cabo Verde" Número_de_empadronados="18"></row>
+<row Año="2016" Nacionalidad="Camboya" Número_de_empadronados="1"></row>
+<row Año="2016" Nacionalidad="Camerún" Número_de_empadronados="30"></row>
+<row Año="2016" Nacionalidad="Canadá" Número_de_empadronados="24"></row>
+<row Año="2016" Nacionalidad="Chad" Número_de_empadronados="1"></row>
+<row Año="2016" Nacionalidad="Chile" Número_de_empadronados="108"></row>
+<row Año="2016" Nacionalidad="China" Número_de_empadronados="588"></row>
+<row Año="2016" Nacionalidad="Chipre" Número_de_empadronados="6"></row>
+<row Año="2016" Nacionalidad="Colombia" Número_de_empadronados="796"></row>
+<row Año="2016" Nacionalidad="Congo" Número_de_empadronados="3"></row>
+<row Año="2016" Nacionalidad="Corea" Número_de_empadronados="61"></row>
+<row Año="2016" Nacionalidad="Costa de Marfil" Número_de_empadronados="39"></row>
+<row Año="2016" Nacionalidad="Costa Rica" Número_de_empadronados="22"></row>
+<row Año="2016" Nacionalidad="Croacia" Número_de_empadronados="5"></row>
+<row Año="2016" Nacionalidad="Cuba" Número_de_empadronados="84"></row>
+<row Año="2016" Nacionalidad="Dinamarca" Número_de_empadronados="36"></row>
+<row Año="2016" Nacionalidad="Dominica" Número_de_empadronados="2"></row>
+<row Año="2016" Nacionalidad="Ecuador" Número_de_empadronados="712"></row>
+<row Año="2016" Nacionalidad="Egipto" Número_de_empadronados="14"></row>
+<row Año="2016" Nacionalidad="El Salvador" Número_de_empadronados="321"></row>
+<row Año="2016" Nacionalidad="Eritrea" Número_de_empadronados="14"></row>
+<row Año="2016" Nacionalidad="Eslovenia" Número_de_empadronados="10"></row>
+<row Año="2016" Nacionalidad="España" Número_de_empadronados="100478"></row>
+<row Año="2016" Nacionalidad="Estados Unidos de América" Número_de_empadronados="228"></row>
+<row Año="2016" Nacionalidad="Estonia" Número_de_empadronados="2"></row>
+<row Año="2016" Nacionalidad="Etiopía" Número_de_empadronados="20"></row>
+<row Año="2016" Nacionalidad="Filipinas" Número_de_empadronados="368"></row>
+<row Año="2016" Nacionalidad="Finlandia" Número_de_empadronados="18"></row>
+<row Año="2016" Nacionalidad="Francia" Número_de_empadronados="539"></row>
+<row Año="2016" Nacionalidad="Gambia" Número_de_empadronados="2"></row>
+<row Año="2016" Nacionalidad="Georgia" Número_de_empadronados="398"></row>
+<row Año="2016" Nacionalidad="Ghana" Número_de_empadronados="14"></row>
+<row Año="2016" Nacionalidad="Grecia" Número_de_empadronados="24"></row>
+<row Año="2016" Nacionalidad="Guatemala" Número_de_empadronados="51"></row>
+<row Año="2016" Nacionalidad="Guinea" Número_de_empadronados="8"></row>
+<row Año="2016" Nacionalidad="Guinea Ecuatorial" Número_de_empadronados="27"></row>
+<row Año="2016" Nacionalidad="Guinea-Bissau" Número_de_empadronados="1"></row>
+<row Año="2016" Nacionalidad="Haití" Número_de_empadronados="2"></row>
+<row Año="2016" Nacionalidad="Honduras" Número_de_empadronados="337"></row>
+<row Año="2016" Nacionalidad="Hungría" Número_de_empadronados="27"></row>
+<row Año="2016" Nacionalidad="India" Número_de_empadronados="32"></row>
+<row Año="2016" Nacionalidad="Indonesia" Número_de_empadronados="20"></row>
+<row Año="2016" Nacionalidad="Irán" Número_de_empadronados="62"></row>
+<row Año="2016" Nacionalidad="Iraq" Número_de_empadronados="18"></row>
+<row Año="2016" Nacionalidad="Irlanda" Número_de_empadronados="45"></row>
+<row Año="2016" Nacionalidad="Islandia" Número_de_empadronados="1"></row>
+<row Año="2016" Nacionalidad="Israel" Número_de_empadronados="62"></row>
+<row Año="2016" Nacionalidad="Italia" Número_de_empadronados="605"></row>
+<row Año="2016" Nacionalidad="Japón" Número_de_empadronados="30"></row>
+<row Año="2016" Nacionalidad="Jordania" Número_de_empadronados="13"></row>
+<row Año="2016" Nacionalidad="Kazajstán" Número_de_empadronados="4"></row>
+<row Año="2016" Nacionalidad="Kenia" Número_de_empadronados="7"></row>
+<row Año="2016" Nacionalidad="Letonia" Número_de_empadronados="2"></row>
+<row Año="2016" Nacionalidad="Líbano" Número_de_empadronados="7"></row>
+<row Año="2016" Nacionalidad="Liberia" Número_de_empadronados="2"></row>
+<row Año="2016" Nacionalidad="Libia" Número_de_empadronados="15"></row>
+<row Año="2016" Nacionalidad="Lituania" Número_de_empadronados="18"></row>
+<row Año="2016" Nacionalidad="Luxemburgo" Número_de_empadronados="3"></row>
+<row Año="2016" Nacionalidad="Macedonia" Número_de_empadronados="1"></row>
+<row Año="2016" Nacionalidad="Madagascar" Número_de_empadronados="2"></row>
+<row Año="2016" Nacionalidad="Malasia" Número_de_empadronados="6"></row>
+<row Año="2016" Nacionalidad="Maldivas" Número_de_empadronados="1"></row>
+<row Año="2016" Nacionalidad="Mali" Número_de_empadronados="18"></row>
+<row Año="2016" Nacionalidad="Malta" Número_de_empadronados="2"></row>
+<row Año="2016" Nacionalidad="Marruecos" Número_de_empadronados="1178"></row>
+<row Año="2016" Nacionalidad="Mauricio" Número_de_empadronados="1"></row>
+<row Año="2016" Nacionalidad="Mauritania" Número_de_empadronados="3"></row>
+<row Año="2016" Nacionalidad="México" Número_de_empadronados="175"></row>
+<row Año="2016" Nacionalidad="Moldavia" Número_de_empadronados="31"></row>
+<row Año="2016" Nacionalidad="Mozambique" Número_de_empadronados="1"></row>
+<row Año="2016" Nacionalidad="Nepal" Número_de_empadronados="3"></row>
+<row Año="2016" Nacionalidad="Nicaragua" Número_de_empadronados="132"></row>
+<row Año="2016" Nacionalidad="Níger" Número_de_empadronados="1"></row>
+<row Año="2016" Nacionalidad="Nígeria" Número_de_empadronados="27"></row>
+<row Año="2016" Nacionalidad="Noruega" Número_de_empadronados="9"></row>
+<row Año="2016" Nacionalidad="Omán" Número_de_empadronados="6"></row>
+<row Año="2016" Nacionalidad="Paises Bajos" Número_de_empadronados="118"></row>
+<row Año="2016" Nacionalidad="Paises sin relaciones diplomáticas" Número_de_empadronados="5"></row>
+<row Año="2016" Nacionalidad="Pakistán" Número_de_empadronados="33"></row>
+<row Año="2016" Nacionalidad="Palestina Estado Observ." Número_de_empadronados="22"></row>
+<row Año="2016" Nacionalidad="Panamá" Número_de_empadronados="15"></row>
+<row Año="2016" Nacionalidad="Paraguay" Número_de_empadronados="1098"></row>
+<row Año="2016" Nacionalidad="Perú" Número_de_empadronados="634"></row>
+<row Año="2016" Nacionalidad="Polonia" Número_de_empadronados="129"></row>
+<row Año="2016" Nacionalidad="Portugal" Número_de_empadronados="415"></row>
+<row Año="2016" Nacionalidad="Qatar" Número_de_empadronados="1"></row>
+<row Año="2016" Nacionalidad="Reino Unido" Número_de_empadronados="368"></row>
+<row Año="2016" Nacionalidad="República Centroafricana" Número_de_empadronados="3"></row>
+<row Año="2016" Nacionalidad="República Checa" Número_de_empadronados="16"></row>
+<row Año="2016" Nacionalidad="República Democrática del Congo" Número_de_empadronados="10"></row>
+<row Año="2016" Nacionalidad="República Dominicana" Número_de_empadronados="800"></row>
+<row Año="2016" Nacionalidad="República Eslovaca" Número_de_empadronados="1"></row>
+<row Año="2016" Nacionalidad="Rumanía" Número_de_empadronados="1373"></row>
+<row Año="2016" Nacionalidad="Rusia" Número_de_empadronados="76"></row>
+<row Año="2016" Nacionalidad="Santo Tomé y Príncipe" Número_de_empadronados="2"></row>
+<row Año="2016" Nacionalidad="Senegal" Número_de_empadronados="26"></row>
+<row Año="2016" Nacionalidad="Serbia" Número_de_empadronados="6"></row>
+<row Año="2016" Nacionalidad="Sierra Leona" Número_de_empadronados="2"></row>
+<row Año="2016" Nacionalidad="Siria" Número_de_empadronados="99"></row>
+<row Año="2016" Nacionalidad="Somalia" Número_de_empadronados="81"></row>
+<row Año="2016" Nacionalidad="Sudáfrica" Número_de_empadronados="1"></row>
+<row Año="2016" Nacionalidad="Sudán" Número_de_empadronados="7"></row>
+<row Año="2016" Nacionalidad="Suecia" Número_de_empadronados="103"></row>
+<row Año="2016" Nacionalidad="Suiza" Número_de_empadronados="53"></row>
+<row Año="2016" Nacionalidad="Tailandia" Número_de_empadronados="7"></row>
+<row Año="2016" Nacionalidad="Togo" Número_de_empadronados="1"></row>
+<row Año="2016" Nacionalidad="Túnez" Número_de_empadronados="11"></row>
+<row Año="2016" Nacionalidad="Turquía" Número_de_empadronados="21"></row>
+<row Año="2016" Nacionalidad="Ucrania" Número_de_empadronados="247"></row>
+<row Año="2016" Nacionalidad="Uruguay" Número_de_empadronados="25"></row>
+<row Año="2016" Nacionalidad="Venezuela" Número_de_empadronados="447"></row>
+<row Año="2016" Nacionalidad="Vietnam" Número_de_empadronados="11"></row>
+<row Año="2016" Nacionalidad="Yemen" Número_de_empadronados="5"></row>
+<row Año="2017" Nacionalidad="Afganistán" Número_de_empadronados="5"></row>
+<row Año="2017" Nacionalidad="Albania" Número_de_empadronados="3"></row>
+<row Año="2017" Nacionalidad="Alemania" Número_de_empadronados="302"></row>
+<row Año="2017" Nacionalidad="Angola" Número_de_empadronados="7"></row>
+<row Año="2017" Nacionalidad="Apátridas" Número_de_empadronados="41"></row>
+<row Año="2017" Nacionalidad="Arabia Saudí" Número_de_empadronados="17"></row>
+<row Año="2017" Nacionalidad="Argelia" Número_de_empadronados="44"></row>
+<row Año="2017" Nacionalidad="Argentina" Número_de_empadronados="292"></row>
+<row Año="2017" Nacionalidad="Armenia" Número_de_empadronados="132"></row>
+<row Año="2017" Nacionalidad="Australia" Número_de_empadronados="7"></row>
+<row Año="2017" Nacionalidad="Austria" Número_de_empadronados="23"></row>
+<row Año="2017" Nacionalidad="Azerbaiyán" Número_de_empadronados="6"></row>
+<row Año="2017" Nacionalidad="Bangladesh" Número_de_empadronados="50"></row>
+<row Año="2017" Nacionalidad="Belarús" Número_de_empadronados="9"></row>
+<row Año="2017" Nacionalidad="Bélgica" Número_de_empadronados="73"></row>
+<row Año="2017" Nacionalidad="Benin" Número_de_empadronados="2"></row>
+<row Año="2017" Nacionalidad="Bolivia" Número_de_empadronados="199"></row>
+<row Año="2017" Nacionalidad="Brasil" Número_de_empadronados="297"></row>
+<row Año="2017" Nacionalidad="Bulgaria" Número_de_empadronados="192"></row>
+<row Año="2017" Nacionalidad="Burkina Faso" Número_de_empadronados="5"></row>
+<row Año="2017" Nacionalidad="Burundi" Número_de_empadronados="1"></row>
+<row Año="2017" Nacionalidad="Cabo Verde" Número_de_empadronados="14"></row>
+<row Año="2017" Nacionalidad="Camerún" Número_de_empadronados="30"></row>
+<row Año="2017" Nacionalidad="Canadá" Número_de_empadronados="29"></row>
+<row Año="2017" Nacionalidad="Chile" Número_de_empadronados="119"></row>
+<row Año="2017" Nacionalidad="China" Número_de_empadronados="699"></row>
+<row Año="2017" Nacionalidad="Chipre" Número_de_empadronados="3"></row>
+<row Año="2017" Nacionalidad="Colombia" Número_de_empadronados="858"></row>
+<row Año="2017" Nacionalidad="Congo" Número_de_empadronados="2"></row>
+<row Año="2017" Nacionalidad="Corea" Número_de_empadronados="82"></row>
+<row Año="2017" Nacionalidad="Costa de Marfil" Número_de_empadronados="36"></row>
+<row Año="2017" Nacionalidad="Costa Rica" Número_de_empadronados="20"></row>
+<row Año="2017" Nacionalidad="Croacia" Número_de_empadronados="7"></row>
+<row Año="2017" Nacionalidad="Cuba" Número_de_empadronados="104"></row>
+<row Año="2017" Nacionalidad="Dinamarca" Número_de_empadronados="40"></row>
+<row Año="2017" Nacionalidad="Dominica" Número_de_empadronados="1"></row>
+<row Año="2017" Nacionalidad="Ecuador" Número_de_empadronados="682"></row>
+<row Año="2017" Nacionalidad="Egipto" Número_de_empadronados="14"></row>
+<row Año="2017" Nacionalidad="El Salvador" Número_de_empadronados="362"></row>
+<row Año="2017" Nacionalidad="Emiratos Árabes Unidos" Número_de_empadronados="1"></row>
+<row Año="2017" Nacionalidad="Eritrea" Número_de_empadronados="12"></row>
+<row Año="2017" Nacionalidad="Eslovenia" Número_de_empadronados="11"></row>
+<row Año="2017" Nacionalidad="España" Número_de_empadronados="101166"></row>
+<row Año="2017" Nacionalidad="Estados Unidos de América" Número_de_empadronados="231"></row>
+<row Año="2017" Nacionalidad="Estonia" Número_de_empadronados="2"></row>
+<row Año="2017" Nacionalidad="Etiopía" Número_de_empadronados="12"></row>
+<row Año="2017" Nacionalidad="Filipinas" Número_de_empadronados="385"></row>
+<row Año="2017" Nacionalidad="Finlandia" Número_de_empadronados="20"></row>
+<row Año="2017" Nacionalidad="Francia" Número_de_empadronados="550"></row>
+<row Año="2017" Nacionalidad="Gambia" Número_de_empadronados="6"></row>
+<row Año="2017" Nacionalidad="Georgia" Número_de_empadronados="437"></row>
+<row Año="2017" Nacionalidad="Ghana" Número_de_empadronados="13"></row>
+<row Año="2017" Nacionalidad="Grecia" Número_de_empadronados="31"></row>
+<row Año="2017" Nacionalidad="Guatemala" Número_de_empadronados="58"></row>
+<row Año="2017" Nacionalidad="Guinea" Número_de_empadronados="8"></row>
+<row Año="2017" Nacionalidad="Guinea Ecuatorial" Número_de_empadronados="22"></row>
+<row Año="2017" Nacionalidad="Guinea-Bissau" Número_de_empadronados="1"></row>
+<row Año="2017" Nacionalidad="Haití" Número_de_empadronados="2"></row>
+<row Año="2017" Nacionalidad="Honduras" Número_de_empadronados="502"></row>
+<row Año="2017" Nacionalidad="Hungría" Número_de_empadronados="32"></row>
+<row Año="2017" Nacionalidad="India" Número_de_empadronados="30"></row>
+<row Año="2017" Nacionalidad="Indonesia" Número_de_empadronados="22"></row>
+<row Año="2017" Nacionalidad="Irán" Número_de_empadronados="83"></row>
+<row Año="2017" Nacionalidad="Iraq" Número_de_empadronados="20"></row>
+<row Año="2017" Nacionalidad="Irlanda" Número_de_empadronados="46"></row>
+<row Año="2017" Nacionalidad="Israel" Número_de_empadronados="77"></row>
+<row Año="2017" Nacionalidad="Italia" Número_de_empadronados="655"></row>
+<row Año="2017" Nacionalidad="Japón" Número_de_empadronados="33"></row>
+<row Año="2017" Nacionalidad="Jordania" Número_de_empadronados="13"></row>
+<row Año="2017" Nacionalidad="Kazajstán" Número_de_empadronados="3"></row>
+<row Año="2017" Nacionalidad="Kenia" Número_de_empadronados="12"></row>
+<row Año="2017" Nacionalidad="Letonia" Número_de_empadronados="9"></row>
+<row Año="2017" Nacionalidad="Líbano" Número_de_empadronados="11"></row>
+<row Año="2017" Nacionalidad="Liberia" Número_de_empadronados="2"></row>
+<row Año="2017" Nacionalidad="Libia" Número_de_empadronados="14"></row>
+<row Año="2017" Nacionalidad="Lituania" Número_de_empadronados="18"></row>
+<row Año="2017" Nacionalidad="Luxemburgo" Número_de_empadronados="3"></row>
+<row Año="2017" Nacionalidad="Macedonia" Número_de_empadronados="1"></row>
+<row Año="2017" Nacionalidad="Madagascar" Número_de_empadronados="2"></row>
+<row Año="2017" Nacionalidad="Malasia" Número_de_empadronados="6"></row>
+<row Año="2017" Nacionalidad="Maldivas" Número_de_empadronados="1"></row>
+<row Año="2017" Nacionalidad="Mali" Número_de_empadronados="16"></row>
+<row Año="2017" Nacionalidad="Malta" Número_de_empadronados="2"></row>
+<row Año="2017" Nacionalidad="Marruecos" Número_de_empadronados="1164"></row>
+<row Año="2017" Nacionalidad="Mauricio" Número_de_empadronados="1"></row>
+<row Año="2017" Nacionalidad="Mauritania" Número_de_empadronados="3"></row>
+<row Año="2017" Nacionalidad="México" Número_de_empadronados="173"></row>
+<row Año="2017" Nacionalidad="Moldavia" Número_de_empadronados="28"></row>
+<row Año="2017" Nacionalidad="Mozambique" Número_de_empadronados="1"></row>
+<row Año="2017" Nacionalidad="Nepal" Número_de_empadronados="1"></row>
+<row Año="2017" Nacionalidad="Nicaragua" Número_de_empadronados="149"></row>
+<row Año="2017" Nacionalidad="Níger" Número_de_empadronados="1"></row>
+<row Año="2017" Nacionalidad="Nígeria" Número_de_empadronados="27"></row>
+<row Año="2017" Nacionalidad="Noruega" Número_de_empadronados="9"></row>
+<row Año="2017" Nacionalidad="Nueva Zelanda" Número_de_empadronados="1"></row>
+<row Año="2017" Nacionalidad="Omán" Número_de_empadronados="4"></row>
+<row Año="2017" Nacionalidad="Paises Bajos" Número_de_empadronados="123"></row>
+<row Año="2017" Nacionalidad="Paises sin relaciones diplomáticas" Número_de_empadronados="3"></row>
+<row Año="2017" Nacionalidad="Pakistán" Número_de_empadronados="37"></row>
+<row Año="2017" Nacionalidad="Palestina Estado Observ." Número_de_empadronados="23"></row>
+<row Año="2017" Nacionalidad="Panamá" Número_de_empadronados="11"></row>
+<row Año="2017" Nacionalidad="Paraguay" Número_de_empadronados="1127"></row>
+<row Año="2017" Nacionalidad="Perú" Número_de_empadronados="704"></row>
+<row Año="2017" Nacionalidad="Polonia" Número_de_empadronados="120"></row>
+<row Año="2017" Nacionalidad="Portugal" Número_de_empadronados="427"></row>
+<row Año="2017" Nacionalidad="Qatar" Número_de_empadronados="1"></row>
+<row Año="2017" Nacionalidad="Reino Unido" Número_de_empadronados="410"></row>
+<row Año="2017" Nacionalidad="República Centroafricana" Número_de_empadronados="1"></row>
+<row Año="2017" Nacionalidad="República Checa" Número_de_empadronados="22"></row>
+<row Año="2017" Nacionalidad="República Democrática del Congo" Número_de_empadronados="9"></row>
+<row Año="2017" Nacionalidad="República Dominicana" Número_de_empadronados="816"></row>
+<row Año="2017" Nacionalidad="República Eslovaca" Número_de_empadronados="2"></row>
+<row Año="2017" Nacionalidad="Rumanía" Número_de_empadronados="1381"></row>
+<row Año="2017" Nacionalidad="Rusia" Número_de_empadronados="84"></row>
+<row Año="2017" Nacionalidad="Santo Tomé y Príncipe" Número_de_empadronados="3"></row>
+<row Año="2017" Nacionalidad="Senegal" Número_de_empadronados="26"></row>
+<row Año="2017" Nacionalidad="Serbia" Número_de_empadronados="4"></row>
+<row Año="2017" Nacionalidad="Sierra Leona" Número_de_empadronados="1"></row>
+<row Año="2017" Nacionalidad="Siria" Número_de_empadronados="119"></row>
+<row Año="2017" Nacionalidad="Somalia" Número_de_empadronados="88"></row>
+<row Año="2017" Nacionalidad="Sudáfrica" Número_de_empadronados="3"></row>
+<row Año="2017" Nacionalidad="Sudán" Número_de_empadronados="9"></row>
+<row Año="2017" Nacionalidad="Suecia" Número_de_empadronados="95"></row>
+<row Año="2017" Nacionalidad="Suiza" Número_de_empadronados="62"></row>
+<row Año="2017" Nacionalidad="Tailandia" Número_de_empadronados="8"></row>
+<row Año="2017" Nacionalidad="Togo" Número_de_empadronados="1"></row>
+<row Año="2017" Nacionalidad="Trinidad y Tobago" Número_de_empadronados="1"></row>
+<row Año="2017" Nacionalidad="Túnez" Número_de_empadronados="13"></row>
+<row Año="2017" Nacionalidad="Turquía" Número_de_empadronados="18"></row>
+<row Año="2017" Nacionalidad="Ucrania" Número_de_empadronados="218"></row>
+<row Año="2017" Nacionalidad="Uruguay" Número_de_empadronados="22"></row>
+<row Año="2017" Nacionalidad="Venezuela" Número_de_empadronados="532"></row>
+<row Año="2017" Nacionalidad="Vietnam" Número_de_empadronados="16"></row>
+<row Año="2017" Nacionalidad="Yemen" Número_de_empadronados="5"></row>
+<row Año="2017" Nacionalidad="Zimbabwe" Número_de_empadronados="1"></row>
+<row Año="2018" Nacionalidad="Afganistán" Número_de_empadronados="6"></row>
+<row Año="2018" Nacionalidad="Albania" Número_de_empadronados="3"></row>
+<row Año="2018" Nacionalidad="Alemania" Número_de_empadronados="293"></row>
+<row Año="2018" Nacionalidad="Angola" Número_de_empadronados="7"></row>
+<row Año="2018" Nacionalidad="Apátridas" Número_de_empadronados="30"></row>
+<row Año="2018" Nacionalidad="Arabia Saudí" Número_de_empadronados="25"></row>
+<row Año="2018" Nacionalidad="Argelia" Número_de_empadronados="49"></row>
+<row Año="2018" Nacionalidad="Argentina" Número_de_empadronados="316"></row>
+<row Año="2018" Nacionalidad="Armenia" Número_de_empadronados="119"></row>
+<row Año="2018" Nacionalidad="Australia" Número_de_empadronados="9"></row>
+<row Año="2018" Nacionalidad="Austria" Número_de_empadronados="20"></row>
+<row Año="2018" Nacionalidad="Azerbaiyán" Número_de_empadronados="5"></row>
+<row Año="2018" Nacionalidad="Bangladesh" Número_de_empadronados="35"></row>
+<row Año="2018" Nacionalidad="Belarús" Número_de_empadronados="12"></row>
+<row Año="2018" Nacionalidad="Bélgica" Número_de_empadronados="75"></row>
+<row Año="2018" Nacionalidad="Benin" Número_de_empadronados="1"></row>
+<row Año="2018" Nacionalidad="Bolivia" Número_de_empadronados="201"></row>
+<row Año="2018" Nacionalidad="Brasil" Número_de_empadronados="342"></row>
+<row Año="2018" Nacionalidad="Bulgaria" Número_de_empadronados="182"></row>
+<row Año="2018" Nacionalidad="Burkina Faso" Número_de_empadronados="6"></row>
+<row Año="2018" Nacionalidad="Burundi" Número_de_empadronados="1"></row>
+<row Año="2018" Nacionalidad="Cabo Verde" Número_de_empadronados="12"></row>
+<row Año="2018" Nacionalidad="Camboya" Número_de_empadronados="2"></row>
+<row Año="2018" Nacionalidad="Camerún" Número_de_empadronados="18"></row>
+<row Año="2018" Nacionalidad="Canadá" Número_de_empadronados="37"></row>
+<row Año="2018" Nacionalidad="Chile" Número_de_empadronados="96"></row>
+<row Año="2018" Nacionalidad="China" Número_de_empadronados="650"></row>
+<row Año="2018" Nacionalidad="Chipre" Número_de_empadronados="3"></row>
+<row Año="2018" Nacionalidad="Colombia" Número_de_empadronados="971"></row>
+<row Año="2018" Nacionalidad="Congo" Número_de_empadronados="1"></row>
+<row Año="2018" Nacionalidad="Corea" Número_de_empadronados="104"></row>
+<row Año="2018" Nacionalidad="Costa De Marfil" Número_de_empadronados="36"></row>
+<row Año="2018" Nacionalidad="Costa Rica" Número_de_empadronados="27"></row>
+<row Año="2018" Nacionalidad="Croacia" Número_de_empadronados="13"></row>
+<row Año="2018" Nacionalidad="Cuba" Número_de_empadronados="122"></row>
+<row Año="2018" Nacionalidad="Dinamarca" Número_de_empadronados="34"></row>
+<row Año="2018" Nacionalidad="Dominica" Número_de_empadronados="2"></row>
+<row Año="2018" Nacionalidad="Ecuador" Número_de_empadronados="683"></row>
+<row Año="2018" Nacionalidad="Egipto" Número_de_empadronados="16"></row>
+<row Año="2018" Nacionalidad="El Salvador" Número_de_empadronados="442"></row>
+<row Año="2018" Nacionalidad="Eritrea" Número_de_empadronados="8"></row>
+<row Año="2018" Nacionalidad="Eslovenia" Número_de_empadronados="2"></row>
+<row Año="2018" Nacionalidad="España" Número_de_empadronados="100865"></row>
+<row Año="2018" Nacionalidad="Estados Unidos de América" Número_de_empadronados="207"></row>
+<row Año="2018" Nacionalidad="Estonia" Número_de_empadronados="2"></row>
+<row Año="2018" Nacionalidad="Etiopía" Número_de_empadronados="12"></row>
+<row Año="2018" Nacionalidad="Filipinas" Número_de_empadronados="401"></row>
+<row Año="2018" Nacionalidad="Finlandia" Número_de_empadronados="16"></row>
+<row Año="2018" Nacionalidad="Francia" Número_de_empadronados="491"></row>
+<row Año="2018" Nacionalidad="Gambia" Número_de_empadronados="3"></row>
+<row Año="2018" Nacionalidad="Georgia" Número_de_empadronados="486"></row>
+<row Año="2018" Nacionalidad="Ghana" Número_de_empadronados="8"></row>
+<row Año="2018" Nacionalidad="Grecia" Número_de_empadronados="23"></row>
+<row Año="2018" Nacionalidad="Guatemala" Número_de_empadronados="73"></row>
+<row Año="2018" Nacionalidad="Guinea" Número_de_empadronados="7"></row>
+<row Año="2018" Nacionalidad="Guinea Ecuatorial" Número_de_empadronados="22"></row>
+<row Año="2018" Nacionalidad="Guinea-Bissau" Número_de_empadronados="4"></row>
+<row Año="2018" Nacionalidad="Honduras" Número_de_empadronados="639"></row>
+<row Año="2018" Nacionalidad="Hungría" Número_de_empadronados="31"></row>
+<row Año="2018" Nacionalidad="India" Número_de_empadronados="27"></row>
+<row Año="2018" Nacionalidad="Indonesia" Número_de_empadronados="21"></row>
+<row Año="2018" Nacionalidad="Irán" Número_de_empadronados="127"></row>
+<row Año="2018" Nacionalidad="Iraq" Número_de_empadronados="20"></row>
+<row Año="2018" Nacionalidad="Irlanda" Número_de_empadronados="48"></row>
+<row Año="2018" Nacionalidad="Israel" Número_de_empadronados="74"></row>
+<row Año="2018" Nacionalidad="Italia" Número_de_empadronados="653"></row>
+<row Año="2018" Nacionalidad="Jamaica" Número_de_empadronados="1"></row>
+<row Año="2018" Nacionalidad="Japón" Número_de_empadronados="27"></row>
+<row Año="2018" Nacionalidad="Jordania" Número_de_empadronados="8"></row>
+<row Año="2018" Nacionalidad="Kazajstán" Número_de_empadronados="2"></row>
+<row Año="2018" Nacionalidad="Kenia" Número_de_empadronados="12"></row>
+<row Año="2018" Nacionalidad="Letonia" Número_de_empadronados="8"></row>
+<row Año="2018" Nacionalidad="Líbano" Número_de_empadronados="8"></row>
+<row Año="2018" Nacionalidad="Liberia" Número_de_empadronados="2"></row>
+<row Año="2018" Nacionalidad="Libia" Número_de_empadronados="23"></row>
+<row Año="2018" Nacionalidad="Lituania" Número_de_empadronados="26"></row>
+<row Año="2018" Nacionalidad="Luxemburgo" Número_de_empadronados="3"></row>
+<row Año="2018" Nacionalidad="Macedonia" Número_de_empadronados="2"></row>
+<row Año="2018" Nacionalidad="Madagascar" Número_de_empadronados="1"></row>
+<row Año="2018" Nacionalidad="Malasia" Número_de_empadronados="1"></row>
+<row Año="2018" Nacionalidad="Maldivas" Número_de_empadronados="1"></row>
+<row Año="2018" Nacionalidad="Mali" Número_de_empadronados="14"></row>
+<row Año="2018" Nacionalidad="Malta" Número_de_empadronados="2"></row>
+<row Año="2018" Nacionalidad="Marruecos" Número_de_empadronados="1216"></row>
+<row Año="2018" Nacionalidad="Mauricio" Número_de_empadronados="1"></row>
+<row Año="2018" Nacionalidad="Mauritania" Número_de_empadronados="2"></row>
+<row Año="2018" Nacionalidad="México" Número_de_empadronados="186"></row>
+<row Año="2018" Nacionalidad="Moldavia" Número_de_empadronados="26"></row>
+<row Año="2018" Nacionalidad="Nepal" Número_de_empadronados="8"></row>
+<row Año="2018" Nacionalidad="Nicaragua" Número_de_empadronados="207"></row>
+<row Año="2018" Nacionalidad="Niger" Número_de_empadronados="1"></row>
+<row Año="2018" Nacionalidad="Nigeria" Número_de_empadronados="24"></row>
+<row Año="2018" Nacionalidad="Noruega" Número_de_empadronados="7"></row>
+<row Año="2018" Nacionalidad="Nueva Zelanda" Número_de_empadronados="1"></row>
+<row Año="2018" Nacionalidad="Omán" Número_de_empadronados="5"></row>
+<row Año="2018" Nacionalidad="Paises Bajos" Número_de_empadronados="109"></row>
+<row Año="2018" Nacionalidad="Paises sin relaciones diplomáticas" Número_de_empadronados="2"></row>
+<row Año="2018" Nacionalidad="Pakistán" Número_de_empadronados="45"></row>
+<row Año="2018" Nacionalidad="Palestina Estado Observ." Número_de_empadronados="27"></row>
+<row Año="2018" Nacionalidad="Panamá" Número_de_empadronados="22"></row>
+<row Año="2018" Nacionalidad="Paraguay" Número_de_empadronados="1128"></row>
+<row Año="2018" Nacionalidad="Perú" Número_de_empadronados="770"></row>
+<row Año="2018" Nacionalidad="Polonia" Número_de_empadronados="113"></row>
+<row Año="2018" Nacionalidad="Portugal" Número_de_empadronados="426"></row>
+<row Año="2018" Nacionalidad="Reino Unido" Número_de_empadronados="398"></row>
+<row Año="2018" Nacionalidad="Republica Checa" Número_de_empadronados="22"></row>
+<row Año="2018" Nacionalidad="República Democrática del Congo" Número_de_empadronados="7"></row>
+<row Año="2018" Nacionalidad="República Dominicana" Número_de_empadronados="796"></row>
+<row Año="2018" Nacionalidad="Republica Eslovaca" Número_de_empadronados="3"></row>
+<row Año="2018" Nacionalidad="Rumanía" Número_de_empadronados="1195"></row>
+<row Año="2018" Nacionalidad="Rusia" Número_de_empadronados="78"></row>
+<row Año="2018" Nacionalidad="San Cristobal Y Nieves" Número_de_empadronados="1"></row>
+<row Año="2018" Nacionalidad="Santo Tomé y Príncipe" Número_de_empadronados="3"></row>
+<row Año="2018" Nacionalidad="Senegal" Número_de_empadronados="29"></row>
+<row Año="2018" Nacionalidad="Serbia" Número_de_empadronados="5"></row>
+<row Año="2018" Nacionalidad="Sierra Leona" Número_de_empadronados="1"></row>
+<row Año="2018" Nacionalidad="Singapur" Número_de_empadronados="4"></row>
+<row Año="2018" Nacionalidad="Siria" Número_de_empadronados="83"></row>
+<row Año="2018" Nacionalidad="Somalia" Número_de_empadronados="52"></row>
+<row Año="2018" Nacionalidad="Sudáfrica" Número_de_empadronados="8"></row>
+<row Año="2018" Nacionalidad="Sudán" Número_de_empadronados="8"></row>
+<row Año="2018" Nacionalidad="Sudán Del Sur" Número_de_empadronados="1"></row>
+<row Año="2018" Nacionalidad="Suecia" Número_de_empadronados="97"></row>
+<row Año="2018" Nacionalidad="Suiza" Número_de_empadronados="60"></row>
+<row Año="2018" Nacionalidad="Tadyikistán" Número_de_empadronados="1"></row>
+<row Año="2018" Nacionalidad="Tailandia" Número_de_empadronados="7"></row>
+<row Año="2018" Nacionalidad="Togo" Número_de_empadronados="1"></row>
+<row Año="2018" Nacionalidad="Túnez" Número_de_empadronados="7"></row>
+<row Año="2018" Nacionalidad="Turquía" Número_de_empadronados="23"></row>
+<row Año="2018" Nacionalidad="Ucrania" Número_de_empadronados="211"></row>
+<row Año="2018" Nacionalidad="Uruguay" Número_de_empadronados="21"></row>
+<row Año="2018" Nacionalidad="Venezuela" Número_de_empadronados="718"></row>
+<row Año="2018" Nacionalidad="Vietnam" Número_de_empadronados="27"></row>
+<row Año="2018" Nacionalidad="Yemen" Número_de_empadronados="7"></row>
+<row Año="2018" Nacionalidad="Zimbabwe" Número_de_empadronados="1"></row>
+</root>
